@@ -138,14 +138,93 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    min-width: 200px;
+    min-width: 260px;
+}
+
+.progress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
 }
 
 #question-progress {
     font-size: 0.875rem;
     color: var(--text-secondary);
     font-weight: 500;
-    text-align: right;
+}
+
+.jump-container {
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--border-radius-sm);
+    padding: 3px 6px;
+    gap: 6px;
+    transition: all var(--transition-fast);
+}
+
+.jump-container:focus-within {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
+
+.jump-container.shake {
+    animation: shake-input 0.4s ease;
+    border-color: var(--danger-base);
+    box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.25);
+}
+
+.jump-input {
+    background: transparent;
+    border: none;
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 0.85rem;
+    width: 54px;
+    outline: none;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Hide webkit/mozilla spinner arrows for number input */
+.jump-input::-webkit-outer-spin-button,
+.jump-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.jump-input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.btn-jump {
+    background: var(--accent-primary);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 4px 10px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.btn-jump:hover {
+    background: var(--accent-primary-hover);
+    transform: translateY(-1px);
+}
+
+.btn-jump:active {
+    transform: translateY(0);
+}
+
+@keyframes shake-input {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-4px); }
+    40%, 80% { transform: translateX(4px); }
 }
 
 .progress-bar-bg {
@@ -386,3 +465,166 @@ body {
     .app-header, .quiz-container, .app-footer { padding: 20px; }
     #question-text { font-size: 1.25rem; }
 }
+
+/* Code Block and Inline Code Styling */
+.code-block {
+    background: rgba(15, 23, 42, 0.65);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--border-radius-md);
+    padding: 16px 20px;
+    margin: 18px 0;
+    overflow-x: auto;
+    font-family: 'Consolas', 'Fira Code', 'Courier New', Courier, monospace;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #e2e8f0;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.code-block code {
+    background: transparent;
+    padding: 0;
+    border-radius: 0;
+    font-size: inherit;
+    color: inherit;
+    border: none;
+    box-shadow: none;
+}
+
+code {
+    font-family: 'Consolas', 'Fira Code', 'Courier New', Courier, monospace;
+    background: rgba(30, 41, 59, 0.8);
+    padding: 3px 6px;
+    border-radius: var(--border-radius-sm);
+    font-size: 0.9em;
+    color: #f472b6; /* Premium pink/rose tint for inline code */
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.question-desc {
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.question-desc code {
+    /* Slightly lighter color for inline code inside descriptions */
+    color: #fb7185;
+}
+
+.hint-box p code {
+    /* Slightly lighter color for inline code inside explanation hints */
+    color: #fb7185;
+}
+
+/* Category Filter and Badge Custom Styles */
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.category-select {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--border-radius-sm);
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 6px 12px;
+    outline: none;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.category-select:focus {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: var(--accent-primary);
+    box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.25);
+}
+
+.category-select option {
+    background-color: var(--bg-base);
+    color: var(--text-primary);
+}
+
+.question-category {
+    display: inline-block;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 12px;
+    transition: all var(--transition-fast);
+}
+
+/* Category Color Themes */
+.cat-kyt {
+    background: rgba(16, 185, 129, 0.12);
+    color: #34d399;
+    border: 1px solid rgba(16, 185, 129, 0.25);
+}
+
+.cat-bizskill {
+    background: rgba(59, 130, 246, 0.12);
+    color: #60a5fa;
+    border: 1px solid rgba(59, 130, 246, 0.25);
+}
+
+.cat-ui {
+    background: rgba(6, 182, 212, 0.12);
+    color: #22d3ee;
+    border: 1px solid rgba(6, 182, 212, 0.25);
+}
+
+.cat-unix {
+    background: rgba(245, 158, 11, 0.12);
+    color: #fbbf24;
+    border: 1px solid rgba(245, 158, 11, 0.25);
+}
+
+.cat-java {
+    background: rgba(239, 68, 68, 0.12);
+    color: #f87171;
+    border: 1px solid rgba(239, 68, 68, 0.25);
+}
+
+.cat-python {
+    background: rgba(236, 72, 153, 0.12);
+    color: #f472b6;
+    border: 1px solid rgba(236, 72, 153, 0.25);
+}
+
+.cat-java-python {
+    background: rgba(139, 92, 246, 0.12);
+    color: #a78bfa;
+    border: 1px solid rgba(139, 92, 246, 0.25);
+}
+
+.cat-sql-plsql {
+    background: rgba(168, 85, 247, 0.12);
+    color: #c084fc;
+    border: 1px solid rgba(168, 85, 247, 0.25);
+}
+
+.cat-algorithms {
+    background: rgba(244, 63, 94, 0.12);
+    color: #fb7185;
+    border: 1px solid rgba(244, 63, 94, 0.25);
+}
+
+.cat-c-net {
+    background: rgba(99, 102, 241, 0.12);
+    color: #818cf8;
+    border: 1px solid rgba(99, 102, 241, 0.25);
+}
+
+.cat-miscellaneous {
+    background: rgba(148, 163, 184, 0.12);
+    color: #cbd5e1;
+    border: 1px solid rgba(148, 163, 184, 0.25);
+}
+

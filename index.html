@@ -19,12 +19,25 @@
     
     <div class="app-container">
         <header class="app-header">
-            <div class="logo-container">
-                <div class="logo-icon"></div>
-                <h1>TCS IPA Practice</h1>
+            <div class="header-left">
+                <div class="logo-container">
+                    <div class="logo-icon"></div>
+                    <h1>TCS IPA Practice</h1>
+                </div>
+                <div class="filter-container">
+                    <select id="category-filter" class="category-select" aria-label="Filter questions by category">
+                        <option value="all">All Categories</option>
+                    </select>
+                </div>
             </div>
             <div class="progress-container">
-                <span id="question-progress">Question 1 of 347</span>
+                <div class="progress-header">
+                    <span id="question-progress">Loading...</span>
+                    <div class="jump-container" id="jump-container">
+                        <input type="number" id="jump-input" placeholder="Go to..." min="1" class="jump-input" />
+                        <button id="btn-jump" class="btn-jump" aria-label="Go to question">Go</button>
+                    </div>
+                </div>
                 <div class="progress-bar-bg">
                     <div class="progress-bar-fill" id="progress-bar"></div>
                 </div>
@@ -34,6 +47,7 @@
         <main class="quiz-container">
             <div id="quiz-content" class="quiz-content">
                 <div class="question-header">
+                    <div id="question-category" class="question-category">General</div>
                     <h2 id="question-text">Loading question...</h2>
                 </div>
                 

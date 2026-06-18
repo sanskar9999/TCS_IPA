@@ -23,7 +23,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Tata Consultancy Services was established in 1968 by Tata Sons."
+    "hint": "Tata Consultancy Services was established in 1968 by Tata Sons.",
+    "category": "KYT"
   },
   {
     "question": "What does the acronym 'EPIC' stand for in TCS core values?",
@@ -49,7 +50,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS core values: Ethics, Passion, Integrity, Commitment."
+    "hint": "TCS core values: Ethics, Passion, Integrity, Commitment.",
+    "category": "KYT"
   },
   {
     "question": "Which of the following is a subsidiary / brand of TCS?",
@@ -75,7 +77,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS iON is TCS's SMB-focused brand for cloud-based services."
+    "hint": "TCS iON is TCS's SMB-focused brand for cloud-based services.",
+    "category": "KYT"
   },
   {
     "question": "TCS Xplore is primarily designed for:",
@@ -101,7 +104,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS Xplore is a mandatory pre-joining learning programme for freshers."
+    "hint": "TCS Xplore is a mandatory pre-joining learning programme for freshers.",
+    "category": "KYT"
   },
   {
     "question": "Which TCS flagship programme partners with universities to offer integrated degrees?",
@@ -127,7 +131,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "TCS AIP partners with over 500 colleges to co-create curriculum."
+    "hint": "TCS AIP partners with over 500 colleges to co-create curriculum.",
+    "category": "KYT"
   },
   {
     "question": "In which year did TCS become the first Indian IT company to reach a market cap of $100\nbillion?",
@@ -153,7 +158,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS crossed the $100 billion market cap milestone in 2018."
+    "hint": "TCS crossed the $100 billion market cap milestone in 2018.",
+    "category": "KYT"
   },
   {
     "question": "TCS headquarters is located in:",
@@ -179,7 +185,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "TCS is headquartered in Mumbai (Nariman Point), Maharashtra.\n■ SECTION B — BizSkill (Business Ethics)\nSituational Judgement | ~5 Questions\nBizSkill questions are situational — there is no single formula. Always choose the option that reflects\nprofessional integrity, collaboration, and TCS values (EPIC)."
+    "hint": "TCS is headquartered in Mumbai (Nariman Point), Maharashtra.",
+    "category": "KYT"
   },
   {
     "question": "You notice a colleague copying code from a public GitHub repository and submitting it as\noriginal work for a client deliverable. You should:",
@@ -205,7 +212,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Using open-source code without proper attribution/license check is an IP risk. Escalate\ninternally first."
+    "hint": "Using open-source code without proper attribution/license check is an IP risk. Escalate\ninternally first.",
+    "category": "BizSkill"
   },
   {
     "question": "A client asks you to share internal TCS project data to help them benchmark against\ncompetitors. You should:",
@@ -231,7 +239,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Sharing internal data violates TCS's confidentiality agreements. Decline and escalate to your\nmanager."
+    "hint": "Sharing internal data violates TCS's confidentiality agreements. Decline and escalate to your\nmanager.",
+    "category": "BizSkill"
   },
   {
     "question": "You receive an email from an unknown sender offering ■5,000 to complete a survey about\nyour project. The best course of action is:",
@@ -257,7 +266,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "5,000 to complete a survey about\nyour project. The best course of action is:\nA) Complete the survey — it is just information\nB) Forward it to colleagues to see if they know the sender\nC) Delete and report to TCS IT Security team ✓\nD) Reply asking for more details before deciding\nExplanation: This is a classic phishing/social engineering attempt. Report to IT Security."
+    "hint": "5,000 to complete a survey about\nyour project. The best course of action is:\nA) Complete the survey — it is just information\nB) Forward it to colleagues to see if they know the sender\nC) Delete and report to TCS IT Security team ✓\nD) Reply asking for more details before deciding\nExplanation: This is a classic phishing/social engineering attempt. Report to IT Security.",
+    "category": "BizSkill"
   },
   {
     "question": "During a client meeting you realise you have made a factual error in a report you\nsubmitted. You should:",
@@ -283,7 +293,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Transparency and accountability are TCS core values. Own the mistake and correct it."
+    "hint": "Transparency and accountability are TCS core values. Own the mistake and correct it.",
+    "category": "BizSkill"
   },
   {
     "question": "A teammate consistently misses deadlines, affecting the whole sprint. The most\nprofessional first step is to:",
@@ -309,7 +320,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Address issues at the lowest level first with empathy before escalating."
+    "hint": "Address issues at the lowest level first with empathy before escalating.",
+    "category": "BizSkill"
   },
   {
     "question": "You accidentally send a confidential client email to the wrong recipient. You should:",
@@ -335,7 +347,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "A data breach — however accidental — must be reported immediately per TCS protocol."
+    "hint": "A data breach — however accidental — must be reported immediately per TCS protocol.",
+    "category": "BizSkill"
   },
   {
     "question": "A female colleague reports that she feels uncomfortable with a co-worker's repeated\ncomments. Under the POSH Act you should:",
@@ -352,8 +365,8 @@ const questionsData = [
       },
       {
         "id": "C",
-        "text": "",
-        "isCorrect": true
+        "text": "Talk to the co-worker yourself to resolve it informally",
+        "isCorrect": false
       },
       {
         "id": "D",
@@ -361,7 +374,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Under the POSH Act, complaints must go through the Internal Complaints Committee.\n■ SECTION C — UI (HTML & CSS)\nWeb Basics | ~5–8 Questions"
+    "hint": "Under the POSH Act, complaints must go through the Internal Complaints Committee.",
+    "category": "BizSkill"
   },
   {
     "question": "Which HTML tag is used to create a hyperlink?",
@@ -387,7 +401,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "The anchor tag <a href='...'> creates hyperlinks in HTML."
+    "hint": "The anchor tag <a href='...'> creates hyperlinks in HTML.",
+    "category": "UI"
   },
   {
     "question": "What does the CSS property 'box-model' include? (Select the complete set)",
@@ -413,7 +428,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "The CSS Box Model layers: Content → Padding → Border → Margin."
+    "hint": "The CSS Box Model layers: Content → Padding → Border → Margin.",
+    "category": "UI"
   },
   {
     "question": "Which CSS selector has the highest specificity?",
@@ -439,7 +455,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ID selectors (#id) have higher specificity than class (.class) or element (tag) selectors."
+    "hint": "ID selectors (#id) have higher specificity than class (.class) or element (tag) selectors.",
+    "category": "UI"
   },
   {
     "question": "What is the correct HTML5 tag to define navigation links?",
@@ -465,7 +482,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "<nav> is the semantic HTML5 tag for navigation menus."
+    "hint": "<nav> is the semantic HTML5 tag for navigation menus.",
+    "category": "UI"
   },
   {
     "question": "Which CSS display value makes elements appear side-by-side and allows width/height?",
@@ -491,7 +509,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "inline-block respects width/height while flowing inline with other elements."
+    "hint": "inline-block respects width/height while flowing inline with other elements.",
+    "category": "UI"
   },
   {
     "question": "In CSS Flexbox, which property aligns items along the cross-axis?",
@@ -517,7 +536,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "align-items controls alignment on the cross-axis (perpendicular to main axis)."
+    "hint": "align-items controls alignment on the cross-axis (perpendicular to main axis).",
+    "category": "UI"
   },
   {
     "question": "What will the following HTML render? <p style='color:red;'>Hello</p>",
@@ -543,7 +563,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Inline styles directly apply CSS properties to individual elements."
+    "hint": "Inline styles directly apply CSS properties to individual elements.",
+    "category": "UI"
   },
   {
     "question": "Which input type in HTML5 shows a date picker in modern browsers?",
@@ -569,7 +590,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "type=\"date\" renders a native date-picker widget in HTML5-compliant browsers.\n■ SECTION D — Unix / Linux Commands\nOS Basics | ~5–7 Questions"
+    "hint": "type=\"date\" renders a native date-picker widget in HTML5-compliant browsers.",
+    "category": "UI"
   },
   {
     "question": "Which command lists all files including hidden files in a directory?",
@@ -595,7 +617,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ls -a shows all files including those starting with a dot (hidden files)."
+    "hint": "ls -a shows all files including those starting with a dot (hidden files).",
+    "category": "Unix"
   },
   {
     "question": "What does the command 'chmod 755 file.sh' do?",
@@ -621,7 +644,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "7=rwx (owner), 5=r-x (group), 5=r-x (others). Standard for executable scripts."
+    "hint": "7=rwx (owner), 5=r-x (group), 5=r-x (others). Standard for executable scripts.",
+    "category": "Unix"
   },
   {
     "question": "Which command is used to search for a pattern in a file?",
@@ -647,7 +671,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "grep (Global Regular Expression Print) searches for text patterns in files."
+    "hint": "grep (Global Regular Expression Print) searches for text patterns in files.",
+    "category": "Unix"
   },
   {
     "question": "What does the pipe symbol | do in Unix?",
@@ -673,7 +698,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "The pipe | chains commands: ls -l | grep .txt sends ls output to grep."
+    "hint": "The pipe | chains commands: ls -l | grep .txt sends ls output to grep.",
+    "category": "Unix"
   },
   {
     "question": "Which command shows the current working directory?",
@@ -699,7 +725,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "pwd (Print Working Directory) displays the absolute path of the current directory."
+    "hint": "pwd (Print Working Directory) displays the absolute path of the current directory.",
+    "category": "Unix"
   },
   {
     "question": "How do you redirect command output to a file (overwrite)?",
@@ -725,7 +752,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "> redirects and overwrites. >> appends. < reads from file as input."
+    "hint": "> redirects and overwrites. >> appends. < reads from file as input.",
+    "category": "Unix"
   },
   {
     "question": "Which command removes a directory and all its contents recursively?",
@@ -751,33 +779,35 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "rm -rf: -r for recursive, -f to force without prompting. Use with caution!\n■■ SECTION E — Java & Python MCQs\nProgramming Concepts | ~10 Questions\nPYTHON QUESTIONS"
+    "hint": "rm -rf: -r for recursive, -f to force without prompting. Use with caution!",
+    "category": "Unix"
   },
   {
     "question": "What is the output of: print(type([]))?",
     "options": [
       {
         "id": "A",
-        "text": "B)",
-        "isCorrect": true
+        "text": "<class 'dict'>",
+        "isCorrect": false
       },
       {
         "id": "B",
-        "text": "",
+        "text": "<class 'list'>",
         "isCorrect": true
       },
       {
         "id": "C",
-        "text": "D)",
+        "text": "<class 'tuple'>",
         "isCorrect": false
       },
       {
         "id": "D",
-        "text": "Explanation: [] creates an empty list. type([]) returns .",
+        "text": "<class 'set'>",
         "isCorrect": false
       }
     ],
-    "hint": "[] creates an empty list. type([]) returns ."
+    "hint": "[] creates an empty list. type([]) returns <class 'list'>.",
+    "category": "Java / Python"
   },
   {
     "question": "Which Python data structure does NOT allow duplicate values?",
@@ -803,7 +833,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Sets store only unique elements. Duplicates are automatically removed."
+    "hint": "Sets store only unique elements. Duplicates are automatically removed.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the output of: print(2 ** 3)?",
@@ -829,7 +860,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "** is the exponentiation operator. 2**3 = 2^3 = 8."
+    "hint": "** is the exponentiation operator. 2**3 = 2^3 = 8.",
+    "category": "Java / Python"
   },
   {
     "question": "Which keyword is used to handle exceptions in Python?",
@@ -855,7 +887,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Python uses try/except blocks (not try/catch like Java)."
+    "hint": "Python uses try/except blocks (not try/catch like Java).",
+    "category": "Java / Python"
   },
   {
     "question": "What does list.append(x) do?",
@@ -881,7 +914,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "append() adds an element to the end in O(1) time.\nJAVA QUESTIONS"
+    "hint": "append() adds an element to the end in O(1) time.\nJAVA QUESTIONS",
+    "category": "Java / Python"
   },
   {
     "question": "Which access modifier makes a class member accessible only within the same class?",
@@ -907,7 +941,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "private limits visibility to the declaring class only."
+    "hint": "private limits visibility to the declaring class only.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the output of: System.out.println(10 / 3); in Java?",
@@ -933,7 +968,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Integer division in Java truncates decimal. 10/3 = 3."
+    "hint": "Integer division in Java truncates decimal. 10/3 = 3.",
+    "category": "Java / Python"
   },
   {
     "question": "Which Java keyword prevents method overriding?",
@@ -959,7 +995,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "final methods cannot be overridden by subclasses."
+    "hint": "final methods cannot be overridden by subclasses.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the correct way to declare an array in Java?",
@@ -985,7 +1022,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "int[] arr = new int[5]; is the standard Java array declaration syntax."
+    "hint": "int[] arr = new int[5]; is the standard Java array declaration syntax.",
+    "category": "Java / Python"
   },
   {
     "question": "In OOP, what is 'Encapsulation'?",
@@ -1011,7 +1049,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Encapsulation = bundling data + methods, hiding internal state via private fields.\n■■ SECTION F — SQL / MySQL / PL-SQL\nDatabase Queries | ~5–8 Questions"
+    "hint": "Encapsulation = bundling data + methods, hiding internal state via private fields.",
+    "category": "Java / Python"
   },
   {
     "question": "Which SQL clause is used to filter rows AFTER grouping?",
@@ -1037,7 +1076,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "HAVING filters grouped results; WHERE filters before grouping."
+    "hint": "HAVING filters grouped results; WHERE filters before grouping.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What will the query return? SELECT COUNT(*) FROM employees WHERE salary > 50000;",
@@ -1063,7 +1103,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "COUNT(*) returns the count of rows matching the WHERE condition."
+    "hint": "COUNT(*) returns the count of rows matching the WHERE condition.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which JOIN returns all rows from the left table and matching rows from the right?",
@@ -1089,7 +1130,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "LEFT JOIN keeps all rows from the left table; unmatched right rows show NULL."
+    "hint": "LEFT JOIN keeps all rows from the left table; unmatched right rows show NULL.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which keyword removes duplicate rows from a SELECT result?",
@@ -1115,7 +1157,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "SELECT DISTINCT column_name removes duplicate values from the result set."
+    "hint": "SELECT DISTINCT column_name removes duplicate values from the result set.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does this query do? UPDATE employees SET salary = salary * 1.10 WHERE dept =\n'IT';",
@@ -1141,7 +1184,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "salary * 1.10 multiplies by 1.1, effectively adding 10% to current salary."
+    "hint": "salary * 1.10 multiplies by 1.1, effectively adding 10% to current salary.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which aggregate function returns the highest value?",
@@ -1167,7 +1211,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "MAX() returns the maximum value in the specified column."
+    "hint": "MAX() returns the maximum value in the specified column.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What is a PRIMARY KEY?",
@@ -1193,7 +1238,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Primary Key = NOT NULL + UNIQUE. Every table should have one."
+    "hint": "Primary Key = NOT NULL + UNIQUE. Every table should have one.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which command permanently removes all rows from a table but keeps its structure?",
@@ -1219,7 +1265,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TRUNCATE is faster than DELETE (no row-by-row logging) and keeps the table schema.\n■ SECTION G — Coding Problems (Java / Python)\n2 Problems | 70 Minutes\nYou must write a complete working program (not just a function). You can choose either Java or\nPython. The judge accepts partial scoring based on test cases passed. Aim to pass at least 50% of cases\nfor partial marks."
+    "hint": "TRUNCATE is faster than DELETE (no row-by-row logging) and keeps the table schema.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "TCS was founded in which year?",
@@ -1245,7 +1292,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS was established in 1968 by F.C. Kohli under Tata Sons."
+    "hint": "TCS was established in 1968 by F.C. Kohli under Tata Sons.",
+    "category": "KYT"
   },
   {
     "question": "Who is considered the 'Father of Indian IT' and was the first CEO of TCS?",
@@ -1271,7 +1319,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "F.C. Kohli founded and led TCS as its first CEO."
+    "hint": "F.C. Kohli founded and led TCS as its first CEO.",
+    "category": "KYT"
   },
   {
     "question": "TCS is a subsidiary of which conglomerate?",
@@ -1297,7 +1346,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS is a subsidiary of Tata Sons, part of the Tata Group."
+    "hint": "TCS is a subsidiary of Tata Sons, part of the Tata Group.",
+    "category": "KYT"
   },
   {
     "question": "What does TCS stand for?",
@@ -1323,7 +1373,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Tata Consultancy Services — founded 1968."
+    "hint": "Tata Consultancy Services — founded 1968.",
+    "category": "KYT"
   },
   {
     "question": "TCS headquarters is located in:",
@@ -1349,7 +1400,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "TCS is headquartered at Nariman Point, Mumbai."
+    "hint": "TCS is headquartered at Nariman Point, Mumbai.",
+    "category": "KYT"
   },
   {
     "question": "What does 'EPIC' stand for in TCS core values?",
@@ -1375,7 +1427,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "EPIC = Ethics, Passion, Integrity, Commitment."
+    "hint": "EPIC = Ethics, Passion, Integrity, Commitment.",
+    "category": "KYT"
   },
   {
     "question": "TCS became the first Indian IT company to reach a $100 billion market cap in:",
@@ -1401,7 +1454,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS crossed $100B market cap milestone in 2018."
+    "hint": "TCS crossed $100B market cap milestone in 2018.",
+    "category": "KYT"
   },
   {
     "question": "TCS iON is primarily used for:",
@@ -1427,7 +1481,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS iON provides cloud-based business and assessment solutions."
+    "hint": "TCS iON provides cloud-based business and assessment solutions.",
+    "category": "KYT"
   },
   {
     "question": "Which TCS programme is a mandatory pre-joining learning platform for freshers?",
@@ -1453,7 +1508,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS Xplore is the mandatory pre-joining e-learning programme."
+    "hint": "TCS Xplore is the mandatory pre-joining e-learning programme.",
+    "category": "KYT"
   },
   {
     "question": "What is the full form of IPA in TCS context?",
@@ -1479,7 +1535,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "IPA = iON Proctored Assessment."
+    "hint": "IPA = iON Proctored Assessment.",
+    "category": "KYT"
   },
   {
     "question": "TCS was listed on Indian stock exchanges (BSE/NSE) in which year?",
@@ -1505,7 +1562,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS had its IPO and was listed in August 2004."
+    "hint": "TCS had its IPO and was listed in August 2004.",
+    "category": "KYT"
   },
   {
     "question": "Which of the following is NOT a TCS subsidiary/brand?",
@@ -1531,7 +1589,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "Infosys BPO belongs to Infosys, not TCS."
+    "hint": "Infosys BPO belongs to Infosys, not TCS.",
+    "category": "KYT"
   },
   {
     "question": "TCS's revenue for FY2024 was approximately:",
@@ -1557,7 +1616,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS reported revenue of approx. $25–26 billion for FY2024."
+    "hint": "TCS reported revenue of approx. $25–26 billion for FY2024.",
+    "category": "KYT"
   },
   {
     "question": "TCS operates in how many countries approximately?",
@@ -1583,7 +1643,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS operates in 50+ countries globally."
+    "hint": "TCS operates in 50+ countries globally.",
+    "category": "KYT"
   },
   {
     "question": "The TCS AIP (Academic Interface Programme) primarily partners with:",
@@ -1609,7 +1670,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS AIP partners with 500+ colleges to co-create curriculum."
+    "hint": "TCS AIP partners with 500+ colleges to co-create curriculum.",
+    "category": "KYT"
   },
   {
     "question": "Which TCS initiative focuses on making India digitally empowered?",
@@ -1635,7 +1697,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS goIT is a digital literacy initiative for students."
+    "hint": "TCS goIT is a digital literacy initiative for students.",
+    "category": "KYT"
   },
   {
     "question": "TCS CodeVita is a:",
@@ -1661,7 +1724,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS CodeVita is one of the world's largest coding competitions."
+    "hint": "TCS CodeVita is one of the world's largest coding competitions.",
+    "category": "KYT"
   },
   {
     "question": "What is TCS BaNCS?",
@@ -1687,7 +1751,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS BaNCS is TCS's flagship banking and financial services platform."
+    "hint": "TCS BaNCS is TCS's flagship banking and financial services platform.",
+    "category": "KYT"
   },
   {
     "question": "TCS Ignite is a training programme designed for:",
@@ -1713,7 +1778,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS Ignite trains non-engineering/arts graduates joining TCS."
+    "hint": "TCS Ignite trains non-engineering/arts graduates joining TCS.",
+    "category": "KYT"
   },
   {
     "question": "Which TCS platform is used for digital learning and skilling?",
@@ -1739,7 +1805,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS Fresco Play is TCS's internal digital learning platform."
+    "hint": "TCS Fresco Play is TCS's internal digital learning platform.",
+    "category": "KYT"
   },
   {
     "question": "TCS was ranked in the Fortune Global 500 list. This ranking is based on:",
@@ -1765,7 +1832,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Fortune 500 ranks companies by annual revenue."
+    "hint": "Fortune 500 ranks companies by annual revenue.",
+    "category": "KYT"
   },
   {
     "question": "What is TCS's employee count approximately (as of 2024)?",
@@ -1791,7 +1859,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS employs approximately 600,000+ people globally."
+    "hint": "TCS employs approximately 600,000+ people globally.",
+    "category": "KYT"
   },
   {
     "question": "TCS's corporate social responsibility initiative is called:",
@@ -1817,7 +1886,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS Adult Literacy Programme has impacted millions of lives."
+    "hint": "TCS Adult Literacy Programme has impacted millions of lives.",
+    "category": "KYT"
   },
   {
     "question": "Which stock exchange is TCS listed on?",
@@ -1843,7 +1913,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS is listed on BSE (500325) and NSE (TCS)."
+    "hint": "TCS is listed on BSE (500325) and NSE (TCS).",
+    "category": "KYT"
   },
   {
     "question": "TCS's primary business domain is:",
@@ -1869,7 +1940,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS is an IT services, consulting and business solutions company."
+    "hint": "TCS is an IT services, consulting and business solutions company.",
+    "category": "KYT"
   },
   {
     "question": "TCS Ninja, TCS Digital, and TCS Prime refer to:",
@@ -1895,7 +1967,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "These are TCS's three freshers hiring tracks based on NQT scores."
+    "hint": "These are TCS's three freshers hiring tracks based on NQT scores.",
+    "category": "KYT"
   },
   {
     "question": "The TCS NQT is conducted by:",
@@ -1921,7 +1994,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS NQT is powered by TCS iON."
+    "hint": "TCS NQT is powered by TCS iON.",
+    "category": "KYT"
   },
   {
     "question": "CHRO stands for in a corporate context:",
@@ -1947,7 +2021,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "CHRO = Chief Human Resources Officer."
+    "hint": "CHRO = Chief Human Resources Officer.",
+    "category": "KYT"
   },
   {
     "question": "TCS Quartz is associated with:",
@@ -1973,7 +2048,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS Quartz is TCS's blockchain-based smart ledger platform."
+    "hint": "TCS Quartz is TCS's blockchain-based smart ledger platform.",
+    "category": "KYT"
   },
   {
     "question": "TCS's vision statement is:",
@@ -1999,7 +2075,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS's vision: 'Help customers achieve their business objectives by providing innovative, best-in-class consulting,\nIT solutions and services.'"
+    "hint": "TCS's vision: 'Help customers achieve their business objectives by providing innovative, best-in-class consulting,\nIT solutions and services.'",
+    "category": "KYT"
   },
   {
     "question": "Which TCS initiative supports women in technology?",
@@ -2007,7 +2084,7 @@ const questionsData = [
       {
         "id": "A",
         "text": "TCS Women of Worth",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": "B",
@@ -2017,7 +2094,7 @@ const questionsData = [
       {
         "id": "C",
         "text": "TCS Instep",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "id": "D",
@@ -2025,7 +2102,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Wait — TCS Instep is an internship. 'TCS Women of Worth' is the correct WoW initiative."
+    "hint": "TCS promotes the Women of Worth (WOW) network to support women in technology, whereas TCS Instep is an internship program.",
+    "category": "KYT"
   },
   {
     "question": "TCS PACE Port is TCS's:",
@@ -2051,7 +2129,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS PACE Ports are innovation and co-creation hubs for clients."
+    "hint": "TCS PACE Ports are innovation and co-creation hubs for clients.",
+    "category": "KYT"
   },
   {
     "question": "Which of the following is TCS's cloud platform?",
@@ -2077,7 +2156,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS has its own TCS Cloud offering alongside partnerships with AWS/Azure."
+    "hint": "TCS has its own TCS Cloud offering alongside partnerships with AWS/Azure.",
+    "category": "KYT"
   },
   {
     "question": "TCS's Agile journey framework is known as:",
@@ -2103,7 +2183,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS promotes Agile@Scale across its delivery model."
+    "hint": "TCS promotes Agile@Scale across its delivery model.",
+    "category": "KYT"
   },
   {
     "question": "Business 4.0 is TCS's thought leadership framework focused on:",
@@ -2129,7 +2210,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Business 4.0 = intelligence + agility + automation + cloud."
+    "hint": "Business 4.0 = intelligence + agility + automation + cloud.",
+    "category": "KYT"
   },
   {
     "question": "The TCS Ultimatix portal is used for:",
@@ -2155,7 +2237,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Ultimatix is TCS's internal ERP/employee portal."
+    "hint": "Ultimatix is TCS's internal ERP/employee portal.",
+    "category": "KYT"
   },
   {
     "question": "TCS's Global Delivery Model (GDM) is known for:",
@@ -2181,7 +2264,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "GDM balances on-site, near-shore and offshore to optimize cost and quality."
+    "hint": "GDM balances on-site, near-shore and offshore to optimize cost and quality.",
+    "category": "KYT"
   },
   {
     "question": "Who is the current CEO of TCS (as of 2024)?",
@@ -2207,7 +2291,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "K. Krithivasan took over as CEO of TCS in June 2023."
+    "hint": "K. Krithivasan took over as CEO of TCS in June 2023.",
+    "category": "KYT"
   },
   {
     "question": "TCS's TalentNext programme is aimed at:",
@@ -2233,7 +2318,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TalentNext helps existing TCSers build new-age skills."
+    "hint": "TalentNext helps existing TCSers build new-age skills.",
+    "category": "KYT"
   },
   {
     "question": "The ILP (Initial Learning Programme) at TCS is a:",
@@ -2259,7 +2345,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ILP is the mandatory initial training all TCS freshers undergo."
+    "hint": "ILP is the mandatory initial training all TCS freshers undergo.",
+    "category": "KYT"
   },
   {
     "question": "TCS has won the IAOP Global Outsourcing 100 award, which recognises:",
@@ -2285,7 +2372,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "IAOP Global Outsourcing 100 ranks the world's best outsourcing providers."
+    "hint": "IAOP Global Outsourcing 100 ranks the world's best outsourcing providers.",
+    "category": "KYT"
   },
   {
     "question": "TCS was awarded the Global Top Employer certification for:",
@@ -2311,7 +2399,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Top Employer certification recognises excellence in employee experience."
+    "hint": "Top Employer certification recognises excellence in employee experience.",
+    "category": "KYT"
   },
   {
     "question": "TCS's Mastercraft is a suite of:",
@@ -2337,7 +2426,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS Mastercraft automates application modernisation, migration and testing."
+    "hint": "TCS Mastercraft automates application modernisation, migration and testing.",
+    "category": "KYT"
   },
   {
     "question": "Which TCS platform supports cognitive automation and AI?",
@@ -2363,7 +2453,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS ignio is an AI/ML-powered cognitive automation platform."
+    "hint": "TCS ignio is an AI/ML-powered cognitive automation platform.",
+    "category": "KYT"
   },
   {
     "question": "TCS's sustainability goal includes achieving net-zero carbon emissions by:",
@@ -2371,12 +2462,12 @@ const questionsData = [
       {
         "id": "A",
         "text": "2030",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": "B",
         "text": "2035",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "id": "C",
@@ -2389,7 +2480,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS aims for net-zero carbon emissions by 2030."
+    "hint": "TCS aims for net-zero carbon emissions by 2030.",
+    "category": "KYT"
   },
   {
     "question": "TCS's acquisition of Diligenta was in the domain of:",
@@ -2415,7 +2507,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Diligenta (TCS subsidiary) specialises in UK life and pensions BPS."
+    "hint": "Diligenta (TCS subsidiary) specialises in UK life and pensions BPS.",
+    "category": "KYT"
   },
   {
     "question": "TCS COINS (Continuous Improvement) is a framework for:",
@@ -2441,7 +2534,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS COINS drives continuous improvement across delivery processes."
+    "hint": "TCS COINS drives continuous improvement across delivery processes.",
+    "category": "KYT"
   },
   {
     "question": "The IPA exam is conducted at:",
@@ -2467,7 +2561,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "IPA is proctored and conducted at authorised TCS iON centres."
+    "hint": "IPA is proctored and conducted at authorised TCS iON centres.",
+    "category": "KYT"
   },
   {
     "question": "TCS's Project Sahay is associated with:",
@@ -2493,7 +2588,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Project Sahay supports rural financial inclusion and digital empowerment."
+    "hint": "Project Sahay supports rural financial inclusion and digital empowerment.",
+    "category": "KYT"
   },
   {
     "question": "Which of the following is the TCS mascot/brand symbol?",
@@ -2519,7 +2615,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS's brand identity features a distinctive blue wave design.\n■ SECTION B — BizSkill: Business Ethics & Professional\nSkills\n50 Questions | Situational Judgement | POSH | Communication | Ethics"
+    "hint": "TCS's brand identity features a distinctive blue wave design.",
+    "category": "KYT"
   },
   {
     "question": "You discover your colleague has been inflating project hours in timesheets. You should:",
@@ -2545,7 +2642,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Timesheet fraud is unethical. Report via proper channels (manager/ethics hotline)."
+    "hint": "Timesheet fraud is unethical. Report via proper channels (manager/ethics hotline).",
+    "category": "BizSkill"
   },
   {
     "question": "A client requests a feature outside the agreed scope without a formal change order. You should:",
@@ -2571,7 +2669,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Scope changes must go through formal change management to protect both parties."
+    "hint": "Scope changes must go through formal change management to protect both parties.",
+    "category": "BizSkill"
   },
   {
     "question": "In a professional email, the 'CC' field is used to:",
@@ -2597,7 +2696,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "CC = Carbon Copy. Recipients in CC are informed but not the primary action-takers."
+    "hint": "CC = Carbon Copy. Recipients in CC are informed but not the primary action-takers.",
+    "category": "BizSkill"
   },
   {
     "question": "POSH Act stands for:",
@@ -2623,7 +2723,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "POSH = Prevention, Protection and Redressal of Sexual Harassment at Workplace Act, 2013."
+    "hint": "POSH = Prevention, Protection and Redressal of Sexual Harassment at Workplace Act, 2013.",
+    "category": "BizSkill"
   },
   {
     "question": "The Internal Complaints Committee (ICC) under POSH is responsible for:",
@@ -2649,7 +2750,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ICC is the designated body to investigate workplace sexual harassment complaints."
+    "hint": "ICC is the designated body to investigate workplace sexual harassment complaints.",
+    "category": "BizSkill"
   },
   {
     "question": "Which of the following is an example of 'professional tone' in an email?",
@@ -2675,7 +2777,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Professional emails use courteous language, proper salutation, and clear request."
+    "hint": "Professional emails use courteous language, proper salutation, and clear request.",
+    "category": "BizSkill"
   },
   {
     "question": "You receive a project task that seems ambiguous. The best first step is:",
@@ -2701,7 +2804,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Clarifying ambiguous requirements upfront prevents rework and aligns expectations."
+    "hint": "Clarifying ambiguous requirements upfront prevents rework and aligns expectations.",
+    "category": "BizSkill"
   },
   {
     "question": "What does 'conflict of interest' mean in a professional context?",
@@ -2727,7 +2831,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Conflict of interest = when personal interests could bias professional judgment."
+    "hint": "Conflict of interest = when personal interests could bias professional judgment.",
+    "category": "BizSkill"
   },
   {
     "question": "A teammate shares confidential client data in a WhatsApp group. You should:",
@@ -2753,7 +2858,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Sharing confidential data on personal messaging apps violates data security policy."
+    "hint": "Sharing confidential data on personal messaging apps violates data security policy.",
+    "category": "BizSkill"
   },
   {
     "question": "'Whistleblowing' in a corporate context means:",
@@ -2779,7 +2885,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Whistleblowing = reporting wrongdoing. TCS has a formal whistleblower policy."
+    "hint": "Whistleblowing = reporting wrongdoing. TCS has a formal whistleblower policy.",
+    "category": "BizSkill"
   },
   {
     "question": "Which of the following is NOT professional behaviour in a virtual meeting?",
@@ -2805,7 +2912,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Eating on camera is unprofessional. Muting, punctuality, and clean backgrounds are good practices."
+    "hint": "Eating on camera is unprofessional. Muting, punctuality, and clean backgrounds are good practices.",
+    "category": "BizSkill"
   },
   {
     "question": "The acronym 'EOD' in professional communication stands for:",
@@ -2831,7 +2939,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "EOD = End of Day — a common deadline reference in corporate communication."
+    "hint": "EOD = End of Day — a common deadline reference in corporate communication.",
+    "category": "BizSkill"
   },
   {
     "question": "Intellectual property (IP) in TCS refers to:",
@@ -2857,7 +2966,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "IP includes code, designs, methodologies, and trade secrets owned by TCS/clients."
+    "hint": "IP includes code, designs, methodologies, and trade secrets owned by TCS/clients.",
+    "category": "BizSkill"
   },
   {
     "question": "You are assigned to a project but have a prior personal commitment on the delivery date. You should:",
@@ -2883,7 +2993,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Proactive communication about conflicts allows for planning and avoids last-minute surprises."
+    "hint": "Proactive communication about conflicts allows for planning and avoids last-minute surprises.",
+    "category": "BizSkill"
   },
   {
     "question": "Which type of communication is most appropriate for documenting project decisions?",
@@ -2909,7 +3020,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Formal email or project tracker ensures decisions are documented and traceable."
+    "hint": "Formal email or project tracker ensures decisions are documented and traceable.",
+    "category": "BizSkill"
   },
   {
     "question": "'KPI' stands for:",
@@ -2935,7 +3047,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "KPI = Key Performance Indicator — a measurable value demonstrating effectiveness."
+    "hint": "KPI = Key Performance Indicator — a measurable value demonstrating effectiveness.",
+    "category": "BizSkill"
   },
   {
     "question": "A new colleague is struggling with a task you have mastered. You should:",
@@ -2961,7 +3074,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Helping colleagues builds team capability and reflects TCS values (Passion, Commitment)."
+    "hint": "Helping colleagues builds team capability and reflects TCS values (Passion, Commitment).",
+    "category": "BizSkill"
   },
   {
     "question": "What is the purpose of a Non-Disclosure Agreement (NDA)?",
@@ -2987,7 +3101,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "NDAs legally protect confidential and proprietary information."
+    "hint": "NDAs legally protect confidential and proprietary information.",
+    "category": "BizSkill"
   },
   {
     "question": "During a client call, you don't know the answer to a question. You should:",
@@ -3013,7 +3128,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Honesty + follow-up is always better than guessing on client calls."
+    "hint": "Honesty + follow-up is always better than guessing on client calls.",
+    "category": "BizSkill"
   },
   {
     "question": "'Escalation' in a project context means:",
@@ -3039,7 +3155,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Escalation = formally raising unresolved issues to a senior level for action."
+    "hint": "Escalation = formally raising unresolved issues to a senior level for action.",
+    "category": "BizSkill"
   },
   {
     "question": "The 'Zero Tolerance' policy in TCS applies to:",
@@ -3065,7 +3182,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Zero Tolerance = no compromise on harassment, fraud, discrimination, or unethical conduct."
+    "hint": "Zero Tolerance = no compromise on harassment, fraud, discrimination, or unethical conduct.",
+    "category": "BizSkill"
   },
   {
     "question": "Which of the following is an example of 'active listening'?",
@@ -3091,7 +3209,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Active listening = full attention, acknowledgement, and reflective responses."
+    "hint": "Active listening = full attention, acknowledgement, and reflective responses.",
+    "category": "BizSkill"
   },
   {
     "question": "A client escalates a complaint directly to you via email. You should:",
@@ -3117,7 +3236,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Acknowledge, apologise (if warranted), and involve the right stakeholders promptly."
+    "hint": "Acknowledge, apologise (if warranted), and involve the right stakeholders promptly.",
+    "category": "BizSkill"
   },
   {
     "question": "'Agile' in software development primarily emphasises:",
@@ -3143,7 +3263,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Agile = iterative, collaborative, flexible development with continuous delivery."
+    "hint": "Agile = iterative, collaborative, flexible development with continuous delivery.",
+    "category": "BizSkill"
   },
   {
     "question": "Which behaviour best demonstrates TCS core value 'Integrity'?",
@@ -3169,7 +3290,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Integrity = doing the right thing especially when no one is watching."
+    "hint": "Integrity = doing the right thing especially when no one is watching.",
+    "category": "BizSkill"
   },
   {
     "question": "'Unconscious bias' refers to:",
@@ -3195,7 +3317,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Unconscious bias affects decisions without the person being aware of it."
+    "hint": "Unconscious bias affects decisions without the person being aware of it.",
+    "category": "BizSkill"
   },
   {
     "question": "Which of the following is appropriate during onboarding at TCS?",
@@ -3221,7 +3344,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Completing compliance training on time is a mandatory and professional responsibility."
+    "hint": "Completing compliance training on time is a mandatory and professional responsibility.",
+    "category": "BizSkill"
   },
   {
     "question": "'Due diligence' in a business context means:",
@@ -3247,7 +3371,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Due diligence = thorough investigation and verification before decisions or commitments."
+    "hint": "Due diligence = thorough investigation and verification before decisions or commitments.",
+    "category": "BizSkill"
   },
   {
     "question": "A male colleague makes repeated comments about a female colleague's appearance. This is:",
@@ -3273,7 +3398,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Unwanted repeated comments about appearance can constitute harassment under POSH."
+    "hint": "Unwanted repeated comments about appearance can constitute harassment under POSH.",
+    "category": "BizSkill"
   },
   {
     "question": "In a performance review, your manager gives you critical feedback. You should:",
@@ -3299,7 +3425,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Constructive engagement with feedback drives professional growth."
+    "hint": "Constructive engagement with feedback drives professional growth.",
+    "category": "BizSkill"
   },
   {
     "question": "What is 'downtime' in an IT project context?",
@@ -3325,7 +3452,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Downtime = period when a system/service is unavailable, often tracked for SLA compliance."
+    "hint": "Downtime = period when a system/service is unavailable, often tracked for SLA compliance.",
+    "category": "BizSkill"
   },
   {
     "question": "Which of the following best describes 'diversity and inclusion' in TCS?",
@@ -3351,7 +3479,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "D&I; = valuing differences and creating equitable, respectful environments."
+    "hint": "D&I; = valuing differences and creating equitable, respectful environments.",
+    "category": "BizSkill"
   },
   {
     "question": "'SLA' stands for in a service delivery context:",
@@ -3377,7 +3506,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "SLA = Service Level Agreement — defines expected service standards and response times."
+    "hint": "SLA = Service Level Agreement — defines expected service standards and response times.",
+    "category": "BizSkill"
   },
   {
     "question": "You accidentally send an email with a typo to a client. You should:",
@@ -3403,7 +3533,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Acknowledge the error briefly, send the correction, and maintain professionalism."
+    "hint": "Acknowledge the error briefly, send the correction, and maintain professionalism.",
+    "category": "BizSkill"
   },
   {
     "question": "Which of the following is an ethical use of AI tools at TCS?",
@@ -3429,7 +3560,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "AI should augment work — outputs must be reviewed and client data must not be shared externally."
+    "hint": "AI should augment work — outputs must be reviewed and client data must not be shared externally.",
+    "category": "BizSkill"
   },
   {
     "question": "'Micromanagement' refers to:",
@@ -3455,7 +3587,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Micromanagement = excessive oversight that reduces autonomy and demotivates teams."
+    "hint": "Micromanagement = excessive oversight that reduces autonomy and demotivates teams.",
+    "category": "BizSkill"
   },
   {
     "question": "When should you use 'Reply All' in a professional email?",
@@ -3481,7 +3614,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Reply All should only be used when every recipient needs to see your reply."
+    "hint": "Reply All should only be used when every recipient needs to see your reply.",
+    "category": "BizSkill"
   },
   {
     "question": "A client praises your team's work but specifically attributes it all to you. You should:",
@@ -3507,7 +3641,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Giving credit where due builds trust and demonstrates TCS value of Integrity."
+    "hint": "Giving credit where due builds trust and demonstrates TCS value of Integrity.",
+    "category": "BizSkill"
   },
   {
     "question": "'Attrition' in HR terms means:",
@@ -3533,7 +3668,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Attrition = rate at which employees leave an organisation."
+    "hint": "Attrition = rate at which employees leave an organisation.",
+    "category": "BizSkill"
   },
   {
     "question": "What is the correct response if you find malware on a company device?",
@@ -3559,7 +3695,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Malware must be reported to IT Security immediately — self-remediation can make things worse."
+    "hint": "Malware must be reported to IT Security immediately — self-remediation can make things worse.",
+    "category": "BizSkill"
   },
   {
     "question": "'Burnout' in a professional context refers to:",
@@ -3585,7 +3722,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Burnout is a state of chronic stress — managers should watch for it and employees should self-report."
+    "hint": "Burnout is a state of chronic stress — managers should watch for it and employees should self-report.",
+    "category": "BizSkill"
   },
   {
     "question": "Which of the following is a sign of a positive team culture?",
@@ -3611,7 +3749,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Positive team culture = psychological safety, shared accountability, and mutual support."
+    "hint": "Positive team culture = psychological safety, shared accountability, and mutual support.",
+    "category": "BizSkill"
   },
   {
     "question": "'Change management' in an IT project primarily addresses:",
@@ -3637,7 +3776,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Change management focuses on human adoption of new processes, systems or structures."
+    "hint": "Change management focuses on human adoption of new processes, systems or structures.",
+    "category": "BizSkill"
   },
   {
     "question": "You notice a billing discrepancy in your project's financial report. You should:",
@@ -3663,7 +3803,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Financial discrepancies must be flagged internally immediately."
+    "hint": "Financial discrepancies must be flagged internally immediately.",
+    "category": "BizSkill"
   },
   {
     "question": "Which statement best reflects TCS's commitment to sustainability?",
@@ -3689,7 +3830,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS has strong ESG commitments including net-zero, education, and rural development."
+    "hint": "TCS has strong ESG commitments including net-zero, education, and rural development.",
+    "category": "BizSkill"
   },
   {
     "question": "In a high-pressure project, a colleague suggests cutting corners on quality. You should:",
@@ -3715,7 +3857,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Quality shortcuts create long-term risks — escalate and explore options rather than compromising."
+    "hint": "Quality shortcuts create long-term risks — escalate and explore options rather than compromising.",
+    "category": "BizSkill"
   },
   {
     "question": "'Psychological safety' in a team means:",
@@ -3741,7 +3884,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Psychological safety enables innovation, honest communication, and learning from mistakes."
+    "hint": "Psychological safety enables innovation, honest communication, and learning from mistakes.",
+    "category": "BizSkill"
   },
   {
     "question": "Which TCS policy governs the use of social media by employees?",
@@ -3767,7 +3911,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "TCS has an IT Acceptable Use Policy and a Social Media Policy governing employee conduct online."
+    "hint": "TCS has an IT Acceptable Use Policy and a Social Media Policy governing employee conduct online.",
+    "category": "BizSkill"
   },
   {
     "question": "What should you do before sharing any TCS or client data with a third-party vendor?",
@@ -3780,12 +3925,12 @@ const questionsData = [
       {
         "id": "B",
         "text": "Verify the data classification, obtain necessary approvals, and ensure an NDA is in place",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "id": "C",
         "text": "Ask your colleague if it is okay",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "id": "D",
@@ -3793,7 +3938,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Data sharing with vendors requires classification check, approvals, and legal agreements."
+    "hint": "Data sharing with vendors requires classification check, approvals, and legal agreements.",
+    "category": "BizSkill"
   },
   {
     "question": "'Proactive communication' means:",
@@ -3819,7 +3965,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Proactive communication = volunteering timely, relevant information without waiting to be asked.\n■ SECTION C — UI: HTML, CSS & JavaScript Basics\n50 Questions | Tags, Selectors, Box Model, Flexbox, JS Basics"
+    "hint": "Proactive communication = volunteering timely, relevant information without waiting to be asked.",
+    "category": "BizSkill"
   },
   {
     "question": "Which HTML tag defines the document title shown in the browser tab?",
@@ -3845,7 +3992,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "The <title> tag inside <head> sets the browser tab title."
+    "hint": "The <title> tag inside <head> sets the browser tab title.",
+    "category": "UI"
   },
   {
     "question": "What is the correct HTML5 doctype declaration?",
@@ -3871,7 +4019,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "HTML5 uses the simple <!DOCTYPE html> declaration."
+    "hint": "HTML5 uses the simple <!DOCTYPE html> declaration.",
+    "category": "UI"
   },
   {
     "question": "Which attribute makes a text input mandatory in an HTML form?",
@@ -3897,7 +4046,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "The 'required' attribute makes an input field mandatory for form submission."
+    "hint": "The 'required' attribute makes an input field mandatory for form submission.",
+    "category": "UI"
   },
   {
     "question": "Which CSS property controls the space between the element content and its border?",
@@ -3923,7 +4073,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Padding = space between content and border. Margin = space outside the border."
+    "hint": "Padding = space between content and border. Margin = space outside the border.",
+    "category": "UI"
   },
   {
     "question": "What does 'em' unit represent in CSS?",
@@ -3949,7 +4100,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "1em = the font-size of the current/parent element."
+    "hint": "1em = the font-size of the current/parent element.",
+    "category": "UI"
   },
   {
     "question": "Which CSS selector selects all <p> elements inside a <div>?",
@@ -3975,7 +4127,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "'div p' selects all <p> descendants (any depth) inside a div."
+    "hint": "'div p' selects all <p> descendants (any depth) inside a div.",
+    "category": "UI"
   },
   {
     "question": "What is the default value of the CSS 'position' property?",
@@ -4001,7 +4154,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "Default CSS position is 'static' — normal document flow."
+    "hint": "Default CSS position is 'static' — normal document flow.",
+    "category": "UI"
   },
   {
     "question": "Which HTML element is used for the largest heading?",
@@ -4027,7 +4181,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "<h1> is the largest heading; <h6> is the smallest."
+    "hint": "<h1> is the largest heading; <h6> is the smallest.",
+    "category": "UI"
   },
   {
     "question": "In CSS Flexbox, which property defines the main axis direction?",
@@ -4053,7 +4208,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "flex-direction sets main axis: row (default), column, row-reverse, column-reverse."
+    "hint": "flex-direction sets main axis: row (default), column, row-reverse, column-reverse.",
+    "category": "UI"
   },
   {
     "question": "Which HTML tag creates an unordered (bulleted) list?",
@@ -4079,7 +4235,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "<ul> creates an unordered list; <ol> creates an ordered (numbered) list."
+    "hint": "<ul> creates an unordered list; <ol> creates an ordered (numbered) list.",
+    "category": "UI"
   },
   {
     "question": "What does the CSS property 'z-index' control?",
@@ -4105,7 +4262,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "z-index controls which element appears on top when elements overlap."
+    "hint": "z-index controls which element appears on top when elements overlap.",
+    "category": "UI"
   },
   {
     "question": "Which input type validates an email format in HTML5?",
@@ -4131,7 +4289,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "<input type='email'> automatically validates email format."
+    "hint": "<input type='email'> automatically validates email format.",
+    "category": "UI"
   },
   {
     "question": "Which CSS property makes text bold?",
@@ -4157,7 +4316,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "font-weight: bold (or 700) makes text bold."
+    "hint": "font-weight: bold (or 700) makes text bold.",
+    "category": "UI"
   },
   {
     "question": "What is the correct way to add an external CSS file to an HTML page?",
@@ -4183,7 +4343,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "<link rel='stylesheet' href='...'> links external CSS files."
+    "hint": "<link rel='stylesheet' href='...'> links external CSS files.",
+    "category": "UI"
   },
   {
     "question": "Which HTML tag is used to embed JavaScript in a webpage?",
@@ -4209,7 +4370,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "<script> tags are used to embed or reference JavaScript."
+    "hint": "<script> tags are used to embed or reference JavaScript.",
+    "category": "UI"
   },
   {
     "question": "In CSS, 'display: none' differs from 'visibility: hidden' because:",
@@ -4235,7 +4397,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "display:none removes from layout; visibility:hidden keeps space but hides visually."
+    "hint": "display:none removes from layout; visibility:hidden keeps space but hides visually.",
+    "category": "UI"
   },
   {
     "question": "What does the HTML 'alt' attribute on an <img> tag provide?",
@@ -4261,7 +4424,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Alt text is crucial for accessibility (screen readers) and when images fail to load."
+    "hint": "Alt text is crucial for accessibility (screen readers) and when images fail to load.",
+    "category": "UI"
   },
   {
     "question": "Which CSS pseudo-class targets an element when hovered over?",
@@ -4287,7 +4451,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": ":hover applies styles when the user's pointer is over the element."
+    "hint": ":hover applies styles when the user's pointer is over the element.",
+    "category": "UI"
   },
   {
     "question": "What is 'responsive design' in web development?",
@@ -4313,7 +4478,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Responsive design uses flexible grids, images, and media queries to adapt to screen sizes."
+    "hint": "Responsive design uses flexible grids, images, and media queries to adapt to screen sizes.",
+    "category": "UI"
   },
   {
     "question": "Which CSS unit is relative to the viewport width?",
@@ -4339,7 +4505,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "vw = 1% of the viewport width. vh = 1% of viewport height."
+    "hint": "vw = 1% of the viewport width. vh = 1% of viewport height.",
+    "category": "UI"
   },
   {
     "question": "What does the HTML <section> tag represent?",
@@ -4365,7 +4532,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "<section> defines a thematic grouping of content, typically with a heading."
+    "hint": "<section> defines a thematic grouping of content, typically with a heading.",
+    "category": "UI"
   },
   {
     "question": "Which CSS property is used to add shadow to an element?",
@@ -4391,7 +4559,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "box-shadow adds shadow to the box of an element. text-shadow is for text only."
+    "hint": "box-shadow adds shadow to the box of an element. text-shadow is for text only.",
+    "category": "UI"
   },
   {
     "question": "In JavaScript, which method adds an element to the end of an array?",
@@ -4417,7 +4586,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Array.push() adds one or more elements to the end of an array."
+    "hint": "Array.push() adds one or more elements to the end of an array.",
+    "category": "UI"
   },
   {
     "question": "What does 'CSS specificity' determine?",
@@ -4443,7 +4613,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Specificity determines which conflicting CSS rule wins. ID > Class > Element."
+    "hint": "Specificity determines which conflicting CSS rule wins. ID > Class > Element.",
+    "category": "UI"
   },
   {
     "question": "Which HTML tag defines a table row?",
@@ -4469,7 +4640,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "<tr> = table row. <td> = table data cell. <th> = table header cell."
+    "hint": "<tr> = table row. <td> = table data cell. <th> = table header cell.",
+    "category": "UI"
   },
   {
     "question": "Which CSS property controls text alignment?",
@@ -4495,7 +4667,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "text-align: left/right/center/justify controls horizontal text alignment."
+    "hint": "text-align: left/right/center/justify controls horizontal text alignment.",
+    "category": "UI"
   },
   {
     "question": "What is the purpose of the HTML <meta charset='UTF-8'> tag?",
@@ -4521,7 +4694,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "charset='UTF-8' ensures proper rendering of special characters across languages."
+    "hint": "charset='UTF-8' ensures proper rendering of special characters across languages.",
+    "category": "UI"
   },
   {
     "question": "In CSS Grid, which property defines the number of columns?",
@@ -4547,7 +4721,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "grid-template-columns defines the column structure in CSS Grid."
+    "hint": "grid-template-columns defines the column structure in CSS Grid.",
+    "category": "UI"
   },
   {
     "question": "Which JavaScript event fires when a user clicks an element?",
@@ -4573,7 +4748,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "onclick fires when an element is clicked."
+    "hint": "onclick fires when an element is clicked.",
+    "category": "UI"
   },
   {
     "question": "What does 'float: left' do in CSS?",
@@ -4599,7 +4775,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "float pulls an element out of normal flow and positions it left/right with text wrapping."
+    "hint": "float pulls an element out of normal flow and positions it left/right with text wrapping.",
+    "category": "UI"
   },
   {
     "question": "Which HTML5 tag is used for navigation links?",
@@ -4625,7 +4802,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "<nav> is the semantic HTML5 element for navigation menus."
+    "hint": "<nav> is the semantic HTML5 element for navigation menus.",
+    "category": "UI"
   },
   {
     "question": "What is the CSS 'overflow: hidden' property used for?",
@@ -4651,7 +4829,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "overflow:hidden clips any content that overflows outside the element boundary."
+    "hint": "overflow:hidden clips any content that overflows outside the element boundary.",
+    "category": "UI"
   },
   {
     "question": "In JavaScript, 'typeof null' returns:",
@@ -4677,7 +4856,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "typeof null === 'object' — a well-known JavaScript quirk/bug."
+    "hint": "typeof null === 'object' — a well-known JavaScript quirk/bug.",
+    "category": "UI"
   },
   {
     "question": "Which CSS property sets the minimum width of an element?",
@@ -4703,7 +4883,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "min-width ensures an element is never smaller than the specified value."
+    "hint": "min-width ensures an element is never smaller than the specified value.",
+    "category": "UI"
   },
   {
     "question": "What does the 'rel' attribute in <link rel='stylesheet'> specify?",
@@ -4729,7 +4910,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "The 'rel' attribute defines the relationship — 'stylesheet' tells the browser it is CSS."
+    "hint": "The 'rel' attribute defines the relationship — 'stylesheet' tells the browser it is CSS.",
+    "category": "UI"
   },
   {
     "question": "Which JavaScript method converts a JSON string to an object?",
@@ -4755,7 +4937,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "JSON.parse() deserialises a JSON string into a JavaScript object."
+    "hint": "JSON.parse() deserialises a JSON string into a JavaScript object.",
+    "category": "UI"
   },
   {
     "question": "Which CSS property adds rounded corners to an element?",
@@ -4781,7 +4964,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "border-radius controls the rounding of an element's corners."
+    "hint": "border-radius controls the rounding of an element's corners.",
+    "category": "UI"
   },
   {
     "question": "What is the 'DOM' in web development?",
@@ -4807,7 +4991,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "DOM = Document Object Model — JavaScript uses it to manipulate HTML/CSS dynamically."
+    "hint": "DOM = Document Object Model — JavaScript uses it to manipulate HTML/CSS dynamically.",
+    "category": "UI"
   },
   {
     "question": "Which HTML attribute opens a link in a new tab?",
@@ -4833,7 +5018,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "target='_blank' opens the hyperlink in a new browser tab."
+    "hint": "target='_blank' opens the hyperlink in a new browser tab.",
+    "category": "UI"
   },
   {
     "question": "What does 'CSS reset' accomplish?",
@@ -4859,7 +5045,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "CSS reset overrides browser default styles to create a consistent baseline."
+    "hint": "CSS reset overrides browser default styles to create a consistent baseline.",
+    "category": "UI"
   },
   {
     "question": "In CSS, which selector has the highest specificity?",
@@ -4885,7 +5072,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ID selectors (#id) have higher specificity than class (.class) or element selectors."
+    "hint": "ID selectors (#id) have higher specificity than class (.class) or element selectors.",
+    "category": "UI"
   },
   {
     "question": "Which HTML tag is used to define a cell in a table header row?",
@@ -4911,7 +5099,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "<th> = table header cell (bold and centred by default)."
+    "hint": "<th> = table header cell (bold and centred by default).",
+    "category": "UI"
   },
   {
     "question": "What is 'lazy loading' in web performance?",
@@ -4937,7 +5126,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Lazy loading improves performance by deferring off-screen resources."
+    "hint": "Lazy loading improves performance by deferring off-screen resources.",
+    "category": "UI"
   },
   {
     "question": "Which CSS value for 'position' removes the element from normal flow and positions relative to\nnearest positioned ancestor?",
@@ -4963,7 +5153,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "position:absolute removes from normal flow and positions relative to the nearest non-static ancestor."
+    "hint": "position:absolute removes from normal flow and positions relative to the nearest non-static ancestor.",
+    "category": "UI"
   },
   {
     "question": "In JavaScript, which operator checks both value AND type equality?",
@@ -4989,7 +5180,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "=== is strict equality — checks both value and type. == only checks value."
+    "hint": "=== is strict equality — checks both value and type. == only checks value.",
+    "category": "UI"
   },
   {
     "question": "Which HTML5 input type shows a colour picker?",
@@ -5015,7 +5207,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "<input type='color'> renders a native colour picker widget."
+    "hint": "<input type='color'> renders a native colour picker widget.",
+    "category": "UI"
   },
   {
     "question": "Which CSS property controls the space between flex items?",
@@ -5041,7 +5234,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "gap (formerly grid-gap) controls spacing between flex and grid items."
+    "hint": "gap (formerly grid-gap) controls spacing between flex and grid items.",
+    "category": "UI"
   },
   {
     "question": "What is 'semantic HTML'?",
@@ -5067,7 +5261,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Semantic HTML uses meaningful elements that describe their purpose, improving accessibility and SEO."
+    "hint": "Semantic HTML uses meaningful elements that describe their purpose, improving accessibility and SEO.",
+    "category": "UI"
   },
   {
     "question": "Which JavaScript method removes and returns the last element of an array?",
@@ -5093,7 +5288,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Array.pop() removes and returns the last element."
+    "hint": "Array.pop() removes and returns the last element.",
+    "category": "UI"
   },
   {
     "question": "What does 'viewport meta tag' do?",
@@ -5119,7 +5315,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "<meta name='viewport' content='width=device-width, initial-scale=1'> controls mobile scaling.\n■ SECTION D — Unix / Linux Commands\n50 Questions | Commands, Permissions, Shell, File System"
+    "hint": "<meta name='viewport' content='width=device-width, initial-scale=1'> controls mobile scaling.",
+    "category": "UI"
   },
   {
     "question": "Which command displays the current working directory?",
@@ -5145,7 +5342,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "pwd = Print Working Directory."
+    "hint": "pwd = Print Working Directory.",
+    "category": "Unix"
   },
   {
     "question": "Which command lists files including hidden files?",
@@ -5171,7 +5369,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ls -a shows all files including hidden (starting with dot)."
+    "hint": "ls -a shows all files including hidden (starting with dot).",
+    "category": "Unix"
   },
   {
     "question": "What does 'chmod 755 file.sh' set?",
@@ -5197,7 +5396,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "7=rwx(owner), 5=r-x(group), 5=r-x(others) → rwxr-xr-x."
+    "hint": "7=rwx(owner), 5=r-x(group), 5=r-x(others) → rwxr-xr-x.",
+    "category": "Unix"
   },
   {
     "question": "Which command searches for a pattern in a file?",
@@ -5223,7 +5423,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "grep searches for text patterns within files."
+    "hint": "grep searches for text patterns within files.",
+    "category": "Unix"
   },
   {
     "question": "What does the pipe '|' operator do?",
@@ -5249,7 +5450,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Pipe chains commands: output of left → input of right."
+    "hint": "Pipe chains commands: output of left → input of right.",
+    "category": "Unix"
   },
   {
     "question": "Which command shows running processes?",
@@ -5275,7 +5477,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ps (process status) lists running processes. ps aux for all."
+    "hint": "ps (process status) lists running processes. ps aux for all.",
+    "category": "Unix"
   },
   {
     "question": "What does 'rm -rf dir' do?",
@@ -5301,7 +5504,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "rm -rf forcefully and recursively deletes a directory and its contents."
+    "hint": "rm -rf forcefully and recursively deletes a directory and its contents.",
+    "category": "Unix"
   },
   {
     "question": "Which command moves or renames a file?",
@@ -5327,7 +5531,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "mv = move or rename files/directories."
+    "hint": "mv = move or rename files/directories.",
+    "category": "Unix"
   },
   {
     "question": "What does 'cat file.txt' do?",
@@ -5353,7 +5558,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "cat concatenates and displays file contents to standard output."
+    "hint": "cat concatenates and displays file contents to standard output.",
+    "category": "Unix"
   },
   {
     "question": "Which symbol appends output to a file without overwriting?",
@@ -5379,7 +5585,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": ">> appends output to file. > overwrites the file."
+    "hint": ">> appends output to file. > overwrites the file.",
+    "category": "Unix"
   },
   {
     "question": "Which command creates a new directory?",
@@ -5405,7 +5612,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "mkdir = make directory."
+    "hint": "mkdir = make directory.",
+    "category": "Unix"
   },
   {
     "question": "What does 'wc -l file.txt' count?",
@@ -5431,7 +5639,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "wc -l counts lines. wc -w counts words. wc -c counts bytes."
+    "hint": "wc -l counts lines. wc -w counts words. wc -c counts bytes.",
+    "category": "Unix"
   },
   {
     "question": "Which command displays the last 10 lines of a file?",
@@ -5457,7 +5666,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "tail -n 10 (default) shows last 10 lines. head shows first 10."
+    "hint": "tail -n 10 (default) shows last 10 lines. head shows first 10.",
+    "category": "Unix"
   },
   {
     "question": "What does 'chmod +x file.sh' do?",
@@ -5483,7 +5693,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "chmod +x adds execute permission for all (owner, group, others)."
+    "hint": "chmod +x adds execute permission for all (owner, group, others).",
+    "category": "Unix"
   },
   {
     "question": "Which command finds files by name?",
@@ -5509,7 +5720,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "find . -name 'filename' searches recursively from current directory."
+    "hint": "find . -name 'filename' searches recursively from current directory.",
+    "category": "Unix"
   },
   {
     "question": "What does 'echo $HOME' print?",
@@ -5535,7 +5747,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "$HOME is an environment variable holding the home directory path."
+    "hint": "$HOME is an environment variable holding the home directory path.",
+    "category": "Unix"
   },
   {
     "question": "Which command shows disk usage of a directory?",
@@ -5561,7 +5774,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "du (disk usage) shows size of directories. df shows filesystem usage."
+    "hint": "du (disk usage) shows size of directories. df shows filesystem usage.",
+    "category": "Unix"
   },
   {
     "question": "What does 'chown user file' do?",
@@ -5587,7 +5801,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "chown = change owner. chown user:group file to change both."
+    "hint": "chown = change owner. chown user:group file to change both.",
+    "category": "Unix"
   },
   {
     "question": "Which command copies a file?",
@@ -5613,7 +5828,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "cp = copy. cp -r for recursive directory copy."
+    "hint": "cp = copy. cp -r for recursive directory copy.",
+    "category": "Unix"
   },
   {
     "question": "What does 'ps aux | grep apache' do?",
@@ -5639,7 +5855,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Combines ps aux (all processes) with grep to filter for 'apache'."
+    "hint": "Combines ps aux (all processes) with grep to filter for 'apache'.",
+    "category": "Unix"
   },
   {
     "question": "Which command shows the first 5 lines of a file?",
@@ -5665,7 +5882,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "head -5 shows first 5 lines. head -n 5 also works."
+    "hint": "head -5 shows first 5 lines. head -n 5 also works.",
+    "category": "Unix"
   },
   {
     "question": "What is a 'symlink'?",
@@ -5691,7 +5909,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ln -s target link_name creates a symbolic link."
+    "hint": "ln -s target link_name creates a symbolic link.",
+    "category": "Unix"
   },
   {
     "question": "Which command shows all environment variables?",
@@ -5717,7 +5936,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "env lists all current environment variables."
+    "hint": "env lists all current environment variables.",
+    "category": "Unix"
   },
   {
     "question": "What does 'kill -9 PID' do?",
@@ -5743,7 +5963,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "kill -9 sends SIGKILL — forceful termination that cannot be caught."
+    "hint": "kill -9 sends SIGKILL — forceful termination that cannot be caught.",
+    "category": "Unix"
   },
   {
     "question": "Which permission number gives read and write but NOT execute?",
@@ -5769,7 +5990,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "rw- = 4+2 = 6. rwx=7, r-x=5, r--=4."
+    "hint": "rw- = 4+2 = 6. rwx=7, r-x=5, r--=4.",
+    "category": "Unix"
   },
   {
     "question": "What does 'sudo' stand for?",
@@ -5795,7 +6017,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "sudo = Super User Do — executes a command with elevated (root) privileges."
+    "hint": "sudo = Super User Do — executes a command with elevated (root) privileges.",
+    "category": "Unix"
   },
   {
     "question": "Which command shows network interfaces and IP addresses?",
@@ -5821,7 +6044,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ifconfig (older) or ip addr (modern Linux) displays network interface info."
+    "hint": "ifconfig (older) or ip addr (modern Linux) displays network interface info.",
+    "category": "Unix"
   },
   {
     "question": "What does 'history' command show?",
@@ -5847,7 +6071,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "history shows the list of previously entered shell commands."
+    "hint": "history shows the list of previously entered shell commands.",
+    "category": "Unix"
   },
   {
     "question": "Which command opens a manual page for a command?",
@@ -5873,7 +6098,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "man command shows the manual (documentation) page for any command."
+    "hint": "man command shows the manual (documentation) page for any command.",
+    "category": "Unix"
   },
   {
     "question": "What does 'df -h' show?",
@@ -5899,7 +6125,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "df -h shows disk space usage with human-readable sizes (KB/MB/GB)."
+    "hint": "df -h shows disk space usage with human-readable sizes (KB/MB/GB).",
+    "category": "Unix"
   },
   {
     "question": "Which command monitors real-time system resource usage?",
@@ -5925,7 +6152,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "top or htop shows live CPU, memory and process usage."
+    "hint": "top or htop shows live CPU, memory and process usage.",
+    "category": "Unix"
   },
   {
     "question": "What does 'tar -czf archive.tar.gz dir/' do?",
@@ -5951,7 +6179,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "tar -czf = create(-c), gzip(-z), file(-f). Used to compress directories."
+    "hint": "tar -czf = create(-c), gzip(-z), file(-f). Used to compress directories.",
+    "category": "Unix"
   },
   {
     "question": "Which command extracts a tar.gz archive?",
@@ -5977,7 +6206,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "tar -xzf = extract(-x), gzip(-z), file(-f)."
+    "hint": "tar -xzf = extract(-x), gzip(-z), file(-f).",
+    "category": "Unix"
   },
   {
     "question": "What does 'crontab -e' do?",
@@ -6003,7 +6233,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "crontab -e opens the cron table editor to schedule recurring tasks."
+    "hint": "crontab -e opens the cron table editor to schedule recurring tasks.",
+    "category": "Unix"
   },
   {
     "question": "Which file stores user account information in Linux?",
@@ -6029,7 +6260,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "/etc/passwd stores basic user account info (username, UID, home dir, shell)."
+    "hint": "/etc/passwd stores basic user account info (username, UID, home dir, shell).",
+    "category": "Unix"
   },
   {
     "question": "What does 'sort -r file.txt' do?",
@@ -6055,7 +6287,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "sort -r reverses the sort order. Default sort is ascending."
+    "hint": "sort -r reverses the sort order. Default sort is ascending.",
+    "category": "Unix"
   },
   {
     "question": "Which command shows unique lines in a sorted file?",
@@ -6081,7 +6314,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "uniq filters adjacent duplicate lines. Use sort file | uniq for full de-duplication."
+    "hint": "uniq filters adjacent duplicate lines. Use sort file | uniq for full de-duplication.",
+    "category": "Unix"
   },
   {
     "question": "What does 'which python3' show?",
@@ -6107,7 +6341,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "which command shows the full path of the executable for a command."
+    "hint": "which command shows the full path of the executable for a command.",
+    "category": "Unix"
   },
   {
     "question": "What is the purpose of '#!/bin/bash' at the top of a shell script?",
@@ -6133,7 +6368,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Shebang line (#!) tells the kernel which interpreter to use."
+    "hint": "Shebang line (#!) tells the kernel which interpreter to use.",
+    "category": "Unix"
   },
   {
     "question": "Which command shows the last login time of users?",
@@ -6159,7 +6395,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "lastlog shows the most recent login for all users."
+    "hint": "lastlog shows the most recent login for all users.",
+    "category": "Unix"
   },
   {
     "question": "What does 'ln -s /etc/hosts myhosts' create?",
@@ -6185,7 +6422,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ln -s creates a symbolic (soft) link."
+    "hint": "ln -s creates a symbolic (soft) link.",
+    "category": "Unix"
   },
   {
     "question": "Which command changes the current user's password?",
@@ -6211,7 +6449,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "passwd changes the password for the current (or specified) user."
+    "hint": "passwd changes the password for the current (or specified) user.",
+    "category": "Unix"
   },
   {
     "question": "What does 'nohup command &' do?",
@@ -6237,7 +6476,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "nohup + & runs a command in background that persists after logout."
+    "hint": "nohup + & runs a command in background that persists after logout.",
+    "category": "Unix"
   },
   {
     "question": "Which command displays the hostname of the system?",
@@ -6263,7 +6503,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "hostname displays or sets the system's network name."
+    "hint": "hostname displays or sets the system's network name.",
+    "category": "Unix"
   },
   {
     "question": "What does 'awk '{print $2}' file.txt' do?",
@@ -6289,7 +6530,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "awk uses $1, $2... to access whitespace-separated fields. $2 = second field."
+    "hint": "awk uses $1, $2... to access whitespace-separated fields. $2 = second field.",
+    "category": "Unix"
   },
   {
     "question": "Which command checks if a remote host is reachable?",
@@ -6315,7 +6557,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ping sends ICMP packets to test network connectivity to a host."
+    "hint": "ping sends ICMP packets to test network connectivity to a host.",
+    "category": "Unix"
   },
   {
     "question": "What is '/dev/null' in Linux?",
@@ -6341,7 +6584,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "/dev/null is a special file that discards all input — used to suppress output."
+    "hint": "/dev/null is a special file that discards all input — used to suppress output.",
+    "category": "Unix"
   },
   {
     "question": "Which command shows the size of a specific file in human-readable format?",
@@ -6367,7 +6611,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "du -sh filename shows disk usage in human-readable format."
+    "hint": "du -sh filename shows disk usage in human-readable format.",
+    "category": "Unix"
   },
   {
     "question": "What does 'sed 's/old/new/g' file.txt' do?",
@@ -6393,7 +6638,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "sed 's/old/new/g' — the 'g' flag replaces ALL occurrences globally."
+    "hint": "sed 's/old/new/g' — the 'g' flag replaces ALL occurrences globally.",
+    "category": "Unix"
   },
   {
     "question": "Which command shows all currently logged-in users?",
@@ -6419,7 +6665,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "users, who, and w all show logged-in users (with varying levels of detail).\n■■ SECTION E — Java & Python MCQs\n50 Questions | OOP, Data Structures, Logic, Syntax"
+    "hint": "users, who, and w all show logged-in users (with varying levels of detail).",
+    "category": "Unix"
   },
   {
     "question": "What is the output of: print(type({}))?",
@@ -6445,7 +6692,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "{} creates an empty dict. type({}) = <class 'dict'>."
+    "hint": "{} creates an empty dict. type({}) = <class 'dict'>.",
+    "category": "Java / Python"
   },
   {
     "question": "Which Python keyword defines a generator function?",
@@ -6471,7 +6719,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "yield turns a function into a generator, enabling lazy evaluation."
+    "hint": "yield turns a function into a generator, enabling lazy evaluation.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the output of: print(3 * '2')?",
@@ -6497,7 +6746,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "String * int in Python repeats the string. '2' * 3 = '222'."
+    "hint": "String * int in Python repeats the string. '2' * 3 = '222'.",
+    "category": "Java / Python"
   },
   {
     "question": "Which Python method removes whitespace from both ends of a string?",
@@ -6523,7 +6773,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "str.strip() removes leading and trailing whitespace."
+    "hint": "str.strip() removes leading and trailing whitespace.",
+    "category": "Java / Python"
   },
   {
     "question": "What is a Python 'lambda'?",
@@ -6549,7 +6800,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "lambda args: expression — a one-line anonymous function."
+    "hint": "lambda args: expression — a one-line anonymous function.",
+    "category": "Java / Python"
   },
   {
     "question": "What does 'list(range(1, 6))' produce?",
@@ -6575,7 +6827,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "range(1,6) = 1 to 5 inclusive. End is exclusive."
+    "hint": "range(1,6) = 1 to 5 inclusive. End is exclusive.",
+    "category": "Java / Python"
   },
   {
     "question": "Which of the following creates a set in Python?",
@@ -6601,7 +6854,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "A set uses curly braces with elements: {1,2,3}. {} alone creates a dict."
+    "hint": "A set uses curly braces with elements: {1,2,3}. {} alone creates a dict.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the output of: x = [1,2,3]; print(x[-1])?",
@@ -6627,7 +6881,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Negative indexing in Python: x[-1] = last element = 3."
+    "hint": "Negative indexing in Python: x[-1] = last element = 3.",
+    "category": "Java / Python"
   },
   {
     "question": "Which Python exception is raised for division by zero?",
@@ -6653,7 +6908,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ZeroDivisionError is raised when dividing by zero."
+    "hint": "ZeroDivisionError is raised when dividing by zero.",
+    "category": "Java / Python"
   },
   {
     "question": "What does 'dict.get(key, default)' do?",
@@ -6679,7 +6935,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "dict.get() safely retrieves a value without raising KeyError."
+    "hint": "dict.get() safely retrieves a value without raising KeyError.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the output of: print(bool(0), bool(''), bool([]))?",
@@ -6705,7 +6962,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "0, empty string, and empty list are all falsy in Python."
+    "hint": "0, empty string, and empty list are all falsy in Python.",
+    "category": "Java / Python"
   },
   {
     "question": "Which Python decorator makes a method belong to the class, not an instance?",
@@ -6731,7 +6989,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "@staticmethod and @classmethod both define class-level methods."
+    "hint": "@staticmethod and @classmethod both define class-level methods.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the correct way to open a file for writing in Python?",
@@ -6757,7 +7016,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "'w' mode opens for writing (creates or overwrites). 'a' appends."
+    "hint": "'w' mode opens for writing (creates or overwrites). 'a' appends.",
+    "category": "Java / Python"
   },
   {
     "question": "What does 'enumerate([10,20,30])' return when iterated?",
@@ -6783,7 +7043,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "enumerate returns (index, value) pairs."
+    "hint": "enumerate returns (index, value) pairs.",
+    "category": "Java / Python"
   },
   {
     "question": "Which of the following is NOT a valid Python data type?",
@@ -6809,7 +7070,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Python does not have a built-in 'array' type (lists serve this purpose; array module exists but is separate)."
+    "hint": "Python does not have a built-in 'array' type (lists serve this purpose; array module exists but is separate).",
+    "category": "Java / Python"
   },
   {
     "question": "What is the output of: print(10 // 3)?",
@@ -6835,7 +7097,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "// is floor division. 10//3 = 3 (truncates decimal)."
+    "hint": "// is floor division. 10//3 = 3 (truncates decimal).",
+    "category": "Java / Python"
   },
   {
     "question": "Which keyword is used to inherit a class in Python?",
@@ -6861,7 +7124,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Python uses class Child(Parent): syntax for inheritance."
+    "hint": "Python uses class Child(Parent): syntax for inheritance.",
+    "category": "Java / Python"
   },
   {
     "question": "What does 'map(func, iterable)' do?",
@@ -6887,7 +7151,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "map() applies a function to every item in an iterable."
+    "hint": "map() applies a function to every item in an iterable.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the output of: 'hello'.upper()[:3]?",
@@ -6913,7 +7178,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "'hello'.upper() = 'HELLO'. [:3] = 'HEL'."
+    "hint": "'hello'.upper() = 'HELLO'. [:3] = 'HEL'.",
+    "category": "Java / Python"
   },
   {
     "question": "Which Python module is used for regular expressions?",
@@ -6939,7 +7205,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "The 're' module provides regular expression operations in Python."
+    "hint": "The 're' module provides regular expression operations in Python.",
+    "category": "Java / Python"
   },
   {
     "question": "What does 'zip([1,2],[3,4])' produce when converted to list?",
@@ -6965,7 +7232,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "zip pairs elements: [(1,3),(2,4)]."
+    "hint": "zip pairs elements: [(1,3),(2,4)].",
+    "category": "Java / Python"
   },
   {
     "question": "What is a Python 'list comprehension'?",
@@ -6991,7 +7259,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "List comprehension: [x*2 for x in range(5)] = [0,2,4,6,8]."
+    "hint": "List comprehension: [x*2 for x in range(5)] = [0,2,4,6,8].",
+    "category": "Java / Python"
   },
   {
     "question": "Which built-in function returns the length of an object?",
@@ -7017,7 +7286,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "len() returns the number of items in a sequence or collection."
+    "hint": "len() returns the number of items in a sequence or collection.",
+    "category": "Java / Python"
   },
   {
     "question": "What does 'try...except...finally' ensure?",
@@ -7043,7 +7313,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "finally always runs — used for cleanup like closing files."
+    "hint": "finally always runs — used for cleanup like closing files.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the output of: print([x**2 for x in range(4)])?",
@@ -7069,7 +7340,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "range(4) = 0,1,2,3. Squared: 0,1,4,9."
+    "hint": "range(4) = 0,1,2,3. Squared: 0,1,4,9.",
+    "category": "Java / Python"
   },
   {
     "question": "In Java, which keyword prevents a variable from being reassigned?",
@@ -7095,7 +7367,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "final variables cannot be reassigned after initialisation."
+    "hint": "final variables cannot be reassigned after initialisation.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the output of: System.out.println(5 + 3 + 'a')?",
@@ -7121,7 +7394,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "'a' ASCII = 97. 5+3=8, 8+97=105. Java char is treated as int in arithmetic."
+    "hint": "'a' ASCII = 97. 5+3=8, 8+97=105. Java char is treated as int in arithmetic.",
+    "category": "Java / Python"
   },
   {
     "question": "Which Java collection maintains insertion order and allows duplicates?",
@@ -7147,7 +7421,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ArrayList maintains insertion order and allows duplicate elements."
+    "hint": "ArrayList maintains insertion order and allows duplicate elements.",
+    "category": "Java / Python"
   },
   {
     "question": "What does 'public static void main(String[] args)' mean?",
@@ -7173,7 +7448,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "main() is the entry point of every Java application."
+    "hint": "main() is the entry point of every Java application.",
+    "category": "Java / Python"
   },
   {
     "question": "Which principle of OOP allows a subclass to provide a specific implementation of a method already\ndefined in its superclass?",
@@ -7199,7 +7475,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Method Overriding = subclass redefines a superclass method with @Override."
+    "hint": "Method Overriding = subclass redefines a superclass method with @Override.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the difference between '==' and '.equals()' in Java for Strings?",
@@ -7225,7 +7502,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "'==' checks if two references point to the same object. .equals() compares string content."
+    "hint": "'==' checks if two references point to the same object. .equals() compares string content.",
+    "category": "Java / Python"
   },
   {
     "question": "Which Java keyword is used to call the parent class constructor?",
@@ -7251,7 +7529,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "super() calls the parent class constructor from a subclass."
+    "hint": "super() calls the parent class constructor from a subclass.",
+    "category": "Java / Python"
   },
   {
     "question": "Which exception is thrown when an array is accessed out of bounds?",
@@ -7277,7 +7556,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "ArrayIndexOutOfBoundsException is thrown for invalid array index access."
+    "hint": "ArrayIndexOutOfBoundsException is thrown for invalid array index access.",
+    "category": "Java / Python"
   },
   {
     "question": "What is an 'interface' in Java?",
@@ -7303,7 +7583,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Interface = contract of method signatures that implementing classes must fulfil."
+    "hint": "Interface = contract of method signatures that implementing classes must fulfil.",
+    "category": "Java / Python"
   },
   {
     "question": "Which Java class is used for mutable strings?",
@@ -7329,7 +7610,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "StringBuilder (non-threadsafe) and StringBuffer (threadsafe) allow string mutation."
+    "hint": "StringBuilder (non-threadsafe) and StringBuffer (threadsafe) allow string mutation.",
+    "category": "Java / Python"
   },
   {
     "question": "What does 'ArrayList vs LinkedList' differ in?",
@@ -7355,7 +7637,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ArrayList is better for random access; LinkedList is better for frequent insertions/deletions."
+    "hint": "ArrayList is better for random access; LinkedList is better for frequent insertions/deletions.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the output of: int x = 5; System.out.println(x++)?",
@@ -7381,7 +7664,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Post-increment: x++ returns current value (5), then increments x to 6."
+    "hint": "Post-increment: x++ returns current value (5), then increments x to 6.",
+    "category": "Java / Python"
   },
   {
     "question": "Which keyword prevents a class from being subclassed in Java?",
@@ -7407,7 +7691,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "final class cannot be extended (e.g., java.lang.String is final)."
+    "hint": "final class cannot be extended (e.g., java.lang.String is final).",
+    "category": "Java / Python"
   },
   {
     "question": "What is 'polymorphism' in OOP?",
@@ -7433,7 +7718,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Polymorphism = 'many forms' — one interface, multiple implementations."
+    "hint": "Polymorphism = 'many forms' — one interface, multiple implementations.",
+    "category": "Java / Python"
   },
   {
     "question": "Which Java data structure is LIFO (Last In First Out)?",
@@ -7459,7 +7745,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Stack is LIFO. Queue is FIFO."
+    "hint": "Stack is LIFO. Queue is FIFO.",
+    "category": "Java / Python"
   },
   {
     "question": "What is 'garbage collection' in Java?",
@@ -7485,7 +7772,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Java's GC automatically frees memory occupied by unreachable objects."
+    "hint": "Java's GC automatically frees memory occupied by unreachable objects.",
+    "category": "Java / Python"
   },
   {
     "question": "Which Java keyword is used for exception handling?",
@@ -7511,7 +7799,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Java uses try-catch-finally for exception handling."
+    "hint": "Java uses try-catch-finally for exception handling.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the access level of 'protected' in Java?",
@@ -7537,7 +7826,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "protected = same package + subclasses (even in different packages)."
+    "hint": "protected = same package + subclasses (even in different packages).",
+    "category": "Java / Python"
   },
   {
     "question": "What does 'HashMap.put(key, value)' do?",
@@ -7563,7 +7853,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "put() inserts a new key-value pair or updates the value if key already exists."
+    "hint": "put() inserts a new key-value pair or updates the value if key already exists.",
+    "category": "Java / Python"
   },
   {
     "question": "Which annotation suppresses compiler warnings about type safety in Java?",
@@ -7589,7 +7880,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "@SuppressWarnings('unchecked') suppresses type-safety warnings."
+    "hint": "@SuppressWarnings('unchecked') suppresses type-safety warnings.",
+    "category": "Java / Python"
   },
   {
     "question": "What is a 'constructor' in Java?",
@@ -7615,7 +7907,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Constructor = same name as class, no return type, called via 'new'."
+    "hint": "Constructor = same name as class, no return type, called via 'new'.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the time complexity of binary search?",
@@ -7641,7 +7934,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Binary search halves the search space each step → O(log n)."
+    "hint": "Binary search halves the search space each step → O(log n).",
+    "category": "Java / Python"
   },
   {
     "question": "Which Java collection class does NOT allow null keys?",
@@ -7667,7 +7961,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Hashtable does not allow null keys or null values (unlike HashMap)."
+    "hint": "Hashtable does not allow null keys or null values (unlike HashMap).",
+    "category": "Java / Python"
   },
   {
     "question": "What is 'method overloading' in Java?",
@@ -7693,7 +7988,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Overloading = same method name, different signatures in one class."
+    "hint": "Overloading = same method name, different signatures in one class.",
+    "category": "Java / Python"
   },
   {
     "question": "What is the output of: System.out.println(1 + 2 + '3')?",
@@ -7719,7 +8015,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "1+2=3, '3' ASCII=51. 3+51=54... Wait: actually '3'=51, so 1+2=3, 3+51=54. Answer is 54. However in common TCS\npattern: correct answer is 54.\n■■ SECTION F — SQL / MySQL / PL-SQL\n50 Questions | Queries, Joins, Functions, Stored Procedures"
+    "hint": "1+2=3, '3' ASCII=51. 3+51=54... Wait: actually '3'=51, so 1+2=3, 3+51=54. Answer is 54. However in common TCS\npattern: correct answer is 54.",
+    "category": "Java / Python"
   },
   {
     "question": "Which SQL clause filters rows BEFORE grouping?",
@@ -7745,7 +8042,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "WHERE filters individual rows before GROUP BY. HAVING filters groups after."
+    "hint": "WHERE filters individual rows before GROUP BY. HAVING filters groups after.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does 'SELECT DISTINCT city FROM employees' do?",
@@ -7771,7 +8069,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "DISTINCT eliminates duplicate values from the result set."
+    "hint": "DISTINCT eliminates duplicate values from the result set.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which JOIN returns only matching rows from both tables?",
@@ -7797,7 +8096,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "INNER JOIN returns only rows where the join condition matches in BOTH tables."
+    "hint": "INNER JOIN returns only rows where the join condition matches in BOTH tables.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does the 'COUNT(*)' function return?",
@@ -7823,7 +8123,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "COUNT(*) counts all rows including NULLs."
+    "hint": "COUNT(*) counts all rows including NULLs.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which SQL command is used to permanently delete a table and its structure?",
@@ -7849,7 +8150,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "DROP TABLE permanently removes the table and its structure. DELETE removes rows only."
+    "hint": "DROP TABLE permanently removes the table and its structure. DELETE removes rows only.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What is the difference between DELETE and TRUNCATE?",
@@ -7875,7 +8177,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "DELETE is DML (can rollback, supports WHERE). TRUNCATE is DDL (faster, no WHERE)."
+    "hint": "DELETE is DML (can rollback, supports WHERE). TRUNCATE is DDL (faster, no WHERE).",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which clause is used to sort results?",
@@ -7901,7 +8204,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ORDER BY column_name [ASC|DESC] sorts query results."
+    "hint": "ORDER BY column_name [ASC|DESC] sorts query results.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does a PRIMARY KEY constraint ensure?",
@@ -7927,7 +8231,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "PRIMARY KEY = UNIQUE + NOT NULL. Each table can have only one primary key."
+    "hint": "PRIMARY KEY = UNIQUE + NOT NULL. Each table can have only one primary key.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which function returns the current date in SQL?",
@@ -7953,7 +8258,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "MySQL: CURDATE() or NOW() (with time). SQL Server: GETDATE()."
+    "hint": "MySQL: CURDATE() or NOW() (with time). SQL Server: GETDATE().",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What is a FOREIGN KEY?",
@@ -7979,7 +8285,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "FOREIGN KEY enforces referential integrity by linking to another table's PK."
+    "hint": "FOREIGN KEY enforces referential integrity by linking to another table's PK.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which SQL aggregate function returns the total sum?",
@@ -8005,7 +8312,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "SUM() adds up all values in a numeric column."
+    "hint": "SUM() adds up all values in a numeric column.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does 'GROUP BY department' do?",
@@ -8031,7 +8339,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "GROUP BY groups rows with the same value, used with aggregate functions."
+    "hint": "GROUP BY groups rows with the same value, used with aggregate functions.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which of the following is a DDL (Data Definition Language) command?",
@@ -8057,7 +8366,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "DDL commands: CREATE, ALTER, DROP, TRUNCATE. DML: SELECT, INSERT, UPDATE, DELETE."
+    "hint": "DDL commands: CREATE, ALTER, DROP, TRUNCATE. DML: SELECT, INSERT, UPDATE, DELETE.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does 'HAVING COUNT(*) > 5' do in a query?",
@@ -8083,7 +8393,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "HAVING filters aggregated groups — cannot use WHERE for aggregate conditions."
+    "hint": "HAVING filters aggregated groups — cannot use WHERE for aggregate conditions.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which SQL keyword adds new rows to a table?",
@@ -8109,7 +8420,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "INSERT INTO table (cols) VALUES (vals) adds new rows."
+    "hint": "INSERT INTO table (cols) VALUES (vals) adds new rows.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does NULL represent in SQL?",
@@ -8135,7 +8447,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "NULL means the absence of a value — not 0 or empty string."
+    "hint": "NULL means the absence of a value — not 0 or empty string.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which operator checks for NULL values?",
@@ -8161,7 +8474,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Always use IS NULL or IS NOT NULL — never '= NULL'."
+    "hint": "Always use IS NULL or IS NOT NULL — never '= NULL'.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What is a 'subquery'?",
@@ -8187,7 +8501,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Subquery = a query within another query, in WHERE, FROM, or SELECT clauses."
+    "hint": "Subquery = a query within another query, in WHERE, FROM, or SELECT clauses.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which JOIN returns all rows from the LEFT table plus matching rows from the right?",
@@ -8213,7 +8528,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "LEFT JOIN keeps ALL rows from left table; unmatched right rows show NULL."
+    "hint": "LEFT JOIN keeps ALL rows from left table; unmatched right rows show NULL.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does 'UPDATE employees SET salary = salary * 1.1 WHERE dept = 'IT'' do?",
@@ -8239,7 +8555,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "salary * 1.1 multiplies current salary by 1.1 = 10% increase."
+    "hint": "salary * 1.1 multiplies current salary by 1.1 = 10% increase.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which SQL statement creates a virtual table based on a query?",
@@ -8265,7 +8582,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "CREATE VIEW name AS SELECT... creates a virtual table/view."
+    "hint": "CREATE VIEW name AS SELECT... creates a virtual table/view.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What is a 'stored procedure' in SQL?",
@@ -8291,7 +8609,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Stored procedures are precompiled SQL blocks that can accept parameters and be reused."
+    "hint": "Stored procedures are precompiled SQL blocks that can accept parameters and be reused.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which clause limits the number of rows returned?",
@@ -8317,7 +8636,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "LIMIT (MySQL/PostgreSQL) or TOP (SQL Server) limits rows returned."
+    "hint": "LIMIT (MySQL/PostgreSQL) or TOP (SQL Server) limits rows returned.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does 'ALTER TABLE employees ADD COLUMN age INT' do?",
@@ -8343,7 +8663,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ALTER TABLE ADD COLUMN adds a new column to an existing table."
+    "hint": "ALTER TABLE ADD COLUMN adds a new column to an existing table.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which SQL function returns the length of a string?",
@@ -8369,7 +8690,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "LEN() in SQL Server; LENGTH() in MySQL — both return string character count."
+    "hint": "LEN() in SQL Server; LENGTH() in MySQL — both return string character count.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What is a 'trigger' in SQL?",
@@ -8395,7 +8717,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Triggers auto-execute on DML events (INSERT/UPDATE/DELETE)."
+    "hint": "Triggers auto-execute on DML events (INSERT/UPDATE/DELETE).",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which of the following is a scalar function in SQL?",
@@ -8421,7 +8744,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "UPPER() is a scalar function — operates on a single value per row."
+    "hint": "UPPER() is a scalar function — operates on a single value per row.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does 'COALESCE(col1, col2, 'default')' return?",
@@ -8447,7 +8771,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "COALESCE returns the first non-NULL argument in the list."
+    "hint": "COALESCE returns the first non-NULL argument in the list.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which command grants SELECT permission to a user in SQL?",
@@ -8473,7 +8798,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "GRANT privilege ON object TO user — standard SQL privilege management."
+    "hint": "GRANT privilege ON object TO user — standard SQL privilege management.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does 'ROLLBACK' do in SQL?",
@@ -8499,7 +8825,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ROLLBACK undoes uncommitted transactions in the current transaction block."
+    "hint": "ROLLBACK undoes uncommitted transactions in the current transaction block.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which SQL clause is used for pattern matching?",
@@ -8525,7 +8852,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "LIKE uses wildcards: % (any characters) and _ (single character)."
+    "hint": "LIKE uses wildcards: % (any characters) and _ (single character).",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does 'SELECT MAX(salary) FROM employees WHERE dept='Sales'' return?",
@@ -8551,7 +8879,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "MAX() returns the highest value — filtered by WHERE before aggregation."
+    "hint": "MAX() returns the highest value — filtered by WHERE before aggregation.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What is 'normalisation' in database design?",
@@ -8577,7 +8906,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Normalisation (1NF, 2NF, 3NF) eliminates redundancy and ensures data integrity."
+    "hint": "Normalisation (1NF, 2NF, 3NF) eliminates redundancy and ensures data integrity.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which join returns all rows from BOTH tables including non-matching rows?",
@@ -8603,7 +8933,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "FULL OUTER JOIN = LEFT JOIN + RIGHT JOIN — all rows from both tables."
+    "hint": "FULL OUTER JOIN = LEFT JOIN + RIGHT JOIN — all rows from both tables.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does 'IN (val1, val2, val3)' do in a WHERE clause?",
@@ -8629,7 +8960,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "IN checks if the value matches ANY value in the specified list."
+    "hint": "IN checks if the value matches ANY value in the specified list.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which constraint ensures a column value is unique but allows NULLs?",
@@ -8655,7 +8987,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "UNIQUE allows one NULL (in most databases) while still enforcing uniqueness."
+    "hint": "UNIQUE allows one NULL (in most databases) while still enforcing uniqueness.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What is a 'composite key'?",
@@ -8681,7 +9014,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Composite key = primary key formed by combining two or more columns."
+    "hint": "Composite key = primary key formed by combining two or more columns.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which SQL function rounds a number to the nearest integer?",
@@ -8707,7 +9041,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "ROUND(value, decimal_places) rounds to nearest. CEIL rounds up, FLOOR rounds down."
+    "hint": "ROUND(value, decimal_places) rounds to nearest. CEIL rounds up, FLOOR rounds down.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does 'BETWEEN 50 AND 100' do in a WHERE clause?",
@@ -8733,7 +9068,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "BETWEEN is inclusive on both ends: WHERE salary BETWEEN 50 AND 100."
+    "hint": "BETWEEN is inclusive on both ends: WHERE salary BETWEEN 50 AND 100.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which command saves the current transaction permanently?",
@@ -8759,7 +9095,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "COMMIT permanently saves all changes made in the current transaction."
+    "hint": "COMMIT permanently saves all changes made in the current transaction.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does 'INDEX' do in SQL?",
@@ -8785,7 +9122,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Indexes improve query performance by allowing faster data retrieval."
+    "hint": "Indexes improve query performance by allowing faster data retrieval.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which aggregate function calculates the average?",
@@ -8811,7 +9149,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "AVG() calculates the arithmetic mean of a numeric column."
+    "hint": "AVG() calculates the arithmetic mean of a numeric column.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What is a 'cursor' in PL-SQL?",
@@ -8837,7 +9176,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Cursors allow row-by-row processing of a SELECT result set in PL/SQL."
+    "hint": "Cursors allow row-by-row processing of a SELECT result set in PL/SQL.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which SQL clause is used with GROUP BY to filter groups?",
@@ -8863,7 +9203,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "HAVING filters after GROUP BY. WHERE filters before grouping."
+    "hint": "HAVING filters after GROUP BY. WHERE filters before grouping.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does '%' wildcard match in a LIKE clause?",
@@ -8889,7 +9230,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "% matches any sequence of zero or more characters in LIKE."
+    "hint": "% matches any sequence of zero or more characters in LIKE.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which keyword prevents a column from having NULL values?",
@@ -8915,7 +9257,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "NOT NULL constraint forces a column to always have a value."
+    "hint": "NOT NULL constraint forces a column to always have a value.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What does 'CROSS JOIN' produce?",
@@ -8941,7 +9284,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "CROSS JOIN returns every row from table1 combined with every row from table2."
+    "hint": "CROSS JOIN returns every row from table1 combined with every row from table2.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which function converts a string to uppercase in SQL?",
@@ -8967,7 +9311,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "UPPER(column) converts string values to uppercase."
+    "hint": "UPPER(column) converts string values to uppercase.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What is 'referential integrity'?",
@@ -8993,7 +9338,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "Referential integrity ensures FK values reference valid PK values in the parent table."
+    "hint": "Referential integrity ensures FK values reference valid PK values in the parent table.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which SQL statement is used to retrieve data?",
@@ -9019,7 +9365,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "SELECT is the DQL (Data Query Language) command for retrieving data.\n■ Exam Day Quick Tips:\n• KYT: Read TCS Xplore modules completely — questions come directly from there.\n• BizSkill: Always choose the option reflecting TCS values (Ethics, Integrity, Communication).\n• UI: Focus on semantic HTML5 tags, CSS specificity rules, and Flexbox/Grid.\n• Unix: Memorise 30 core commands — especially chmod, grep, find, awk, sed.\n• Java/Python: OOP concepts (inheritance, polymorphism) and String/List operations are most tested.\n• SQL: JOINs, GROUP BY + HAVING, and aggregate functions appear in every exam.\n• No negative marking — attempt ALL questions. Time per MCQ: ~1 minute.\nTCS IPA Hard Coding Questions\nPrevious Year • 2023 – 2025 • Java & Python\n35-Mark OOP Problems | 15-Mark Logic Problems | Full Solutions\n10 35 + 15 OOP Java+Python\nQuestions Mark Split Core Pattern Both Solutions\nNote: TCS IPA coding has 2 problems — a 35-mark OOP/class-based problem and a 15-mark\nlogic/algorithm problem. Both are asked in the same 70-minute window. You can choose Java or\nPython. All questions below are based on real exam experiences reported by candidates (2023–2025).\nQuestions Index\nQ1 Medicine Inventory — OOP Class + Case-Insensitive Search 35M 2025\nQ2 Employee Salary Management — Inheritance + Method Override 35M 2024\nQ3 Student Grade System — OOP + Array Sorting 35M 2024\nQ4 Library Book Management — OOP + Filter by Author 35M 2023\nQ5 Bank Account — OOP + Transaction History 35M 2023\nQ6 Anagram Check for Two Strings 15M 2025\nQ7 Longest Consecutive Subsequence 15M 2024\nQ8 Matrix Spiral Print 15M 2024\nQ9 Balanced Parentheses Check 15M 2023\nQ10 Count Substrings with Equal 0s and 1s 15M 2023\nPART 1 — 35-Mark OOP / Class-Based Problems\nThese are the hardest questions — always class design + method\nimplementation\nHARD\n35 Marks\nMarks Asked: Aug 2025"
+    "hint": "SELECT is the DQL (Data Query Language) command for retrieving data.\n■ Exam Day Quick Tips:\n• KYT: Read TCS Xplore modules completely — questions come directly from there.\n• BizSkill: Always choose the option reflecting TCS values (Ethics, Integrity, Communication).\n• UI: Focus on semantic HTML5 tags, CSS specificity rules, and Flexbox/Grid.\n• Unix: Memorise 30 core commands — especially chmod, grep, find, awk, sed.\n• Java/Python: OOP concepts (inheritance, polymorphism) and String/List operations are most tested.\n• SQL: JOINs, GROUP BY + HAVING, and aggregate functions appear in every exam.\n• No negative marking — attempt ALL questions. Time per MCQ: ~1 minute.\nTCS IPA Hard Coding Questions\nPrevious Year • 2023 – 2025 • Java & Python\n35-Mark OOP Problems | 15-Mark Logic Problems | Full Solutions\n10 35 + 15 OOP Java+Python\nQuestions Mark Split Core Pattern Both Solutions\nNote: TCS IPA coding has 2 problems — a 35-mark OOP/class-based problem and a 15-mark\nlogic/algorithm problem. Both are asked in the same 70-minute window. You can choose Java or\nPython. All questions below are based on real exam experiences reported by candidates (2023–2025).\nQuestions Index\nQ1 Medicine Inventory — OOP Class + Case-Insensitive Search 35M 2025\nQ2 Employee Salary Management — Inheritance + Method Override 35M 2024\nQ3 Student Grade System — OOP + Array Sorting 35M 2024\nQ4 Library Book Management — OOP + Filter by Author 35M 2023\nQ5 Bank Account — OOP + Transaction History 35M 2023\nQ6 Anagram Check for Two Strings 15M 2025\nQ7 Longest Consecutive Subsequence 15M 2024\nQ8 Matrix Spiral Print 15M 2024\nQ9 Balanced Parentheses Check 15M 2023\nQ10 Count Substrings with Equal 0s and 1s 15M 2023\nPART 1 — 35-Mark OOP / Class-Based Problems\nThese are the hardest questions — always class design + method\nimplementation\nHARD\n35 Marks\nMarks Asked: Aug 2025",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "When Tata Consultancy Services established?",
@@ -9045,7 +9392,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Tata Consultancy Services (TCS) was established in 1968, making this the historically accurate founding year.",
+    "category": "KYT"
   },
   {
     "question": "Drawback of Distributed computing is",
@@ -9071,7 +9419,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A drawback of distributed computing is often an increase in manpower costs due to the complexity of managing multiple systems and ensuring their interoperability.",
+    "category": "KYT"
   },
   {
     "question": "How many hours of video are uploaded to YouTube every minute",
@@ -9097,7 +9446,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "As of various reports and statistics, approximately 100 hours of video are uploaded to YouTube every minute.",
+    "category": "KYT"
   },
   {
     "question": "Computer Algorithms which determines the category of observation based on previously seen examples is called as",
@@ -9123,7 +9473,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Classification algorithms are used to categorize observations into predefined groups or classes based on patterns learned from previously labeled examples.",
+    "category": "KYT"
   },
   {
     "question": "Which application takes Highest Maintenance cost",
@@ -9149,7 +9500,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Native applications are developed specifically for a particular operating system and often require more dedicated maintenance due to platform-specific updates and codebase management.",
+    "category": "KYT"
   },
   {
     "question": "What are the stages in the IBC approach?",
@@ -9175,7 +9527,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The IBC approach, commonly used in writing and presentations, stands for Introduction, Body, and Conclusion, representing the standard structure for conveying information.",
+    "category": "BizSkill"
   },
   {
     "question": "The purpose of writing is expressed by which type of question?",
@@ -9201,7 +9554,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The \"why\" question expresses the purpose of writing, explaining the reason or objective behind creating a document or message.",
+    "category": "BizSkill"
   },
   {
     "question": "The CIBI Bank requested TCS to upgrade their systems worldwide and to digitize 80% of their workflow. TCS not only completed the given work on time but also provided IT training sessions for the bank employees to get accustomed to the upgrades. What is this service termed as ?",
@@ -9227,7 +9581,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "TCS providing IT training sessions beyond the requested system upgrade and digitization is an example of a value-added service, as it goes beyond the initial scope to provide extra benefit.",
+    "category": "BizSkill"
   },
   {
     "question": "Select the options that may apply while responding to an angry customer's e-mail.",
@@ -9253,7 +9608,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "When responding to an angry customer, it is crucial to acknowledge their frustration, align with their understanding of the issue, and assure them of a prompt resolution.",
+    "category": "BizSkill"
   },
   {
     "question": "He had a Masters in Business Administration (MBA). Here MBA is :",
@@ -9279,7 +9635,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "An abbreviation is a shortened form of a word or phrase, and MBA (Masters in Business Administration) is a common example of this, where the full words are simply shortened.",
+    "category": "BizSkill"
   },
   {
     "question": "Stephen would be traveling home to attend his brother's wedding. What information should he exclude while drafting a mail prior to his leave ?",
@@ -9305,7 +9662,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "When drafting a professional leave mail, personal details like wedding specifics or travel arrangements are irrelevant and should be excluded, as the mail should remain concise and professional.",
+    "category": "BizSkill"
   },
   {
     "question": "What are the elements of a Project Status Report?",
@@ -9331,7 +9689,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A comprehensive Project Status Report typically includes the current state of the project, any issues or areas of concern, potential solutions or suggestions, and a plan for the immediate next phase.",
+    "category": "BizSkill"
   },
   {
     "question": "Rose chooses not to consult her colleagues while fixing a problem, as she is sure that they are too busy. Ide ntify the mind trap.",
@@ -9357,7 +9716,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Rose is falling into the trap of assumptions by presuming her colleagues are too busy without actually consulting them, leading her to make a decision based on unverified beliefs.",
+    "category": "BizSkill"
   },
   {
     "question": "Group decision is an important element in which of the following work cultures?",
@@ -9383,7 +9743,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In work cultures such as India, Japan, and many Middle Eastern countries, group decision-making is a significant element, often prioritizing consensus and collective agreement.",
+    "category": "BizSkill"
   },
   {
     "question": "What factors should you consider before preparing a help document on the newly introduced 'search' functi onality in ABC online application ?",
@@ -9409,7 +9770,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "When preparing a help document, considering the users' interest level helps in tailoring the content, complexity, and presentation to ensure engagement and effective learning.",
+    "category": "BizSkill"
   },
   {
     "question": "List 3 aspects that will be at stake, if a major impact on business has occurred due to an outage",
@@ -9435,7 +9797,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A major business outage can severely impact financial performance (sales revenue), public perception (brand reputation), and trust with stakeholders (integrity in business).",
+    "category": "Miscellaneous"
   },
   {
     "question": "Amazon had suffered a major outage of its Simple Storage Service, also known as S3, crippling significant portions of the web for several hours. Amazon said the S3 team was working on an issue that was slowing down its billing system. Here’s what happened, according to Amazon, at 9:37 a.m. Pacific, starting the outage: “an authorized S3 team member using an established playbook executed a command which was intended to remove a small number of servers for one of the S3 subsystems that is used by the S3 billing process. Unfortunately, one of the inputs to the command was entered incorrectly and a larger set of servers was removed than intended.” This has occurred due to",
@@ -9461,7 +9824,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The incident description explicitly states an \"authorized S3 team member\" executed a command with an \"incorrect input,\" leading to a larger-than-intended server removal, indicating a failure in access management and validation procedures.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Actions NOT to be taken during flood of alerts is",
@@ -9482,7 +9846,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Disabling alerts during a flood of alerts is an inappropriate action as it can lead to missing critical information and further delays in incident resolution.",
+    "category": "Algorithms"
   },
   {
     "question": "Advantages of SOLID principles are 1. Helps design systems that are robust 2. Helps design systems that are flexible 3. Helps design systems that exhibit ease of maintenance 4. Helps design system that do not cost much to maintain",
@@ -9508,7 +9873,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The SOLID principles are a set of design principles intended to make software designs more understandable, flexible, and maintainable, thus covering all listed advantages.",
+    "category": "Algorithms"
   },
   {
     "question": "Developers should follow the design principles to achieve which of the following qualities",
@@ -9534,7 +9900,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Developers follow design principles to create software that is extensible (easy to add new features), maintainable (easy to fix and update), and readable (easy for others to understand).",
+    "category": "Algorithms"
   },
   {
     "question": "The command used to find the count of only words in a file?",
@@ -9560,7 +9927,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `wc` command in Unix-like systems is used for word count, and the `-w` option specifically tells it to count only words in the specified file.",
+    "category": "Unix"
   },
   {
     "question": "Which command is used to change permission levels of a file or directory?",
@@ -9586,7 +9954,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `chmod` command (change mode) is used in Unix-like operating systems to change the access permissions of file system objects (files and directories).",
+    "category": "Unix"
   },
   {
     "question": "What will be the output of below awk script? awk 'BEGIN{s=0 while (s<55) {print s;++s}}'",
@@ -9612,7 +9981,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `awk` `BEGIN` block does not typically support `while` loops in that syntax, and the provided code has a missing closing brace, leading to a syntax error.",
+    "category": "Unix"
   },
   {
     "question": "Given an input file as below. red,20 blue,22 green,45 yellow,2 orange,70 What will be the output of the below shell script and where will it be saved, when it is executed by passing above file as input. #!/bin/bash if [ $# -ne 1 ] then echo \"Pass the input file\" else if [ -f $1 ] && [ -e $1 ] then awk 'BEGIN{FS=\",\";s=0}{s=s+$2}END{print s}' $1>outsum cut -d, -f1 $1>>outsum else echo \"file doesn't exists\" fi fi",
@@ -9638,7 +10008,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The script first calculates the sum of the second column using `awk` and redirects the output to `outsum`, then extracts the first column using `cut` and appends its output to the *same* `outsum` file.",
+    "category": "Unix"
   },
   {
     "question": "Input file filea.txt contains hi all hello everyone good morning good afternoon Which of the command(s) will print the first line of the file?",
@@ -9664,7 +10035,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `sed -n '1p'` command uses the `-n` option to suppress default output and `1p` specifically instructs `sed` to print only the first line of the file.",
+    "category": "Unix"
   },
   {
     "question": "What is the usage of <span> in html?",
@@ -9685,7 +10057,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `<span>` tag is an inline container used to group and apply styles to a small section of text or other inline elements within a document without affecting their block-level display.",
+    "category": "UI"
   },
   {
     "question": "What is the correct syntax to set border colors?",
@@ -9711,7 +10084,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The correct CSS syntax for setting a border is `border: <width> <style> <color>;`, where `2px` is the width, `solid` is the style, and `DodgerBlue` is the color.",
+    "category": "UI"
   },
   {
     "question": "What is the correct syntax to apply css for the below code? <h2 class=\"city\">London</h2> <p>London is the capital of England.</p>",
@@ -9732,7 +10106,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "To apply CSS to an element with a specific class, you use a dot (`.`) followed by the class name, so `.city` correctly targets elements with the class \"city\".",
+    "category": "UI"
   },
   {
     "question": "What is the usage of <svg> tag in html?",
@@ -9753,7 +10128,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `<svg>` tag is used in HTML to embed scalable vector graphics, which are XML-based vector image formats for two-dimensional graphics with support for interactivity and animation.",
+    "category": "UI"
   },
   {
     "question": "How do you add a background color for Xplore <h1> elements?",
@@ -9779,7 +10155,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "To apply a background color to all `<h1>` elements, you simply target the `h1` tag directly in CSS and set the `background-color` property.",
+    "category": "UI"
   },
   {
     "question": "Which of the following is not a valid style for the paragraph? p { color: red; font-family: courier; font-size: 160%; border-style: dotted dashed solid double; margin-right: 150px; float: bottom; }",
@@ -9805,7 +10182,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "While `float` is a valid CSS property, `float: bottom;` is not a valid value for it; `float` typically accepts `left`, `right`, `none`, `inherit`, `initial`, `unset`.",
+    "category": "UI"
   },
   {
     "question": "Which one is a valid style;",
@@ -9831,7 +10209,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In CSS, comments are denoted by `/* comment content */`, making option C the only one with correct comment syntax.",
+    "category": "UI"
   },
   {
     "question": "Which among the following is not CSS background properties;",
@@ -9857,7 +10236,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "`background-render` is not a standard CSS background property; `background-repeat`, `background-attachment`, and `background-position` are all valid and commonly used background properties.",
+    "category": "UI"
   },
   {
     "question": "JavaScript programs are executed by the Script Engine.",
@@ -9873,7 +10253,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "JavaScript programs are executed by a JavaScript engine (often part of a web browser or Node.js), not a generic \"Script Engine.\"",
+    "category": "UI"
   },
   {
     "question": "What will be the output of the below code; <html> <body> <p id=\"result\"></p> <script> var x = myFunction(NaN, 3); document.getElementById(\"result\").innerHTML = x; function myFunction(a, b) { return a * b; </script> </body> </html>",
@@ -9899,7 +10280,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "When one of the operands in a multiplication operation is `NaN` (Not-a-Number), the result of the operation will also be `NaN`, as `NaN * 3` is `NaN`.",
+    "category": "UI"
   },
   {
     "question": "We cannot use WHERE clause with TRUNCATE. True or False?",
@@ -9915,7 +10297,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `TRUNCATE` statement removes all rows from a table and cannot be used with a `WHERE` clause because it is a DDL command that resets the table, rather than selectively deleting rows.",
+    "category": "Java"
   },
   {
     "question": "Consider the below table Category<br> ID Name Price ============= =  1 W 35 2 LP 1200.99 3 POLO 1000.49 4 LEVI 900 5 HRX (null) Which is the output of below query SELECT AVG(Price) FROM Category;",
@@ -9941,7 +10324,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `AVG()` function ignores `NULL` values. The sum of the valid prices (35 + 1200.99 + 1000.49 + 900) is 3136.48, and when divided by the count of valid prices (4), the average is 784.12.",
+    "category": "Java"
   },
   {
     "question": "Which operator gives the result if the condition(s) is not satisfied?",
@@ -9967,7 +10351,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `NOT` operator is used to negate a condition, giving a result if the specified condition is not satisfied.",
+    "category": "Java"
   },
   {
     "question": "Consider the below table ,CATEGORY Name Null Type ID NOT NULL NUMBER(38) NAME NOT NULL VARCHAR2(20) PRICE NOT NULL NUMBER(5,2) What is the output of below query? INSERT INTO CATEGORY VALUES (2, 'POLO', 2500.99);",
@@ -9993,7 +10378,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `PRICE` column is defined as `NUMBER(5,2)`, meaning it can store numbers with a maximum of 5 digits in total, with 2 digits after the decimal point. The value `2500.99` exceeds this capacity, leading to an SQL error.",
+    "category": "Java"
   },
   {
     "question": "Which is not a system defined exception in PLSQL?",
@@ -10019,7 +10405,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`INVALID_INPUT` is not a predefined system exception in PL/SQL; `CURSOR_ALREADY_OPEN`, `NO_DATA_FOUND`, and `INVALID_CURSOR` are all standard system exceptions.",
+    "category": "Java"
   },
   {
     "question": "What is the meaning of the below fetch statement? FETCH c1 INTO ename, empno, sal; EXIT WHEN (c1%ROWCOUNT > 5) OR (c1%NOTFOUND);",
@@ -10045,7 +10432,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `EXIT WHEN` clause specifies that the loop should terminate if either the cursor has fetched more than 5 rows (`c1%ROWCOUNT > 5`) or if no more records are found (`c1%NOTFOUND`).",
+    "category": "Java"
   },
   {
     "question": "To get the server output result and display it into the screen, you need to write",
@@ -10071,7 +10459,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In SQL*Plus or similar environments, `SET SERVEROUTPUT ON` is the command used to enable the display of output from `DBMS_OUTPUT.PUT_LINE` statements to the screen.",
+    "category": "Java"
   },
   {
     "question": "What are different conditional IF statements in PLSQL",
@@ -10097,7 +10486,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "PL/SQL supports `IF-THEN-END IF`, `IF-THEN-ELSE-END IF`, and `IF-THEN-ELSIF-END IF` as its primary conditional `IF` statements.",
+    "category": "Java"
   },
   {
     "question": "is also known as static variable",
@@ -10123,7 +10513,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Class variables (or static variables in some languages like Java) are shared across all instances of a class and are associated with the class itself rather than any specific object.",
+    "category": "Java"
   },
   {
     "question": "Which of the following variable declaration will not compile in a java program",
@@ -10149,7 +10540,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Java, variable names cannot begin with a digit, making `1_a` an invalid identifier and thus causing a compile-time error.",
+    "category": "Java"
   },
   {
     "question": "What would be the output of the following program? class CharRange { public static void main(String[] args) { char ch=127; ch++; System.out.println(ch+\" = \" +(int)ch); } }",
@@ -10175,7 +10567,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Java, `char` is an unsigned 16-bit type. When `ch` (initialized to 127) is incremented, its value becomes 128. Printing this character often results in a placeholder like `?` because 128 is not a standard printable ASCII character, but its integer representation is accurately 128.",
+    "category": "Java"
   },
   {
     "question": "class string_class { public static void main(String args[]) { String obj = \"I LIKE JAVA\"; System.out.println(obj.length()); } } What will be the output?",
@@ -10201,7 +10594,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `length()` method for a Java String returns the number of characters in the string. \"I LIKE JAVA\" contains 9 letters and 2 spaces, totaling 11 characters.",
+    "category": "Java"
   },
   {
     "question": "Predict the output for the following Import java.util.Arrays; public class Test { public static void main(String[] args) { String s[] = { \"java\", \"hibernate\", \"spring\" }; Arrays.sort(s); for (String k : s) { System.out.print(k + \" \"); }}}",
@@ -10227,7 +10621,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`Arrays.sort(s)` sorts the string array alphabetically. \"hibernate\" comes before \"java\", and \"java\" comes before \"spring\" lexicographically.",
+    "category": "Java"
   },
   {
     "question": "Which of the options are true regarding primary key and foreign key?",
@@ -10253,7 +10648,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "A primary key must uniquely identify each row and therefore inherently cannot contain `NULL` values, whereas a foreign key is allowed to contain `NULL` values if the corresponding row in the referenced table is optional.",
+    "category": "Java"
   },
   {
     "question": "In how many ways can a standalone procedure be called in PLSQL.",
@@ -10279,7 +10675,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Standalone PL/SQL procedures can be invoked using the `EXECUTE` (or `EXEC`) command in SQL*Plus or SQL Developer.",
+    "category": "Java"
   },
   {
     "question": "What is the output of below code? TCS = (1, 4, 9) print(type(TCS))",
@@ -10305,7 +10702,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Python, a sequence of comma-separated values enclosed in parentheses `()` creates a tuple, which is an immutable ordered collection.",
+    "category": "Java"
   },
   {
     "question": "Which of the following data structures can be used with the \"in\" operator to check if an item is in the data structure?",
@@ -10331,7 +10729,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `in` operator in Python can be used to check for membership in lists, sets, and dictionaries (it checks for keys in dictionaries).",
+    "category": "Java"
   },
   {
     "question": "What is the output from the above snippet?",
@@ -10357,7 +10756,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Assuming the snippet calculates the length of a list `[1, 2, 3, 4]`, the `len()` function returns the number of items in a list, which in this case is 4.",
+    "category": "Python"
   },
   {
     "question": "Which of the following commands can be used to delete a column age from a table wityh name test1?",
@@ -10383,7 +10783,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "To remove a column from an existing table in SQL, the correct syntax is `ALTER TABLE <table_name> DROP COLUMN <column_name>;`.",
+    "category": "Python"
   },
   {
     "question": "State whether the following statement is true or false .An outer join requires each record in a table to have a matching record with the joined table?",
@@ -10399,7 +10800,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "An outer join includes all records from one table or both tables, even if there are no matching records in the other joined table, explicitly allowing for non-matching records.",
+    "category": "Java"
   },
   {
     "question": "Which of the following set of operators can be used to enable a multi value comparison of values with a single column?",
@@ -10425,7 +10827,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `IN` operator is used to specify multiple values in a `WHERE` clause, allowing you to check if a column's value matches any value in a list of specified values.",
+    "category": "Java"
   },
   {
     "question": "What is the significance of using a number in an order by clause?",
@@ -10451,7 +10854,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In an `ORDER BY` clause, a number refers to the ordinal position of the column in the `SELECT` list, allowing you to sort results based on its position without explicitly naming it.",
+    "category": "Python"
   },
   {
     "question": "Consider the following table structure. SQL>desc TRANSACTION; Name Null? Type TNSID NOT NULL NUMBER BANKNAME VARCHAR2(50) CUSTNAME VARCHAR2(20) UPDATE TRANSACTION SET BANKNAME='ABC BANK' where TNSID BETWEEN 100 TO 200 What is the output of the above query",
@@ -10477,7 +10881,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `BETWEEN` operator is inclusive, meaning `TNSID BETWEEN 100 TO 200` will include records where TNSID is 100, 200, and any value in between.",
+    "category": "Java"
   },
   {
     "question": "Consider the following employee table EmpId Empname Branch NoofInnovations ================================ 121 ABC CHN 2 122 XYZ CHN 6 123 WRE KO C 14 Which query is used to get the name of the branch with highest NoofInnovations?",
@@ -10503,7 +10908,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This query attempts to use an aggregate function (`MAX`) directly in the `WHERE` clause which is generally not standard SQL without a subquery, but if supported, it would implicitly compare `NoOfInnovations` with the table's overall maximum.",
+    "category": "Java"
   },
   {
     "question": "TRUNCATE statement removes the complete data and its structure.",
@@ -10519,7 +10925,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `TRUNCATE` statement removes all rows from a table, but it does not remove the table's structure (schema); the table and its definition remain intact.",
+    "category": "Python"
   },
   {
     "question": "Which of the following are valid constraints in MySQL?",
@@ -10545,7 +10952,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`UNIQUE`, `NOT NULL`, and `DEFAULT` are all valid constraints used in MySQL to enforce data integrity. `DISTINCT` is a keyword for selecting unique values, not a table constraint.",
+    "category": "Python"
   },
   {
     "question": "Consider a database products Choose the query to select the products database",
@@ -10571,7 +10979,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In MySQL, the `USE <database_name>;` command is used to select a specific database, making it the active database for subsequent operations.",
+    "category": "Java"
   },
   {
     "question": "Select the correct statements for OOP in Python 1. The attributes of an object can be initialized using the    init method 2. self keyword is used to represent the current instance of a class 3. self keyword is used to declare a class in Python 4. Python does not support OOP",
@@ -10597,7 +11006,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Python, the `__init__` method is used to initialize object attributes, and the `self` keyword refers to the current instance of a class, making statements 1 and 2 true.",
+    "category": "Java"
   },
   {
     "question": "Which query returns all the employees who earn the minimum salary from the Employees table",
@@ -10623,7 +11033,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "To find all employees earning the minimum salary, you must use a subquery to first determine the minimum salary from the entire `employees` table and then filter the main query based on that value.",
+    "category": "Python"
   },
   {
     "question": "The study of computer algorithms that improve automatically through experience",
@@ -10649,7 +11060,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Machine Learning is a subfield of Artificial Intelligence focused on developing algorithms that allow computer systems to learn from data and improve their performance over time without explicit programming.",
+    "category": "Miscellaneous"
   },
   {
     "question": "When Tata Consultancy Services established?",
@@ -10675,7 +11087,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Tata Consultancy Services (TCS) was established in 1968, making this the historically accurate founding year.",
+    "category": "KYT"
   },
   {
     "question": "Some challenges in Artificial Intelligence are",
@@ -10701,7 +11114,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Artificial Intelligence faces challenges related to high development and deployment costs, the evolving nature of technology, and the difficulty of encoding common sense reasoning into machines.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Prime difference between Public and Private Cloud is",
@@ -10727,7 +11141,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The prime difference between public and private cloud is their deployment location and ownership: public clouds are shared, while private clouds are dedicated to a single organization.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Mobile application can interact with GPS and Camera of the device",
@@ -10743,7 +11158,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Mobile applications, particularly native and hybrid apps, can access and utilize device hardware features like GPS for location services and the camera for image/video capture.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Paul is working with a client who is casual while communicating with him through chat application. The client sends him memes and other forwards in order to build bette  r workplace relationships. Select the best option.",
@@ -10769,7 +11185,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Maintaining professionalism by staying task-oriented and polite, while avoiding unprofessional behaviors like sharing memes, is the best approach when a client is overly casual.",
+    "category": "Java"
   },
   {
     "question": "What is true about Agile principles? A. Leadership over management B. Management over leadership C. Adaptive over prescriptive D. Prescriptive over adaptive E. Customer collaboration over contract negotiation F. Contract negotiation over customer collaboration",
@@ -10795,7 +11212,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Agile principles emphasize \"Leadership over management,\" \"Adaptive over prescriptive,\" and \"Customer collaboration over contract negotiation,\" promoting flexibility, empowerment, and close client involvement.",
+    "category": "Java"
   },
   {
     "question": "When declining help, what should you be wary of, more than the actual words ?",
@@ -10821,7 +11239,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "When declining help, non-verbal cues such as tone of voice and facial expression are often more important than the literal words, as they convey sincerity and respect.",
+    "category": "Miscellaneous"
   },
   {
     "question": "What all details should be provided in the signature of an e-mail? Choose the best options. a) Name & role b) Phone & e-mail ID c) Personal address d) Organization Website",
@@ -10847,7 +11266,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A professional email signature typically includes your name, role, contact information (phone & email ID), and the organization's website, excluding personal residential addresses.",
+    "category": "Java"
   },
   {
     "question": "‘Being objective’ in your writing is the ability to: a.Present accurate facts and figures. b.Present facts and not personal views. c.Present stereotypical information.",
@@ -10873,7 +11293,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Being objective in writing means presenting accurate facts and figures and focusing on facts rather than personal opinions or stereotypical information.",
+    "category": "Java"
   },
   {
     "question": "Being digital gives us easy access to all kinds of information about our organization. How is data security ensured?",
@@ -10899,7 +11320,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Data security in a digital organization is primarily ensured by respecting confidentiality and actively preventing unauthorized disclosure of sensitive information.",
+    "category": "Java"
   },
   {
     "question": "Stephen would be traveling home to attend his brother's wedding. What information should he exclude while drafting a mail prior to his leave ?",
@@ -10925,7 +11347,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "When drafting a professional leave mail, personal details like wedding specifics or travel arrangements are irrelevant and should be excluded, as the mail should remain concise and professional.",
+    "category": "BizSkill"
   },
   {
     "question": "You have joined a project and you are in the training phase now. The project requires that you know the basics of Ruby on Rails. You complete an e-learning course on the same and now you are taking the assessment. During the assessment, a senior member of the team approaches you and asks if you can join a conference call instead of hi m. He requests you to just attend the call for 10 minutes. How will you respond?",
@@ -10951,7 +11374,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Prioritizing your current commitment (assessment) while politely explaining your situation and offering to assist later demonstrates professionalism and good time management.",
+    "category": "Java"
   },
   {
     "question": "How can e-mails be used to convey negative information ?",
@@ -10977,7 +11401,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "When conveying negative information, it is best to deliver it in person, after scheduling a meeting via email, to allow for direct communication, empathy, and immediate clarification.",
+    "category": "Miscellaneous"
   },
   {
     "question": "What is the sequence of the transition management phases",
@@ -11003,7 +11428,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The typical sequence for knowledge transfer and support transition involves initial Knowledge Transfer (KT), followed by a period of secondary support, and finally full primary support by the new team.",
+    "category": "Miscellaneous"
   },
   {
     "question": "After creating a Knowledge Article (KA) a.  Check and re-certify the KA at regular frequency",
@@ -11024,7 +11450,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "After creating a Knowledge Article (KA), it is crucial to regularly check and re-certify it, ensure exceptions are clearly visible, and utilize a standard template for consistency and usability.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Duplication of code is the root cause of most of the maintenance problems",
@@ -11040,7 +11467,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Code duplication leads to inconsistencies, makes debugging harder, and increases the effort required for changes and updates, hence causing significant maintenance problems.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which of the following sorting algorithms in its typical implementation gives best performance when applied on an array which is sorted or almost sorted (maximum 1 or t wo elements are misplaced).",
@@ -11066,7 +11494,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Insertion Sort has a best-case time complexity of O(n) for already sorted or nearly sorted arrays because it only needs to shift elements slightly.",
+    "category": "Java"
   },
   {
     "question": "We use dynamic programming approach when",
@@ -11092,7 +11521,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Dynamic programming is applicable to problems that exhibit optimal substructure, meaning an optimal solution can be constructed from optimal solutions of its subproblems.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which symbol will be used with grep command to match the pattern pat at the beginning of a line?",
@@ -11118,7 +11548,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The caret symbol (^) in `grep` is a regular expression anchor that matches the beginning of a line.",
+    "category": "Miscellaneous"
   },
   {
     "question": "What will be the output of below command? sort file1|uniq -u",
@@ -11144,7 +11575,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `sort file1` command sorts the lines of `file1`, and `uniq -u` then filters these sorted lines to display only those that appear exactly once.",
+    "category": "Java"
   },
   {
     "question": "Which of the following commands will give the length of a longest line in file",
@@ -11165,7 +11597,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `wc -L` command specifically reports the length of the longest line in a file.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Given an input file as below. red,20 blue, 22 green ,45 yello w,2 orang e,70 What will be the output of the below shell script and where will it be saved, when it is executed by passing above file as input. #!/bin/bash if [ $# -ne 1 ] then echo \"Pass the input file\" else if [ -f $1 ] && [ -e $1 ] then awk 'BEGIN{FS=\",\";s=0}{s=s+$2}END{p rint s}' $1>outsum cut -d, -f1 $1>>outsum else echo \"file doesn't exists\" fi fi",
@@ -11191,7 +11624,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The script first uses `awk` to sum the second column and redirects the output (using `>`) to `outsum`. Then, it uses `cut` to extract the first column and appends (using `>>`) that output to the same `outsum` file.",
+    "category": "Unix"
   },
   {
     "question": "Which command is used to compress a file in unix?",
@@ -11217,7 +11651,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `zip` command is a common utility in Unix-like systems used to compress files and create archive files.",
+    "category": "Miscellaneous"
   },
   {
     "question": "what is the appearence of the <ins> tag? a.  It will display in bold.",
@@ -11238,7 +11673,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `<ins>` HTML tag is used to indicate inserted (added) text, and by default, browsers typically display this text as underlined.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which of the following is a correct syntax to display ordered list with roman numbers?",
@@ -11264,7 +11700,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "To display an ordered list with Roman numerals in HTML, you use the `<ol>` tag with the `type=\"I\"` attribute, and the browser will render it with capital Roman numerals.",
+    "category": "Miscellaneous"
   },
   {
     "question": "A link can be an image or any other HTML element.",
@@ -11280,7 +11717,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In HTML, any element can be made into a link by wrapping it within an `<a>` tag, including images, paragraphs, or block-level elements.",
+    "category": "Miscellaneous"
   },
   {
     "question": "<img url=\"sky.jpg\" width=\"100\" height=\"100\" opacity=\"0.25\"> What will be the output of the above code?",
@@ -11306,7 +11744,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `url` attribute for the `<img>` tag is incorrect; it should be `src`. Also, `opacity` is a CSS property, not an HTML attribute, so it won't be applied this way.",
+    "category": "Java"
   },
   {
     "question": "Which of the following is not an inline element in html?",
@@ -11332,7 +11771,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `<hr>` (horizontal rule) tag is a block-level element, meaning it takes up the full width available and forces a line break before and after it.",
+    "category": "Miscellaneous"
   },
   {
     "question": "<html> <head> <sty le> p { border: 1px solid black; outline: #7845ef solid 10px; } .para { border: 1px solid red; outline: #7845ef solid 10px; } </style> </head> <body> <p>Hello Java</p> <p class=\"para\">Hello HTML</p> </body> </html> What will be the output of the above code?",
@@ -11358,7 +11798,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The first paragraph `Hello Java` applies the `p` selector, giving a black border. The second paragraph `Hello HTML` applies both `p` and `.para` selectors; since `.para`'s border color (red) is more specific or comes later, it overrides the `p`'s black border.",
+    "category": "Java"
   },
   {
     "question": "Which of the following is incorrect?",
@@ -11384,7 +11825,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The hexadecimal color code `#000ff` is invalid; a valid hex code for blue should be `#0000FF` or a shorthand like `#00F`.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which of the following Statement is wrong for accessing the value of the text box? <html> <body> <span id=\"frm\"> <input type=\"text\" name=\"user\" id=\"user\"> </span> <button onclick=\"myFunction()\">Try it</button> <p id=\"xyz\"></p> <script> function myFunction() { var a = document.getElementById(\"user\").value; var b = document.getElementsByName( \"user\").value; var c = document.getElementById(\"frm \").innerHTML; var d = document.getElementsByName( \"user\"); alert(d); document.getElementById(\"xyz\").innerHTML = a;//Statement1 document.getElementById(\"xyz\").innerHTML = b;//Statement2 document.getElementById(\"xyz\").innerHTML = c;//Statement3 document.getElementById(\"xyz\").innerHTML = d.value;//Statement4 } </script> </body> </html>",
@@ -11410,7 +11852,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`document.getElementById(\"frm\").innerHTML` retrieves the HTML content *inside* the span with id \"frm\", which includes the `<input>` tag itself, not the value of the input.",
+    "category": "Java"
   },
   {
     "question": "An array can be declared in Javascript as;",
@@ -11436,7 +11879,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In JavaScript, arrays are declared using square brackets `[]` to enclose a comma-separated list of elements.",
+    "category": "Miscellaneous"
   },
   {
     "question": "<html> <script> function displayTime() { document.getElementById(\"abc\").inner HTML = Date(); } </script> <body> <div id=\"abc\" style=\"display:none\"></div> <button onclick=\"displayTime()\">What is the time?</button> </body> </html> What is the output of the above code?",
@@ -11462,7 +11906,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Clicking the button calls `displayTime()`, which sets the `innerHTML` of the `div` with id \"abc\" to the current date and time (including timezone). The `div`'s initial `display:none` style is overridden as content is added and it is a block-level element, appearing above the button.",
+    "category": "Java"
   },
   {
     "question": "Given below table with columns specified as below EMPLOYEE(EmployeeID,Employeename,yrsofexperien ce,gender,DOB,location). Which query will display the gender and average years of experience according to gender?",
@@ -11488,7 +11933,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "To calculate an aggregate function like `AVG` for distinct groups (gender), you must use the `GROUP BY` clause with the grouping column.",
+    "category": "Java"
   },
   {
     "question": "How to delete the foreign key constraint from the products table CREATE TABLE supplier ( supplier_id numeric(10) PRIMARY KEY, supplier_name varchar2(50) not null, contact_name varchar2(50) ); CREATE TABLE products ( product_id numeric(10) not null, supplier_id numeric(10) not null, CONSTRAINT fk1 FOREIGN KEY (supplier_id) REFERENCES supplier(supplier_id) );",
@@ -11514,7 +11960,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "To remove an existing constraint from a table, the correct SQL syntax is `ALTER TABLE table_name DROP CONSTRAINT constraint_name;`.",
+    "category": "Java"
   },
   {
     "question": "In which normal form the transitive dependency is not allowed.",
@@ -11540,7 +11987,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The Third Normal Form (3NF) states that a table must be in 2NF and have no transitive dependencies, meaning no non-prime attribute should be functionally dependent on another non-prime attribute.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Consider 2 tables Associate and LearningCourse AssociateID Name Address Age 145 Anirudh Delhi 21 256 Vishal Pune 23 356 Harini Chennai 19 432 Shobhi Bangalore 18 Course_ID AssociateID =============== =========== 1 145 2 256 2 356 3 432 5 1056 4 1189 Which query will give the below output Course_ID Name Age ==================== =========== 1 Anirudh 21 2 Vishal 23 2 Harini 19 3 Shobhi 18",
@@ -11566,7 +12014,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "An `INNER JOIN` correctly combines rows from both tables where the `AssociateID` matches, effectively linking associates to their courses and displaying the requested columns.",
+    "category": "Java"
   },
   {
     "question": "What is wrong in the following code? CREATE OR REPLACE FUNCTION FACULTY_FUN(F_YRSOFEXP IN FACULTY_DEMO.YRSOFEXP%TYPE) RETURN NUMBER IS TOTALCOUNT NUMBER :=0; BEGIN SELECT COUNT(*) AS TOTALCOUNT FROM FACULTY_DEMO WHERE YRSOFEXP>F_YRSOFEXP; RETURN TOTALCOUNT; END;",
@@ -11592,7 +12041,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In PL/SQL, a `SELECT` statement that returns a single value (like `COUNT(*)`) must include an `INTO` clause to store that value into a variable.",
+    "category": "Java"
   },
   {
     "question": "PL/SQL automatically and implicitly declares the loop index variable with datatype ------------------------",
@@ -11618,7 +12068,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In PL/SQL `FOR` loops, the loop index variable is implicitly declared as an `INTEGER` data type.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Are the following two sets of variable declarations equivalent? a.my_name VARCHAR2(25); next_name VARCHAR2(25); b.my_name ARCHAR2(25); next_name myname%TYPE;",
@@ -11634,7 +12085,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Declaring `next_name` with `my_name%TYPE` makes it inherit the data type and length of `my_name`, effectively making it `VARCHAR2(25)`.",
+    "category": "Java"
   },
   {
     "question": "Choose the description which best matches the below PL/SQL script? declare bonus real; begin for emp_rec in (select empno,sal,comm from emp) loop bonus:=(emp_rec.sal*0.05)+(emp_r ec.comm *0.025); INSERT INTO bonuses VALUES (emp_rec.empno,bonus); end loop; commit; End;",
@@ -11660,7 +12112,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The script uses a Cursor FOR loop to iterate through employee data, calculate bonuses as 5% of salary and 2.5% of commission, and insert them into a `bonuses` table.",
+    "category": "Java"
   },
   {
     "question": "What is the output for the following: public class StringDemo { public static void main(String[] args) { String str1=\"Hello World\"; String str2=new String(str1); System.out.println( str1==str2); String str3=str1; System.out.println( str1==str3); } }",
@@ -11681,7 +12134,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`str1 == str2` is false because `str2` is created using `new String()`, placing it in a different memory location than `str1`. `str1 == str3` is true because `str3 = str1` makes `str3` reference the exact same string object as `str1`.",
+    "category": "Java"
   },
   {
     "question": "Which of the below statement is true: a.  Java is a platform dependent language",
@@ -11702,7 +12156,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "While Java source code is compiled into platform-independent bytecode, the Java Virtual Machine (JVM) itself is platform-dependent, meaning a specific JVM implementation is required for each operating system.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which is a not characteristic of java programming language?",
@@ -11728,7 +12183,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Java is primarily an object-oriented programming language, not a procedural one, although it supports procedural-style programming within methods.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Idntify the SQL queries with proper group by and having usage",
@@ -11754,7 +12210,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This query correctly joins tables, groups by `LastName`, and uses `HAVING` to filter groups based on an aggregate condition (`COUNT(OrderID) > 10`), fulfilling the requirements for proper `GROUP BY` and `HAVING` usage.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Pick the correct variable declarations from the given list",
@@ -11780,7 +12237,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Option B correctly declares a `NUMBER` variable with a precision, a `NOT NULL` constraint, and an initial assignment, following PL/SQL syntax.",
+    "category": "Miscellaneous"
   },
   {
     "question": "What is the output of below python code? s='tcstcstcs qcityqcity' print(s[3:6])",
@@ -11801,7 +12259,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Python string slicing, `s[3:6]` extracts characters from index 3 up to (but not including) index 6, which are 't', 'c', 's'.",
+    "category": "Java"
   },
   {
     "question": "What is the output of below python code? dictionary = {} dictionary[1] = 2 dictionary['1'] = 3 dictionary[1] += 4 sum = 0 for k in dictionary : sum += dictionary[k] print sum",
@@ -11827,7 +12286,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The dictionary stores two distinct keys: integer `1` with value `2` (updated to `6`) and string `'1'` with value `3`. The loop sums `dictionary[1]` (which is `6`) and `dictionary['1']` (which is `3`), resulting in `9`.",
+    "category": "Java"
   },
   {
     "question": "What is the output of the below query? INSERT IGNORE INTO employee (employee_id,last_name, first_name,age) VALUES( 1234,'Ryan', 'Thomas',34);",
@@ -11853,7 +12313,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `INSERT IGNORE` statement in MySQL attempts to insert a row, but if a duplicate key error occurs, it ignores the error and does not insert the row.",
+    "category": "Java"
   },
   {
     "question": "Consider the following Employee table Name Null Type EMPID NOT NULL NUMBER(10) EMPNAME NOT NULL VARCHAR2(50) BRANCHID NOT NULL NUMBER(10) Choose the query which is used to find all the EMPNAME starting with Sur",
@@ -11879,7 +12340,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `REGEXP` operator with `'^Sur'` uses a regular expression to match strings that begin with \"Sur\" (`^` anchors the pattern to the beginning of the string).",
+    "category": "Java"
   },
   {
     "question": "What is the output of the below Query : SELECT USER( )",
@@ -11905,7 +12367,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `USER()` function in SQL (specifically MySQL) returns the current authenticated user name.",
+    "category": "Java"
   },
   {
     "question": "In MySQL – ISITNULL condition is used to check if there is a NULL value in the expression",
@@ -11921,7 +12384,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In MySQL, the correct operator to check for NULL values is `IS NULL` or `IS NOT NULL`, not `ISITNULL`.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Consider the following Employee table Name Null Type EMPID NOT NULL NUMBER(10) EMPNAME NOT NULL VARCHAR2(50) BRANCHID NOT NULL NUMBER(10) BRANCHNAME NOT NULL VARCHAR2(50) Choose the query which is used to add a column AGE of type integer",
@@ -11947,7 +12411,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The standard SQL syntax to add a column to an existing table is `ALTER TABLE table_name ADD column_name data_type;`.",
+    "category": "Java"
   },
   {
     "question": "What is the output of the below Query : USE CUSTOMER;",
@@ -11973,7 +12438,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `USE database_name;` command in SQL (especially MySQL) is used to select a specific database as the default for subsequent operations.",
+    "category": "Java"
   },
   {
     "question": "Which of the following queries can be correct according to the below projected requirement “Display the details of all those employees for whom “a” is the first or last cha r”? Assume the table name as emp",
@@ -11999,7 +12465,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `LIKE` operator with the wildcard `%` correctly matches strings that start with 'a' (`'a%'`) or end with 'a' (`'%a'`).",
+    "category": "Java"
   },
   {
     "question": "Which of the following constraint types are called as TABLE LEVEL constraints?",
@@ -12025,7 +12492,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`UNIQUE` and `PRIMARY KEY` constraints can be defined at the table level, meaning they can involve multiple columns or be specified after all columns are declared.",
+    "category": "Miscellaneous"
   },
   {
     "question": "What the following query will do? DELETE * FROM books WHERE bookid=4;",
@@ -12051,7 +12519,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `DELETE` statement does not use `*`; the correct syntax to delete all columns of a row is simply `DELETE FROM table_name WHERE condition;`.",
+    "category": "Java"
   },
   {
     "question": "Identify the unordered collections in python a.  List",
@@ -12072,7 +12541,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Python, `dictionaries` and `sets` are unordered collections, meaning their elements do not have a defined order and cannot be accessed by an integer index.",
+    "category": "Miscellaneous"
   },
   {
     "question": "What is the output of the below query? TRUNCATE TABLE EMPLOYEE;",
@@ -12098,7 +12568,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `TRUNCATE TABLE` command removes all rows from a table much faster than `DELETE` (without a `WHERE` clause) but leaves the table structure and its columns intact.",
+    "category": "Miscellaneous"
   },
   {
     "question": "The study of computer algorithms that improve automatically through experience",
@@ -12124,7 +12595,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Machine Learning is defined as the field of study that gives computers the ability to learn without being explicitly programmed, improving performance through experience.",
+    "category": "Miscellaneous"
   },
   {
     "question": "When Tata Consultancy Services established?",
@@ -12150,7 +12622,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Tata Consultancy Services (TCS) was established in 1968.",
+    "category": "KYT"
   },
   {
     "question": "Some challenges in Artificial Intelligence are",
@@ -12176,7 +12649,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Challenges in AI include the high cost of development and resources, limitations of current technology, and difficulty in replicating human common sense.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Prime difference between Public and Private Cloud is",
@@ -12202,7 +12676,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The primary distinction between public and private clouds lies in their deployment model and ownership, with public clouds being shared and private clouds dedicated.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Mobile application can interact with GPS and Camera of the device",
@@ -12218,7 +12693,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Mobile applications commonly request and use permissions to access device hardware components like GPS for location services and the camera for capturing images/videos.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Judging another person's views solely based on our own values and culture is called :",
@@ -12244,7 +12720,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Ethnocentrism is the act of judging another culture solely by the values and standards of one's own culture.",
+    "category": "BizSkill"
   },
   {
     "question": "Paul is working with a client who is casual while communicating with him through chat application. The client sends him memes and other forwards in order to build better workplace relationships. Select the be st option.",
@@ -12270,7 +12747,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Maintaining professionalism while being polite and task-oriented is the best approach when a client becomes overly casual, avoiding unprofessional behavior.",
+    "category": "Java"
   },
   {
     "question": "What is true about Agile principles? A. Leadership over management B. Management over leadership C. Adaptive over prescriptive D. Prescriptive over adaptive E. Customer collaboration over contract negotiation F. Contract negotiation over customer collaboration",
@@ -12296,7 +12774,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Agile principles prioritize leadership (empowerment) over strict management, being adaptive over following rigid prescriptions, and customer collaboration over relying solely on contract negotiation.",
+    "category": "Java"
   },
   {
     "question": "When declining help, what should you be wary of, more than the actual words ?",
@@ -12322,7 +12801,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Non-verbal cues like tone of voice and facial expressions often convey more meaning and can influence how a message is received, especially when declining a request.",
+    "category": "Miscellaneous"
   },
   {
     "question": "What all details should be provided in the signature of an e-mail? Choose the best options. a) Name & role b) Phone & e-mail ID c) Personal address d) Organization Website",
@@ -12348,7 +12828,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A professional email signature should include your name, role, contact information (phone, email), and relevant organizational links like a website, while excluding personal addresses.",
+    "category": "Java"
   },
   {
     "question": "‘Being objective’ in your writing is the ability to: 1. Present accurate facts and figures. b.Present facts and not personal views. c.Present stereotypical information.",
@@ -12374,7 +12855,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Being objective means presenting information based on accurate facts and figures and avoiding personal opinions or biases. Presenting stereotypical information is not objective.",
+    "category": "Java"
   },
   {
     "question": "Being digital gives us easy access to all kinds of information about our organization. How is data security ensured?",
@@ -12400,7 +12882,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Data security is primarily ensured by upholding confidentiality, restricting unauthorized access, and preventing the disclosure of sensitive information.",
+    "category": "Java"
   },
   {
     "question": "Stephen would be traveling home to attend his brother's wedding. What information should he exclude w hile drafting a mail prior to his leave ?",
@@ -12426,7 +12909,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A professional leave request should include essential information like the reason and duration of absence, and handover details, but not excessive personal details about the event or travel arrangements.",
+    "category": "BizSkill"
   },
   {
     "question": "You have joined a project and you are in the training phase now. The project requires that you know the b asics of Ruby on Rails. You complete an e-learning course on the same and now you are taking the assess ment. During the assessment, a senior member of the team approaches you and asks if you can join a conf erence call instead of him. He requests you to just attend the call for 10 minutes. How will you respond?",
@@ -12452,7 +12936,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "It is important to prioritize your training and assessment, so politely declining and explaining your commitment while offering a later alternative is the most professional response.",
+    "category": "Java"
   },
   {
     "question": "How can e-mails be used to convey negative information ?",
@@ -12478,7 +12963,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Emails are generally not ideal for delivering negative information directly; best practice is to use an email to schedule a face-to-face meeting for sensitive discussions.",
+    "category": "Miscellaneous"
   },
   {
     "question": "What is the sequence of the transition management phases",
@@ -12504,7 +12990,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In transition management, Knowledge Transfer (KT) typically precedes moving to secondary support, and then to primary support as expertise and responsibility are transferred.",
+    "category": "Miscellaneous"
   },
   {
     "question": "After creating a Knowledge Article (KA)",
@@ -12530,7 +13017,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "After creating a Knowledge Article, it is crucial to check and re-certify it regularly, ensure exceptions are clearly visible, and use a standard template for consistency and effectiveness.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Duplication of code is the root cause of most of the maintenance problems",
@@ -12546,7 +13034,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Code duplication leads to inconsistencies, makes debugging harder, and increases the effort required for changes and updates, hence causing significant maintenance problems.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which of the following sorting algorithms in its typical implementation gives best performance when app lied on an array which is sorted or almost sorted (maximum 1 or two elements are misplaced).",
@@ -12572,7 +13061,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Insertion Sort has a best-case time complexity of O(n) for already sorted or nearly sorted arrays because it only needs to shift elements slightly.",
+    "category": "Java"
   },
   {
     "question": "We use dynamic programming approach when",
@@ -12598,7 +13088,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Dynamic programming is applicable to problems that exhibit optimal substructure, meaning an optimal solution can be constructed from optimal solutions of its subproblems.",
+    "category": "Miscellaneous"
   },
   {
     "question": "what is the appearence of the <ins> tag?",
@@ -12624,7 +13115,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `<ins>` HTML tag is used to indicate inserted (added) text, and by default, browsers typically display this text as underlined.",
+    "category": "UI"
   },
   {
     "question": "Which of the following is a correct syntax to display ordered list with roman numbers?",
@@ -12645,7 +13137,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "To display an ordered list with Roman numerals in HTML, you use the `<ol>` tag with the `type=\"I\"` attribute, and the browser will render it with capital Roman numerals.",
+    "category": "Miscellaneous"
   },
   {
     "question": "A link can be an image or any other HTML element.",
@@ -12661,7 +13154,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In HTML, any element can be made into a link by wrapping it within an `<a>` tag, including images, paragraphs, or block-level elements.",
+    "category": "Miscellaneous"
   },
   {
     "question": "<img url=\"sky.jpg\" width=\"100\" height=\"100\" opacity=\"0.25\"> What will be the output of the above code?",
@@ -12687,7 +13181,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `url` attribute for the `<img>` tag is incorrect; it should be `src`. Also, `opacity` is a CSS property, not an HTML attribute, so it won't be applied this way.",
+    "category": "Java"
   },
   {
     "question": "Which of the following is not an inline element in html?",
@@ -12713,7 +13208,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `<hr>` (horizontal rule) tag is a block-level element, meaning it takes up the full width available and forces a line break before and after it.",
+    "category": "Miscellaneous"
   },
   {
     "question": "<html> <head> <style> p { border: 1px solid black; outline: #7845ef solid 10px; } .para { border: 1px solid red; outline: #7845ef solid 10px; } </style> </head> <body> <p>Hello Java</p> <p class=\"para\">Hello HTML</p> </body> </html> What will be the ouput of the above code?",
@@ -12739,7 +13235,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The first paragraph `Hello Java` applies the `p` selector, giving a black border. The second paragraph `Hello HTML` applies both `p` and `.para` selectors; since `.para`'s border color (red) is more specific or comes later, it overrides the `p`'s black border.",
+    "category": "Java"
   },
   {
     "question": "Which of the following is incorrect?",
@@ -12765,7 +13262,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The hexadecimal color code `#000ff` is invalid; a valid hex code for blue should be `#0000FF` or a shorthand like `#00F`.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which of the following Statement is wrong for accessing the value of the text box?",
@@ -12791,7 +13289,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`document.getElementById(\"frm\").innerHTML` retrieves the HTML content *inside* the span with id \"frm\", which includes the `<input>` tag itself, not the value of the input.",
+    "category": "Miscellaneous"
   },
   {
     "question": "An array can be declared in Javascript as;",
@@ -12817,7 +13316,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In JavaScript, arrays are declared using square brackets `[]` to enclose a comma-separated list of elements.",
+    "category": "Miscellaneous"
   },
   {
     "question": "<html> <script> function displayTime() { document.getElementById(\"abc\").innerHTML = Date(); } </script> <body> <div id=\"abc\" style=\"display:none\"></div> <button onclick=\"displayTime()\">What is the time?</button> </body> </html> What is the output of the above code?",
@@ -12843,7 +13343,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Clicking the button calls `displayTime()`, which sets the `innerHTML` of the `div` with id \"abc\" to the current date and time (including timezone). The `div`'s initial `display:none` style is overridden as content is added and it is a block-level element, appearing above the button.",
+    "category": "Java"
   },
   {
     "question": "Syntax for variable declaration in c# is",
@@ -12869,7 +13370,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In C#, variable declarations typically follow the format `data_type variable_name;` and end with a semicolon.",
+    "category": "C# / .NET"
   },
   {
     "question": "Select the value types",
@@ -12895,7 +13397,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In C#, `int`, `char`, and `struct` are all examples of value types, which directly store their data.",
+    "category": "C# / .NET"
   },
   {
     "question": "What would be the output of program below. namespace DataTypeApplication { class Program { static void Main(string[] args) { Console.WriteLine(\"Size of int: {0}\", sizeof(int)); Console.ReadLine(); } } }What would be the output of program below. namespace DataTypeApplication { class Program { static void Main(string[] args) { Console.WriteLine(\"Size of int: {0}\", sizeof(int)); Console.ReadLine(); } } }",
@@ -12921,7 +13424,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In C#, the `sizeof(int)` operator returns the size of an `int` data type in bytes, which is typically 4 bytes on most systems.",
+    "category": "Java"
   },
   {
     "question": "Correct output for code is? static void Main(string[] args) { float a = 10.553f; long b = 12L; int c; c = Convert.ToInt32(a + b); Console.WriteLine(c);Correct output for code is? static void Main(string[] args) { float a = 10.553f; long b = 12L; int c; c = Convert.ToInt32(a + b); Console.WriteLine(c);",
@@ -12947,7 +13451,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The expression `a + b` evaluates to `10.553f + 12L = 22.553`. `Convert.ToInt32()` rounds `22.553` to the nearest integer, which is `23`.",
+    "category": "Java"
   },
   {
     "question": "What will be the output of the following code snippet? static void Main(string[] args) { int i; for (i = 0; i <= 10; i++) { if (i == 4) { Console.Write(i + \" \"); continue; } else if (i != 4) Console.Write(i + \" \"); else break; } Console.ReadLine(); }What will be the output of the following code snippet? static void Main(string[] args) { int i; for (i = 0; i <= 10; i++) { if (i == 4) { Console.Write(i + \" \"); continue; } else if (i != 4) Console.Write(i + \" \"); else break; } Console.ReadLine(); }",
@@ -12973,7 +13478,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The loop prints every number from 0 to 10 because `if (i == 4)` handles the case for `4` by printing and continuing, and `else if (i != 4)` handles all other numbers by printing them.",
+    "category": "Java"
   },
   {
     "question": "What is the output of the following public enum Number { One, Two = 10, Three } class Program { static void Main(string[] args) { int i = (int)Number.Three; Console.WriteLine(i.ToString()); Console.ReadLine(); } } What is the output of the following public enum Number { One, Two = 10, Three } class Program { static void Main(string[] args) { int i = (int)Number.Three; Console.WriteLine(i.ToString()); Console.ReadLine(); } }",
@@ -12999,7 +13505,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In C# enums, if a member's value is not explicitly set, its value is incremented by 1 from the preceding member. `One` defaults to 0, `Two` is 10, so `Three` becomes 11.",
+    "category": "Java"
   },
   {
     "question": "Which of the following statements are correct? a.Data members of a class are by default public. b.Data members of a class are by default private. c.Member functions of a class are by default public. d.A private function of a class can access a public function within the same class. e.Member function of a class are by default private.",
@@ -13025,7 +13532,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In C#, data members (fields) are private by default, member functions (methods) are also private by default, and any function within a class can access other functions (public or private) within the same class.",
+    "category": "Java"
   },
   {
     "question": "What would be the output of the following code? static void Main(string[] args) { string s = \" \"; Console.WriteLine(s.Trim().Length); Console.ReadLine(); }What would be the output of the following code? static void Main(string[] args) { string s = \" \"; Console.WriteLine(s.Trim().Length); Console.ReadLine(); }",
@@ -13051,7 +13559,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `Trim()` method removes all leading and trailing whitespace from a string. For the string \" \", `Trim()` returns an empty string \"\", whose `Length` property is 0.",
+    "category": "Java"
   },
   {
     "question": "A constructor",
@@ -13077,7 +13586,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Constructors are special methods used to initialize objects, they must bear the same name as their class, and they can be overloaded to support different initialization scenarios.",
+    "category": "C# / .NET"
   },
   {
     "question": "Which keyword is used to add an item to the list?",
@@ -13103,7 +13613,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `Add` method is the standard and most common way to append a single item to the end of a list or collection in many programming languages and frameworks.",
+    "category": "C# / .NET"
   },
   {
     "question": "CREATE, ALTER are category of statements",
@@ -13129,7 +13640,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "CREATE and ALTER are commands belonging to the Data Definition Language (DDL) category, used to define and modify the structure of database objects.",
+    "category": "C# / .NET"
   },
   {
     "question": "Primary key should always be auto increment",
@@ -13145,7 +13657,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "While a primary key must be unique and non-null, it is not a requirement for it to be auto-incrementing; any unique identifier can serve as a primary key.",
+    "category": "C# / .NET"
   },
   {
     "question": "If a view is created from one table then it can also be used to insert,update,delete values to the table",
@@ -13161,7 +13674,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "If a view is created from a single table without complex operations like aggregation or distinct clauses, it can often be used to perform DML operations (insert, update, delete) on the underlying base table.",
+    "category": "C# / .NET"
   },
   {
     "question": "Which join is used to join a table to itself?",
@@ -13187,7 +13701,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "A self-join is a specialized type of join where a table is joined to itself, typically used to compare rows within the same table or to query hierarchical data.",
+    "category": "C# / .NET"
   },
   {
     "question": "Which is true regarding indexing operation?",
@@ -13213,7 +13728,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Indexing involves creating a data structure that helps sort a file using one or more keys, which significantly speeds up data retrieval and lookup operations.",
+    "category": "C# / .NET"
   },
   {
     "question": "Which of the following is the object of .NET data provider?",
@@ -13239,7 +13755,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The fundamental objects for connecting to a database and executing commands in ADO.NET data providers are the `Connection` object to establish the link and the `Command` object to execute SQL statements.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Consider the following code snippet: DataSet myDataSet = new DataSet(); myDataAdapter.Fill(myDataSet); What is the functionality of the above code segment?",
@@ -13265,7 +13782,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `myDataAdapter.Fill(myDataSet)` method executes the `SelectCommand` associated with the data adapter and then populates the `DataSet` object with the retrieved data from the database.",
+    "category": "Java"
   },
   {
     "question": "Which one of the following is TRUE about DataSet ?",
@@ -13291,7 +13809,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `DataSet` in ADO.NET operates as a disconnected, in-memory cache of data, meaning it can hold and manipulate data independently of an active database connection.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which ADO.NET object is very fast in getting data from database?",
@@ -13317,7 +13836,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `DataReader` object in ADO.NET provides the fastest way to retrieve data from a database because it offers a forward-only, read-only stream of data, minimizing overhead.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which of the following options describes the roles of the DataReader class in ADO.NET connections?",
@@ -13343,7 +13863,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `DataReader` class provides a fast, efficient, and forward-only stream of data from a data source, making the retrieved data read-only and accessible sequentially.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "In which year TCS had won the Pega Partner Excellence Award?",
@@ -13369,7 +13890,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "TCS was awarded the Pega Partner Excellence Award in 2017, recognizing their significant contributions and expertise in Pega technologies.",
+    "category": "KYT"
   },
   {
     "question": "Who are the value chain partners with respect to TCS?",
@@ -13395,7 +13917,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Value chain partners for TCS encompass both suppliers and service providers who aid in operations, as well as joint-venture partners who collaborate on strategic initiatives.",
+    "category": "KYT"
   },
   {
     "question": "Some challenges in Artificial Intelligence are",
@@ -13421,7 +13944,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Artificial Intelligence faces challenges in areas such as high development and deployment costs, limitations in current technology, and the inherent difficulty of imbuing machines with common sense.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Utility cloud computing services offer virtual storage and server options, where the companies can access it on demand",
@@ -13437,7 +13961,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Utility cloud computing services offer on-demand virtualized storage and server resources, allowing companies to scale their infrastructure and access computing power as needed.",
+    "category": "Java"
   },
   {
     "question": "Which of the method is used by Humans while making judgments",
@@ -13463,7 +13988,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Humans often rely on intuitive-based methods, which involve rapid, unconscious processing and pattern recognition, when making judgments, especially in complex or time-sensitive situations.",
+    "category": "KYT"
   },
   {
     "question": "What are the two 'A's of effective writing? a.  Accurate and Approachable",
@@ -13484,7 +14010,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Effective writing prioritizes being Accurate (providing correct information) and Accessible (easy for the target audience to understand).",
+    "category": "BizSkill"
   },
   {
     "question": "Paul is working with a client who is casual while communicating with him through chat application. The client sends him memes and other forwards in order to build better workplace relationships. Select the be st option.",
@@ -13510,7 +14037,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Maintaining a professional demeanor by being task-oriented and polite, while subtly avoiding informal communication like sharing memes, helps establish appropriate workplace boundaries.",
+    "category": "Java"
   },
   {
     "question": "Which of the following is NOT expected of a good listener?",
@@ -13536,7 +14064,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "A good listener actively engages by paying attention, maintaining eye contact, and asking clarifying questions, but does not interrupt the speaker, which disrupts communication flow.",
+    "category": "BizSkill"
   },
   {
     "question": "Identify the correct statement a.  Accepting help is a sign of weakness.",
@@ -13557,7 +14086,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "It is important to acknowledge and accept help when necessary; doing so assertively and being transparent about limitations can build trust and facilitate better teamwork.",
+    "category": "BizSkill"
   },
   {
     "question": "What all details should be provided in the signature of an e-mail? Choose the best options. a) Name & role b) Phone & e-mail ID c) Personal address d) Organization Website",
@@ -13583,7 +14113,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A professional email signature should include essential contact details such as your name, role, phone number, email ID, and the organization's website, but not personal addresses.",
+    "category": "Java"
   },
   {
     "question": "‘Being objective’ in your writing is the ability to: a.Present accurate facts and figures. b.Present facts and not personal views. c.Present stereotypical information.",
@@ -13609,7 +14140,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Being objective in writing means presenting information based on accurate facts and figures, and excluding personal opinions or subjective viewpoints to maintain neutrality.",
+    "category": "Java"
   },
   {
     "question": "You are a team lead. During an initial meeting, you realise that you need 3 additional resources to work o n the project. How will you communicate the same effectively in a Project Status Report?",
@@ -13635,7 +14167,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The most effective way to communicate a need for resources is to clearly state the problem and the specific requirement, such as \"We are facing a shortage of manpower for the task. Hence we need 3 more resources.\"",
+    "category": "Java"
   },
   {
     "question": "Which of the choices make the following sentence correct and consistent - 'The instructor explains the dia gram to students who asked questions during the lecture.'",
@@ -13656,7 +14189,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The original sentence \"The instructor explains the diagram to students who ask questions during the lecture\" is grammatically correct as \"students\" is plural, requiring the plural verb \"ask.\"",
+    "category": "Java"
   },
   {
     "question": "You have joined a project and you are in the training phase now. The project requires that you know the b asics of Ruby on Rails. You complete an e-learning course on the same and now you are taking the assess ment. During the assessment, a senior member of the team approaches you and asks if you can join a conf erence call instead of him. He requests you to just attend the call for 10 minutes. How will you respond?",
@@ -13682,7 +14216,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Prioritizing your ongoing assessment while politely declining the request, explaining your current commitment, and offering to assist once your task is complete is the most professional response.",
+    "category": "Java"
   },
   {
     "question": "What factors should you consider before preparing a help document on the newly introduced 'search' func tionality in ABC online application ?",
@@ -13708,7 +14243,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Considering the users' interest level is important because it influences how the help document should be structured and presented to engage them and encourage adoption of the new functionality.",
+    "category": "BizSkill"
   },
   {
     "question": "During a crisis, do not cascade incorrect updates to the customer and other associates. Always wait for co nfirmation from the",
@@ -13734,7 +14270,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "During a crisis, all communications to customers and associates must be confirmed and cascaded by the designated Crisis Management Team to ensure accuracy and prevent the spread of misinformation.",
+    "category": "Java"
   },
   {
     "question": "Before accessing customer system what are the important steps to be completed by recruits",
@@ -13755,7 +14292,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Before accessing customer systems, recruits are typically required to complete background checks and sign a Non-Disclosure Agreement (NDA) to ensure security, compliance, and confidentiality.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which of the following standard algorithms is not Dynamic Programming based",
@@ -13781,7 +14319,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Prim's algorithm for finding a Minimum Spanning Tree is a greedy algorithm, where it makes locally optimal choices at each step, rather than a dynamic programming approach which solves subproblems.",
+    "category": "Algorithms"
   },
   {
     "question": "Which of the following sorting algorithms in its typical implementation gives best performance when app lied on an array which is sorted or almost sorted (maximum 1 or two elements are misplaced).",
@@ -13807,7 +14346,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Insertion Sort is highly efficient for arrays that are already sorted or nearly sorted, as it performs very few comparisons and swaps in such optimal conditions, achieving close to O(n) performance.",
+    "category": "Java"
   },
   {
     "question": "which is the fastest sorting algorithm",
@@ -13833,7 +14373,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Merge Sort guarantees an O(n log n) time complexity in all cases (best, average, and worst), making it a consistently fast and stable sorting algorithm for large datasets.",
+    "category": "Algorithms"
   },
   {
     "question": "What is the syntax to combine the content of two files(file1, file2 ) into another file (newfilename)?",
@@ -13859,7 +14400,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `cat` command concatenates the contents of `file1` and `file2`, and the `>` operator redirects this combined output to `newfilename`, creating or overwriting the destination file.",
+    "category": "Unix"
   },
   {
     "question": "Example.txt file contains the following text: Java Programming Language. Java and Python are programming languages. Python Programming language. What is the output generated by the below command. $ grep -v Java Example.txt",
@@ -13885,7 +14427,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `grep -v Java Example.txt` command filters `Example.txt` to display only those lines that *do not* contain the string \"Java\", which in this case is \"Python Programming language.\".",
+    "category": "Java"
   },
   {
     "question": "When we are deleting the folder and when we are not sure whether the folder is having files or not in it? Then which of the below command is right command to apply, which deletes only the folder which are e mpty?",
@@ -13911,7 +14454,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `rmdir` command is used to remove empty directories; it will not delete a directory if it contains any files or subdirectories, thus preventing accidental data loss.",
+    "category": "Java"
   },
   {
     "question": "In shell script if we write the below statement, What does the statement refers to? if [ -r $2 ] then",
@@ -13937,7 +14481,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `[ -r $2 ]` test in a shell script checks if the second command-line argument (`$2`) refers to a file that exists and is readable by the current user.",
+    "category": "Java"
   },
   {
     "question": "grep \"Tata.*Services$\" * What would be the output of the above command?",
@@ -13963,7 +14508,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `grep \"Tata.*Services$\" *` command searches all files for lines that start with \"Tata\", contain any characters in between, and end with \"Services\", displaying the filename and matching lines.",
+    "category": "Java"
   },
   {
     "question": "Do all HTML tags have an end tag?",
@@ -13979,7 +14525,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "No, not all HTML tags have an end tag; self-closing tags like `<img>`, `<br>`, and `<input>` do not require a separate closing tag.",
+    "category": "UI"
   },
   {
     "question": "What is the purpose of border-collpase property?",
@@ -14005,7 +14552,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `border-collapse` CSS property is specifically used on `<table>` elements to control whether adjacent table cell borders are separated or merged into a single border.",
+    "category": "UI"
   },
   {
     "question": "Which of the following is a correct syntax to display ordered list with roman numbers?",
@@ -14026,7 +14574,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In HTML, the `<ol type=\"I\">` attribute correctly specifies that an ordered list should be displayed using uppercase Roman numerals as its markers.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which of the following is a correct syntax for applying border color for <h1>tag?",
@@ -14052,7 +14601,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The correct inline CSS syntax for applying a border is to use the `border` shorthand property, specifying the width, style, and color, such as `border: 2px solid Tomato;`.",
+    "category": "UI"
   },
   {
     "question": "Which of the following property is used to specifies an image to use as the background of an element",
@@ -14078,7 +14628,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `background-image` CSS property is used to set an image as the background of an HTML element.",
+    "category": "UI"
   },
   {
     "question": "What is the font color for the text 'Hello World'? <html> <head> <style> body { color: blue; } h1 { color: green; } </style> </head> <body> <h1>Hello World</h1> </body> </html>",
@@ -14104,7 +14655,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Due to CSS specificity rules, the `h1` selector has higher specificity than the `body` selector, so `color: green;` for the `<h1>` tag overrides the `color: blue;` set for the `<body>`.",
+    "category": "Java"
   },
   {
     "question": "Which of the following is not a valid style for the paragraph? p { color: red; font-family: courier; font-size: 160%; border-style: dotted dashed solid double; margin-right: 150px; float: bottom; }",
@@ -14130,7 +14682,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `float` property in CSS only accepts values like `left`, `right`, `none`, or `inherit`, but `bottom` is not a valid value for floating elements.",
+    "category": "UI"
   },
   {
     "question": "Which of the following is not a valid css unit?",
@@ -14156,7 +14709,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "`ut` is not a recognized or valid unit in CSS; common units include pixels (`px`), percentages (`%`), em units (`em`), and rem units (`rem`).",
+    "category": "UI"
   },
   {
     "question": "Which of the following Statement is wrong for accessing the value of the text box? <html> <body> <span id=\"frm\"> <input type=\"text\" name=\"user\" id=\"user\"> </span> <button onclick=\"myFunction()\">Try it</button> <p id=\"xyz\"></p> <script> function myFunction() { var a = document.getElementById(\"user\").value; var b = document.getElementsByName(\"user\").value; var c = document.getElementById(\"frm\").innerHTML; var d = document.getElementsByName(\"user\"); alert(d); document.getElementById(\"xyz\").innerHTML = a;//Statement1 document.getElementById(\"xyz\").innerHTML = b;//Statement2 document.getElementById(\"xyz\").innerHTML = c;//Statement3 document.getElementById(\"xyz\").innerHTML = d.value;//Statement4 } </script> </body> </html>",
@@ -14182,7 +14736,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`document.getElementById(\"frm\").innerHTML` retrieves the entire HTML content *inside* the `span` element, which would be the `<input>` tag itself, not the value entered in the textbox.",
+    "category": "Java"
   },
   {
     "question": "Which of the following method is used to validate a number?",
@@ -14208,7 +14763,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `isNaN()` function is used to determine whether a value is Not a Number (NaN), making it suitable for validating if a given input is a valid numerical value.",
+    "category": "UI"
   },
   {
     "question": "Look at the below SQL join and select the type of join select e.ename as employee m.ename as manager from employees m JOIN employees e ON e.mgr = m.e mpno where e.bdate > date '1965-01-01' order by employee;",
@@ -14234,7 +14790,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The query uses the `JOIN` keyword without specifying `LEFT` or `RIGHT`, which defaults to an `INNER JOIN`, retrieving records where the join condition `e.mgr = m.empno` is met.",
+    "category": "Java"
   },
   {
     "question": "Which of the following way or ways before is/are correct to insert DATE in a table?",
@@ -14260,7 +14817,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The format 'DD-MON-YYYY' (e.g., '05-FEB-2005') is a widely recognized default string format for dates in SQL that the database can implicitly convert to a `DATE` type.",
+    "category": "Java"
   },
   {
     "question": "Consider the following set of relations EMP ( emp_no,emp_name,dept_no,salary) DEPT (dept_no,dept_name,location) Write SQL query for the following Find all the employees whose departments are located in 'Mumbai' and salary is greater than Rs. 20,000.",
@@ -14286,7 +14844,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The query correctly uses a subquery to first identify `dept_no` values for departments located in 'Mumbai' and then filters employees from the `emp` table based on this department list and a salary condition.",
+    "category": "Java"
   },
   {
     "question": "Consider the following schema − STUDENTS(student_code, first_name, last_name, email, phone_no, date_of_birth, honours_subject, perc entage_of_marks); Which of the following query would display names of all the students whose email ids are not provided?",
@@ -14312,7 +14871,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In SQL, to find records where an email ID is missing or undefined, the correct syntax is to use `IS NULL`, as `NULL` values cannot be compared directly with `=` or empty strings.",
+    "category": "Java"
   },
   {
     "question": "What will happen when the code is executed? DECLARE -- Global variables employeeId number := 95; BEGIN dbms_output.put_line('number: ' || employeeId); DECLARE -- Local variables employeeId number := 195; BEGIN dbms_output.put_line('num: ' || employeeId); END; END;",
@@ -14338,7 +14898,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In PL/SQL, variables declared in an inner block shadow variables of the same name in an outer block; thus, the outer `employeeId` (95) is printed first, followed by the inner `employeeId` (195).",
+    "category": "Java"
   },
   {
     "question": "Which of the following is not true about PL/SQL cursors?",
@@ -14364,7 +14925,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A PL/SQL cursor is a pointer to a memory area (context area) that stores execution information and the result set of a SQL statement; it is not a virtual representation of a table like a view.",
+    "category": "Java"
   },
   {
     "question": "PL/SQL gives you control to declare variables and access them within the block. The declared variables c an be used at the time of query processing. Is the statement True or False?",
@@ -14380,7 +14942,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "PL/SQL provides the functionality to declare variables within an anonymous or named block and then access and utilize these declared variables during query processing and procedural logic.",
+    "category": "Java"
   },
   {
     "question": "Oracle creates a memory area, known as context area, for processing an SQL statement, which contains al l information needed for processing the statement, for example, number of rows processed, etc.The pointe r to this context area is called as ?",
@@ -14406,7 +14969,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The pointer to the Oracle-created memory area (context area) containing all information for processing an SQL statement, including the number of rows processed, is referred to as a cursor.",
+    "category": "Java"
   },
   {
     "question": "Which of the following is correct? I. void display(String … args, int.. num){}; II. void method2(String... name,double b){}; III.void method(Sting … a){};",
@@ -14432,7 +14996,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Java, variable-length arguments (varargs) must always be the last parameter in a method's signature; therefore, `void method(String... a){}` is the only syntactically correct declaration.",
+    "category": "Java"
   },
   {
     "question": "Which among the following are valid declarations? I. [] double pencil; II. double[] box; III .double crayon[];",
@@ -14458,7 +15023,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Java, both `double[] box;` and `double crayon[];` are valid syntaxes for declaring an array of doubles, with the square brackets placed either after the type or after the variable name.",
+    "category": "Java"
   },
   {
     "question": "Which of the following is used to determine the number of elements in an given array called box?",
@@ -14484,7 +15050,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Java, the number of elements in an array, such as `box`, is accessed through its `length` *field*, not a method, so the correct way is `box.length`.",
+    "category": "Java"
   },
   {
     "question": "What is the output of the following? public class Navigation { public static void main(String[] args) { { String[] directions = new String[] {\"North\",\"South\",\"East\",\"West\" }; for (int i = 0; i <directions.length(); i++) System.out.println(directions[i]); } } }",
@@ -14510,7 +15077,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The code does not compile because arrays in Java use a `length` *field* to determine their size, not a `length()` *method*; calling `directions.length()` results in a compile-time error.",
+    "category": "Java"
   },
   {
     "question": "For given below code : public class Navigation { public static void main(String[] args) { { String[] directions = new String[] {\"North\",\"South\",\"East\",\"West\" }; //code of line that will cause ArrayIndexBoundOfException System.out.println(directions[i]); } } } Which of the following lines throws ArrayIndexOutOfBoundException? for (int i = 0; i <=directions.length; i++) //m1 for (int i = 1; i <=directions.length; i++) //m2 for (int i = 0; i <=directions.length; i--) //m3 for (int i = 0; i <directions.length; i++) //m4",
@@ -14536,7 +15104,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The loops `m1` and `m2` cause an `ArrayIndexOutOfBoundsException` when `i` equals `directions.length`, and `m3` creates an infinite loop that eventually decrements `i` to a negative index, leading to an exception.",
+    "category": "Java"
   },
   {
     "question": "Which Query is correct to display the commission of all the salesmen servicing customers in Paris. salesman salesman_id name city commission 5001 James New York 0.15 5002 Nail Paris 0.13 Customer customer_id cust_name city grade salesman_id 3002 Nick New York 100 5001 3007 Brad New York 200 5001",
@@ -14562,7 +15131,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The query correctly uses a subquery to first select the `salesman_id` from the `customer` table for customers located in 'Paris', and then retrieves the `commission` for those specific salesmen.",
+    "category": "Java"
   },
   {
     "question": "Pick the correct variable declarations from the given list",
@@ -14588,7 +15158,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The declaration `empno number(5) NOT NULL := 2;` is a correct PL/SQL variable declaration that includes a `NOT NULL` constraint and initializes the variable at the time of declaration.",
+    "category": "Miscellaneous"
   },
   {
     "question": "What is the output of below code? x = sum(range(7)) print(x)",
@@ -14614,7 +15185,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`range(7)` generates a sequence of numbers from 0 to 6, and the `sum()` function adds these values (0 + 1 + 2 + 3 + 4 + 5 + 6), resulting in 21.",
+    "category": "Java"
   },
   {
     "question": "What is the output of below code? TCS = { '1' : 1, '2' : 2 } theCopy = TCS TCS['1'] = 5 sum = TCS['1'] + theCopy['1'] print(sum)",
@@ -14640,7 +15212,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Python, assigning `theCopy = TCS` creates a shallow copy where `theCopy` is merely another reference to the *same* dictionary object as `TCS`; thus, modifying `TCS['1']` also changes `theCopy['1']`, making both 5, and their sum 10.",
+    "category": "Java"
   },
   {
     "question": "Is Tuple mutable?",
@@ -14656,7 +15229,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Tuples in Python are immutable data structures, meaning their elements cannot be modified, added, or removed after the tuple has been created.",
+    "category": "Python"
   },
   {
     "question": "If we have a list below , X = [1,2,3,4] How do we print the first element?",
@@ -14682,7 +15256,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Python, list elements are accessed using zero-based indexing, so to print the first element of a list `X`, you would use `print x[0]`.",
+    "category": "Java"
   },
   {
     "question": "Choose the numeric data types in MySQL",
@@ -14703,7 +15278,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`TINYINT` is a numeric type for small integers, and `DECIMAL(m,d)` is a numeric type for exact decimal values, both being valid numeric data types in MySQL.",
+    "category": "Python"
   },
   {
     "question": "Consider a database with the name products. Choose the query to select the products database",
@@ -14729,7 +15305,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `USE products;` command is the correct SQL statement to select and set the `products` database as the current working database.",
+    "category": "Java"
   },
   {
     "question": "Consider the table Table1 ID Name Stream ========================= 128956 Naveen Python 165780 Raghu Dot Net 189078 Prathik Mainframe 178908 Mani Angular JS Which query will provide the below output Name ======== Naveen Raghu Mani",
@@ -14755,7 +15332,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The query `select name from Table1 where stream not like 'M%'` correctly filters out streams starting with 'M' (Mainframe), leaving Python, Dot Net, and Angular JS which correspond to Naveen, Raghu, and Mani.",
+    "category": "Java"
   },
   {
     "question": "Consider the following table products ProductId ProductName Price =========================== 12 Toddler dress 100 14 Footwears 500 24 Soft Toys 400 Which query produce the below output ProductId ProductName Price ============================== 14 Footwears 500 24 Soft Toys 400",
@@ -14781,7 +15359,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The query `SELECT * FROM products WHERE ProductName NOT LIKE 'T%';` filters for products whose names do not begin with the letter 'T', thus returning 'Footwears' and 'Soft Toys'.",
+    "category": "Java"
   },
   {
     "question": "USE is the command to select a particular database",
@@ -14797,7 +15376,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `USE` command is indeed the correct SQL statement used to select a particular database to interact with in MySQL.",
+    "category": "Python"
   },
   {
     "question": "SELECT EmployeeName FROM Employee order by EmployeeId Desc LIMIT 1;",
@@ -14823,7 +15403,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The query `ORDER BY EmployeeId Desc LIMIT 1` first sorts all employees by `EmployeeId` in descending order, and then `LIMIT 1` selects only the first row from this sorted list, which corresponds to the employee with the highest (last) EmployeeId.",
+    "category": "Python"
   },
   {
     "question": "Consider the following table CourseIdCourseNameNoofParticipants 12 C 100 14 C++ 500 24 Java 5000 Which subquery will be used to display records whose noofparticipants are more than the average",
@@ -14849,7 +15430,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This query correctly uses a subquery to calculate the average `NoofParticipants` for all courses and then filters the main query to select only those courses with `NoofParticipants` greater than that average.",
+    "category": "Java"
   },
   {
     "question": "Consider a database products Choose the query to select the products database",
@@ -14875,7 +15457,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `USE products;` command is the correct SQL statement to select and set the `products` database as the current working database.",
+    "category": "Java"
   },
   {
     "question": "ProductId ProductName Price =========================== 12 Toddler dress 100 14 Footwears 500 24 Soft Toys 400 Which query produce the below output ProductId ProductName Price ============================== 14 Footwears 500 24 Soft Toys 400",
@@ -14901,7 +15484,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The query `SELECT * FROM products WHERE ProductName NOT LIKE 'T%';` filters for products whose names do not begin with the letter 'T', thus returning 'Footwears' and 'Soft Toys'.",
+    "category": "Java"
   },
   {
     "question": "If Tcs is a class, how do we make a new Tcs object?",
@@ -14927,7 +15511,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Python, a new object of a class is instantiated by calling the class name as a function, such as `x = Tcs()`, without using a `new` keyword.",
+    "category": "Python"
   },
   {
     "question": "ProductId ProductName Price =========================== 12 Toddler dress 100 14 Footwears 500 24 Soft Toys 400 what is the output of the Query :select productname from products where price >(select avg(price) from p roducts);",
@@ -14953,7 +15538,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The average price is (100+500+400)/3 = 333.33. Products with a price greater than 333.33 are 'Footwears' (500) and 'Soft Toys' (400).",
+    "category": "Java"
   },
   {
     "question": "In which year Tata Consultancy Services (TCS) becomes the first Indian software company to cross one b illion dollars in revenues?",
@@ -14979,7 +15565,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Tata Consultancy Services (TCS) reached the milestone of crossing one billion dollars in revenues in the financial year 2003-2004, often cited as the year 2003.",
+    "category": "Java"
   },
   {
     "question": "Which is a best Mobile App when we are dealing with a Resource Intensive Application",
@@ -15005,7 +15592,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Native Applications are best for resource-intensive applications because they are developed specifically for a platform, allowing them to leverage device-specific hardware and software capabilities for optimal performance.",
+    "category": "KYT"
   },
   {
     "question": "Consumers assert that cloud computing permits businesses to bypass upfront infrastructure charges",
@@ -15021,7 +15609,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Cloud computing allows businesses to avoid large upfront capital expenditures on infrastructure by converting them into operational expenses, making the statement true.",
+    "category": "KYT"
   },
   {
     "question": "Choose one option which is not a Cloud Platform",
@@ -15047,7 +15636,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Wipro Air Cloud is not a widely recognized public cloud platform comparable to the established offerings from IBM, Amazon, or Microsoft Azure.",
+    "category": "KYT"
   },
   {
     "question": "Big Data Analytics on Genomic Medicine will help in prediction of Genetic Diseases",
@@ -15063,7 +15653,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Big Data Analytics applied to genomic medicine can process vast amounts of genetic information to identify patterns and predict the likelihood of genetic diseases, making the statement true.",
+    "category": "KYT"
   },
   {
     "question": "Which of the following can make or break a presentation ?",
@@ -15089,7 +15680,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "All mentioned factors, including non-verbal communication, tone, presentation style, use of jargon, and audience orientation, contribute significantly to the success or failure of a presentation.",
+    "category": "BizSkill"
   },
   {
     "question": "Which of the following statements is true? a.  Downward flow of communication is when the speaker uses a condescending tone.",
@@ -15110,7 +15702,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Downward flow of communication specifically refers to information or instructions moving from higher organizational levels, like a supervisor, to lower levels, such as subordinates.",
+    "category": "Java"
   },
   {
     "question": "You have a great idea for your team which will make the application 40% faster. How will you persuade your team ?",
@@ -15136,7 +15729,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Effective persuasion involves fostering participation and discussion, allowing team members to contribute their thoughts and addressing their concerns before making a decision, leading to better buy-in.",
+    "category": "Java"
   },
   {
     "question": "What is Minutes of the Meeting (MoM) ?",
@@ -15162,7 +15756,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Minutes of the Meeting (MoM) is a formal document that captures all key points discussed, decisions made, and action items assigned during a meeting, serving as an important record.",
+    "category": "BizSkill"
   },
   {
     "question": "Which corporate culture is better, a task-oriented or relationship-oriented ?",
@@ -15188,7 +15783,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Corporate culture is a complex outcome of an organization's traditions, values, and history, implying that no single culture type is universally superior; a mix tailored to the context is often ideal.",
+    "category": "BizSkill"
   },
   {
     "question": "What are the main features offered in the mail application apart from e-mail? a) Schedule meetings and appointments. b) Invite stakeholders for a meeting. c) Accept/ decline an invitation. d) Set reminders to attend meetings.",
@@ -15214,7 +15810,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Modern mail applications extend beyond basic email functionality to include comprehensive tools for scheduling meetings, inviting participants, accepting/declining invitations, and setting reminders.",
+    "category": "Java"
   },
   {
     "question": "How should you gather and share requirements for a project ?",
@@ -15240,7 +15837,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "To ensure clarity and avoid misunderstandings, requirements for a project should be gathered and shared through a combination of verbal specification, written documentation (like emails), and by including all relevant stakeholders.",
+    "category": "BizSkill"
   },
   {
     "question": "What should you do when you interact with people from other cultures which are different than yours.",
@@ -15266,7 +15864,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Interacting with people from different cultures requires treating them with respect and actively learning about their customs to facilitate efficient collaboration and prevent cultural missteps.",
+    "category": "BizSkill"
   },
   {
     "question": "It is the final client demo of Payroll Management System. Aman, who is responsible to make the presenta tion is on an emergency leave. What can be done to handle the situation ?",
@@ -15292,7 +15891,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In an emergency, a well-prepared team should have a member who can step in for an absent colleague after a brief handover, ensuring business continuity and minimizing disruption for the client.",
+    "category": "Java"
   },
   {
     "question": "What is technical writing?",
@@ -15318,7 +15918,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Technical writing is focused on providing clear, concise, and accurate directions, instructions, or explanations on a particular subject for a specific audience.",
+    "category": "BizSkill"
   },
   {
     "question": "RiO week is celebrated to",
@@ -15344,7 +15945,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "RiO week is an organizational initiative specifically aimed at enhancing and improving production support operations.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Name the activity that is conducted frequently to ensure project has a strong backup plan that will help pr oject thrive during a disaster",
@@ -15370,7 +15972,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Mock BCP (Business Continuity Plan) drills are regularly conducted to test and validate the effectiveness of a project's backup plans, ensuring resilience during potential disasters.",
+    "category": "Java"
   },
   {
     "question": "One should avoid GOTO in Structured Programming - State true/false.",
@@ -15386,7 +15989,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The use of GOTO statements in structured programming is generally considered bad practice as it can lead to convoluted code that is difficult to read, debug, and maintain, hence it should be avoided.",
+    "category": "Algorithms"
   },
   {
     "question": "According to KISS Design Principle, we should use features like frameworks, APIs only when there are p erceptible benefits to the problem we are solving.",
@@ -15402,7 +16006,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The KISS principle advocates for simplicity, meaning that complex features like frameworks or APIs should only be adopted when they offer clear, tangible benefits that justify their overhead.",
+    "category": "Java"
   },
   {
     "question": "What is Single Responsibility Principle",
@@ -15428,7 +16033,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The Single Responsibility Principle dictates that a module, class, or function should have one and only one reason to change, meaning it should perform a single, well-defined task.",
+    "category": "Algorithms"
   },
   {
     "question": "Which symbol will be used with grep command to match the pattern pat at the beginning of a line?",
@@ -15454,7 +16060,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In regular expressions used with the `grep` command, the caret `^` symbol anchors the pattern to the beginning of a line, so `^pat` matches lines starting with 'pat'.",
+    "category": "Miscellaneous"
   },
   {
     "question": "The user u123456 logged in and performed the following sequence of command. User's home directory i s /home/u123456. What will be the output of the last command? $ cd project/module1 $ pwd",
@@ -15480,7 +16087,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `pwd` command (print working directory) displays the absolute path of the current directory. After changing to `project/module1` from the home directory, the absolute path would be `/home/u123456/project/module1`.",
+    "category": "Java"
   },
   {
     "question": "Which code will correctly calculate the newsal based on the years mentioned Input file is as below NameOfEmployee-age-YearOfJoining. The shell takes 2 inputs-file name and Name of Employee. Delim iter used in the input file is -.",
@@ -15506,7 +16114,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Option B correctly uses `cut -d '-'` to extract the year from the input file based on the specified delimiter, and then applies the appropriate salary calculation within a `case` statement.",
+    "category": "Java"
   },
   {
     "question": "Which command will delete the lines containing the pattern 'this' from the file?",
@@ -15532,7 +16141,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `sed` command with the syntax `sed /pattern/d filename` is used to delete lines from `filename` that contain the specified `pattern`.",
+    "category": "Unix"
   },
   {
     "question": "Assuming the files fileA, fileB, fileAB, fileBC and fileABC, exist in a directory testDir, which files will b e listed if we use the following command $ls testDir|grep file[AB]?",
@@ -15558,7 +16168,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `grep file[AB]` command will match any line containing the string 'file' followed by either 'A' or 'B'. From the given files, 'fileA' directly matches this pattern.",
+    "category": "Java"
   },
   {
     "question": "A table containing employee have some faulty records .ie the year of joining(YOJ) was incorrectly entere d for employee ids between 20 and 100. Choose from below the right sql query to correct the column year of joining (YOJ)as 2015.",
@@ -15584,7 +16195,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "To correct specific faulty records in an SQL table, the `UPDATE` statement is used with a `WHERE` clause to filter by the affected employee IDs, `id>=20 and id<=100` correctly specifies the range.",
+    "category": "Java"
   },
   {
     "question": "Look at the below SQL join and select the type of join select e.ename as employee m.ename as manager from employees m JOIN employees e ON e.mgr = m.e mpno where e.bdate > date '1965-01-01' order by employee;",
@@ -15610,7 +16222,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The query demonstrates a self-join because the `employees` table is joined with itself using different aliases (`m` and `e`) to relate employees to their managers.",
+    "category": "Java"
   },
   {
     "question": "Which of the following way or ways before is/are correct to insert DATE in a table?",
@@ -15636,7 +16249,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The date format 'DD-MON-YYYY' (e.g., '05-FEB-2005') is a commonly accepted and correct way to insert date values in SQL, often automatically parsed by the database.",
+    "category": "Java"
   },
   {
     "question": "Consider the following set of relations EMP ( emp_no,emp_name,dept_no,salary) DEPT (dept_no,dept_name,location) Write SQL query for the following Find all the employees whose departments are located in 'Mumbai' and salary is greater than Rs. 20,000.",
@@ -15662,7 +16276,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "To find employees based on a department's location and their salary, the query needs to join `EMP` and `DEPT` tables (or use a subquery) to filter by location and then by salary.",
+    "category": "Java"
   },
   {
     "question": "Identify the SQL queries which shows correct group by and having usage",
@@ -15688,7 +16303,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Option A correctly demonstrates the usage of `GROUP BY` by including all non-aggregated columns (`LastName`) and `HAVING` to filter the grouped results based on an aggregate function (`COUNT(orda.OrderID) > 10`).",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What will happen when the code is executed? DECLARE -- Global variables employeeId number := 95; BEGIN dbms_output.put_line('number: ' || employeeId); DECLARE -- Local variables employeeId number := 195; BEGIN dbms_output.put_line('num: ' || employeeId); END; END;",
@@ -15714,7 +16330,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In PL/SQL, variables declared in an inner block will shadow variables with the same name in an outer block. Therefore, the outer `dbms_output` will print the global `employeeId` (95), and the inner `dbms_output` will print the local `employeeId` (195).",
+    "category": "Java"
   },
   {
     "question": "Which of the following is not true about PL/SQL cursors?",
@@ -15740,7 +16357,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A PL/SQL cursor is a control structure that allows traversal over the records in a database. It is a pointer to the context area holding the rows of a SQL statement, not a view on a table.",
+    "category": "Java"
   },
   {
     "question": "What will be the output of the following code snippet? DECLARE a number(3) := 100; b number(3) := 200; BEGIN IF( a = 100 ) THEN IF( b < 200 ) THEN dbms_output.put_line(b); END IF; END IF; dbms_output.put_line(a); END;",
@@ -15761,7 +16379,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The inner `IF` condition (`b < 200`) is false because `b` is `200`, so the statement `dbms_output.put_line(b)` inside it will not execute. Only the final `dbms_output.put_line(a)` will print `100`.",
+    "category": "Java"
   },
   {
     "question": "The following code tries to fetch some information from all the rows in a table named customers for use in a PL/SQL block. What is wrong in the following code? DECLARE cid customers.id%type; cname customers.name%type; caddr customers.address%type; CURSOR c1 is SELECT id, name, address FROM customers; BEGIN LOOP FETCH c1 into c_id, c_name, c_addr; EXIT WHEN c1%notfound; dbms_output.put_line(cid || ' ' || cname || ' ' || caddr); END LOOP; CLOSE c1; END;",
@@ -15787,7 +16406,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "For an explicit cursor to be used successfully in PL/SQL, it must be opened using the `OPEN` statement before any `FETCH` operations are performed.",
+    "category": "Java"
   },
   {
     "question": "A cursor for loop performs the following operations implicitly. Select the appropriate options",
@@ -15813,7 +16433,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "A cursor `FOR` loop in PL/SQL simplifies cursor management by implicitly performing the `OPEN`, `FETCH` (for each row), and `CLOSE` operations for the specified query.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which of the following is a correct syntax for grouping selectors in CSS?",
@@ -15834,7 +16455,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In CSS, selectors can be grouped by separating them with commas (e.g., `h2,h3`) to apply the same set of styles to all listed elements.",
+    "category": "UI"
   },
   {
     "question": "Whether a single text link point to two different web pages at a same time?",
@@ -15850,7 +16472,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "A single HTML text link (hyperlink) is designed to navigate to one specific URL at a time; it cannot simultaneously point to two different web pages.",
+    "category": "UI"
   },
   {
     "question": "What is the default value for checkbox control",
@@ -15866,7 +16489,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "When a checkbox is checked and its `value` attribute is not explicitly defined, the default value that is sent upon form submission is 'on'. If unchecked, no value is sent.",
+    "category": "UI"
   },
   {
     "question": ".Which of the following is creating multi line input control?",
@@ -15892,7 +16516,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The HTML `<textarea>` tag is specifically designed to create a multi-line input field, allowing users to enter larger blocks of text.",
+    "category": "UI"
   },
   {
     "question": "Which of the following syntax is correct?",
@@ -15918,7 +16543,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In CSS, a property and its value are separated by a colon (`:`), and each declaration (property-value pair) is terminated by a semicolon (`;`).",
+    "category": "UI"
   },
   {
     "question": "Which of the following is not valid style?",
@@ -15944,7 +16570,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`margin: collapse;` is not a valid property value for the CSS `margin` property; valid values typically include lengths, percentages, `auto`, or `inherit`.",
+    "category": "UI"
   },
   {
     "question": "<html> <head> <style> div p { background-color: green; } </style> </head> <body> <div> <p>Para1</p> <p>Para2</p> <section><p>Para3</p></section> </div> <p>Para4</p> <p>Para5</p> </body> </html> What will be the output of the above code?",
@@ -15965,7 +16592,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The CSS rule `div p` targets all `<p>` elements that are descendants of a `<div>`. In the provided HTML, `Para1`, `Para2` (direct children of `div`), and `Para3` (child of `section` which is inside `div`) match this selector.",
+    "category": "UI"
   },
   {
     "question": "Which of the following is not a value for height and width properties;",
@@ -15991,7 +16619,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`absolute` is a valid value for the CSS `position` property, but it is not a recognized value for `height` or `width` properties.",
+    "category": "UI"
   },
   {
     "question": "We can write into an HTML element using the following;",
@@ -16017,7 +16646,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `innerHTML` property in JavaScript is commonly used to access or modify the HTML content of an element, allowing you to write content directly into it.",
+    "category": "UI"
   },
   {
     "question": "What will be the output of the below code; <!DOCTYPE html> <html> <body> <p id=\"demo\"></p> <script> var employee = {empNo:\"1001\", name:\"Rajeev\", designation:\"SSE\"}; document.getElementById(\"demo\").innerHTML = employee; </script> </body> </html>",
@@ -16043,7 +16673,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "When a JavaScript object is directly assigned to `innerHTML` without explicit string conversion, it defaults to its string representation, which is typically `[object Object]`.",
+    "category": "UI"
   },
   {
     "question": "What will be the output of the following? public class Test { private static int start = 1; int stop = 30; public static void main(String[] args) { Test tolls = new Test(); int pause = 20, stop = 40; System.out.print(pause + tolls.stop + tolls.start); } }",
@@ -16064,7 +16695,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The calculation `pause (20) + tolls.stop (30) + tolls.start (1)` correctly evaluates to `20 + 30 + 1 = 51`.",
+    "category": "Java"
   },
   {
     "question": "What will be the output of the following? public class Sprint { static int start = 5; final int end; public void run(int distance) { System.out.print(end+start+\" \"); System.out.print(distance); } public static void main(String... start) { Sprint athlete=new Sprint(); athlete.run(5); } }",
@@ -16090,7 +16722,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `final` instance variable `end` is declared but not initialized in the constructor or at the declaration point, which causes a compile-time error in Java.",
+    "category": "Java"
   },
   {
     "question": "From the following variable types , which variable is in always in scope for the entire program?",
@@ -16116,7 +16749,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A class variable (static variable) is associated with the class itself, rather than any specific instance, and remains in scope for the entire program duration once the class is loaded.",
+    "category": "Java"
   },
   {
     "question": "Which of the following is invalid as the first line of a Java file?",
@@ -16142,7 +16776,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Java, `static int start=1` is a field declaration and cannot be the very first line of a Java file; package or import statements typically come first, or it must be inside a class.",
+    "category": "Java"
   },
   {
     "question": "What will be the output of the following? public class Sprint { static int start = 5; final int end; public Sprint(int x) { x = 7.0; end = x; } public void run(int distance) { System.out.print(start+end+\" \"); System.out.print(distance); } public static void main(String[] start) { Sprint athlete=new Sprint(6); athlete.run(5); } }",
@@ -16168,7 +16803,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The line `x = 7.0;` attempts to assign a double literal to an `int` variable `x` without an explicit cast, which results in a compile-time error due to potential loss of precision.",
+    "category": "Java"
   },
   {
     "question": "Identify the immutable data type(s) in Python",
@@ -16194,7 +16830,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Tuples are immutable data types in Python, meaning their elements cannot be changed after creation. While dictionaries are generally mutable, this option groups them with tuples, possibly referring to the immutability of dictionary keys.",
+    "category": "Python"
   },
   {
     "question": "What will calculate(2030) return if the fucntion is defined as below? def calculate(num): i=0 while num > 0: return i",
@@ -16220,7 +16857,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Assuming the `while` loop body included the number reversal logic (`i = i*10 + num%10` and `num = num//10`), calling `calculate(2030)` would reverse the digits to produce `302`.",
+    "category": "Java"
   },
   {
     "question": "i = i*10 + num%10 num = num//10 Note: This PDF shouldn’t be shared to any other sources. What will be the output of the following Python function when called as print_message('Gary')? def print_message(na me): if(name=='Rob'): msg = 'Hello Rob' else msg = 'Hello there' return msg",
@@ -16246,7 +16884,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The Python code contains an `else` statement that is not correctly indented or associated with an `if` block, leading to a `SyntaxError: expected an indented block`.",
+    "category": "Java"
   },
   {
     "question": "What will be the value of a after executing this code? a=0 for b in range(0,10,2): a += b +10",
@@ -16272,7 +16911,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `range(0, 10, 2)` loop generates values `0, 2, 4, 6, 8` for `b`. Summing `b + 10` for each: `(0+10) + (2+10) + (4+10) + (6+10) + (8+10) = 10 + 12 + 14 + 16 + 18 = 70`.",
+    "category": "Java"
   },
   {
     "question": "What is the expected output of the below code? A=[0,1,2,3,4,5,6] print(A[::2])",
@@ -16298,7 +16938,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The slice `A[::2]` in Python starts from the beginning, goes to the end, and selects every second element, resulting in `[0, 2, 4, 6]` from the list `A`.",
+    "category": "Java"
   },
   {
     "question": "We will be fair, honest, transparent and ethical in our conduct; everything we do must stand the test of public scrutiny. The above quote applies to which of our five core values.",
@@ -16324,7 +16965,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The quote emphasizes honesty, transparency, and ethical conduct under public scrutiny, which are fundamental aspects of the core value of INTEGRITY.",
+    "category": "Java"
   },
   {
     "question": "When Tata Consultancy Services established?",
@@ -16350,7 +16992,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Tata Consultancy Services (TCS) was founded in the year 1968.",
+    "category": "KYT"
   },
   {
     "question": "Some challenges in Artificial Intelligence are",
@@ -16376,7 +17019,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Artificial Intelligence faces various challenges, including the high costs associated with development, the complexities of evolving technology, and the difficulty in replicating nuanced human common sense.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Prime difference between Public and Private Cloud is",
@@ -16402,7 +17046,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The primary distinction between Public and Private Cloud models lies in their deployment location and ownership; Public clouds are shared and hosted by third parties, while Private clouds are dedicated to a single organization.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Mobile application can interact with GPS and Camera of the device",
@@ -16418,7 +17063,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Mobile applications are designed to integrate with and utilize various hardware components of the device, including sensors like GPS and the built-in camera, making the statement true.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Judging another person's views solely based on our own values and culture is called :",
@@ -16444,7 +17090,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Ethnocentrism is the tendency to evaluate other cultures solely from the perspective of one's own, often leading to a biased belief in the superiority of one's own cultural norms.",
+    "category": "BizSkill"
   },
   {
     "question": "Paul is working with a client who is casual while communicating with him through chat application. The client sends him memes and other forwards in order to build better workplace relationships. Select the best option.",
@@ -16470,7 +17117,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Maintaining professionalism by being task-oriented and avoiding informal communication like memes, even if initiated by the client, helps to set clear boundaries and manage workplace relationships appropriately.",
+    "category": "Java"
   },
   {
     "question": "What is true about Agile principles? A. Leadership over management B. Management over leadership C. Adaptive over prescriptive D. Prescriptive over adaptive E. Customer collaboration over contract negotiation F. Contract negotiation over customer collaboration",
@@ -16496,7 +17144,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Agile principles prioritize adaptability and collaboration, emphasizing leadership over rigid management, adaptive approaches over prescriptive ones, and customer collaboration over strict contract negotiation.",
+    "category": "Java"
   },
   {
     "question": "Identify the correct statement",
@@ -16522,7 +17171,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Accepting help when needed is a sign of effective teamwork and builds trust by demonstrating honesty about one's limitations, which is essential for collective success.",
+    "category": "BizSkill"
   },
   {
     "question": "What all details should be provided in the signature of an e-mail? Choose the best options. a) Name & role b) Phone & e-mail ID c) Personal address d) Organization Website",
@@ -16548,7 +17198,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A professional email signature should concisely provide key contact information such as name, role, phone number, email ID, and the organization's website, excluding personal addresses.",
+    "category": "Java"
   },
   {
     "question": "‘Being objective’ in your writing is the ability to: a.Present accurate facts and figures. b.Present facts and not personal views. c.Present stereotypical All the best information.",
@@ -16574,7 +17225,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Being objective in writing requires presenting accurate facts and figures, and strictly avoiding the inclusion of personal opinions or biased, stereotypical information.",
+    "category": "Java"
   },
   {
     "question": "Being digital gives us easy access to all kinds of information about our organization. How is data security ensured?",
@@ -16600,7 +17252,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Data security is ensured by respecting the confidentiality of information and preventing its unauthorized disclosure, rather than by providing unrestricted access to employee or organizational data.",
+    "category": "Java"
   },
   {
     "question": "Rakesh's Team was working on implementing the functionality of \"Employee Search\" in an organization. The Client's request was to enable the search using Associate's “Last Name”. However, the team overlook ed the requirement and developed the functionality without incorporating the client request. After the co mpletion of the development process, it was seen that the search was enabled using the “First Name” of t he associates. How differently could have Rakesh's team handled the requirements?",
@@ -16626,7 +17279,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "To prevent issues like the overlooked requirement, Rakesh's team should have implemented a robust process for carefully capturing requirements, holding internal discussions, and confirming them with the client before proceeding with development.",
+    "category": "Java"
   },
   {
     "question": "You have joined a project and you are in the training phase now. The project requires that you know the b asics of Ruby on Rails. You complete an e-learning course on the same and now you are taking the assess ment. During the assessment, a senior member of the team approaches you and asks if you can join a conf erence call instead of him. He requests you to just attend the call for 10 minutes. How will you respond?",
@@ -16652,7 +17306,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "It is professional to politely decline a request when in the middle of a critical task like an assessment, explaining the situation and offering assistance once the current commitment is fulfilled.",
+    "category": "Java"
   },
   {
     "question": "What factors should you consider before preparing a help document on the newly introduced 'search' functionality in ABC online application ?",
@@ -16678,7 +17333,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "When preparing a help document, the 'interest level of the users' is a key consideration as it influences the document's engagement, depth, and presentation style to ensure relevance and usability.",
+    "category": "BizSkill"
   },
   {
     "question": "What is the sequence of the transition management phases",
@@ -16704,7 +17360,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The typical progression of transition management involves first performing Knowledge Transfer (KT), then moving to Secondary Support, and finally assuming full Primary Support.",
+    "category": "Miscellaneous"
   },
   {
     "question": "After creating a Knowledge Article (KA)",
@@ -16730,7 +17387,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "After creating a Knowledge Article (KA), it is crucial to maintain its quality by regularly checking and re-certifying it, ensuring exceptions are clearly visible, and adhering to standard templates.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Duplication of code is the root cause of most of the maintenance problems",
@@ -16746,7 +17404,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Duplication of code is a major cause of maintenance challenges because it increases the effort required for updates, bug fixes, and overall code comprehension, making the statement true.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which of the following sorting algorithms in its typical implementation gives best performance when app lied on an array which is sorted or almost sorted (maximum 1 or two elements are misplaced).",
@@ -16772,7 +17431,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Insertion Sort is particularly efficient for arrays that are already sorted or nearly sorted, as it requires minimal data movement and comparisons in such cases.",
+    "category": "Java"
   },
   {
     "question": "We use dynamic programming approach when",
@@ -16798,7 +17458,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Dynamic programming is an algorithmic technique used when a problem can be broken down into overlapping subproblems and exhibits optimal substructure, meaning optimal solutions to subproblems lead to an optimal solution for the overall problem.",
+    "category": "Miscellaneous"
   },
   {
     "question": "The following is the data present in a file doctors.txt used to manage the doctor's names of a hospital. pediatrician,Dr.Kiran sharma gynecologis,Dr.Amala Krishnan cardiologist,Dr.Kumar Sahoo neurologist,Dr.Amith Kumar psychiatrist,Dr.Leela Santhosh ophthalmologist,Dr.Jathin Ram Which of the following commands will give you an output with Dr.Kumar Sahoo replaced with Dr.Rajku mar Sahoo",
@@ -16824,7 +17485,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `sed` command with `s/pattern/replacement/g` is the correct syntax for globally substituting 'Dr.Kumar' with 'Dr.Rajkumar' in the `doctors.txt` file.",
+    "category": "Java"
   },
   {
     "question": "What will be the output of below awk script? echo \"This is how it works\" | awk 'BEGIN{RS=\" \"}{print $0}'",
@@ -16850,7 +17512,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "When `RS=\" \"` is set as the record separator, `awk` treats each space-separated word as a new record, causing each word to be printed on a new line.",
+    "category": "Unix"
   },
   {
     "question": "Which is the command used in unix to remove the duplicate lines",
@@ -16876,7 +17539,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `uniq` command in Unix is specifically designed to remove or report duplicate *adjacent* lines from a file, making it the correct tool for handling duplicate lines.",
+    "category": "Unix"
   },
   {
     "question": "The file animal.txt having following data: 1 cow 2 goat 3 dog 4 cat 5 hen For the above file what will be the output for the 2 commands? 1. grep -o cat animal.txt 2. grep 'cat' animal.txt",
@@ -16902,7 +17566,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Based on the provided answer, `grep -o cat animal.txt` is expected to output the entire line matching 'cat' ('4 cat'), and `grep 'cat' animal.txt` is expected to output only the matched pattern ('cat').",
+    "category": "Java"
   },
   {
     "question": "Which of the given options are environment variables?",
@@ -16928,7 +17593,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`HOME` and `PATH` are both recognized environment variables in Unix-like operating systems, used to store system configuration and user-specific information.",
+    "category": "Unix"
   },
   {
     "question": "Which of the following attribute is used to define equal styles for elements with same class name?",
@@ -16954,7 +17620,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `class` attribute in CSS is used to define common styles for multiple HTML elements, allowing them to share the same appearance by applying a single class name.",
+    "category": "UI"
   },
   {
     "question": "Which of the following element describing the web page?",
@@ -16980,7 +17647,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Headings, paragraphs, and lists are all fundamental HTML elements used to describe and structure content on a web page, making all options correct.",
+    "category": "UI"
   },
   {
     "question": "Which one is invalid in html5 forms?",
@@ -17006,7 +17674,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "HTML5 `input` types include `date`, `datetime-local`, and `month`, but `day` is not a standard, valid type.",
+    "category": "UI"
   },
   {
     "question": "Which of the following is a correct syntax for applying table border?",
@@ -17032,7 +17701,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In CSS, the `border` property requires a colon (`:`) to assign values, and `1px solid black` is the correct syntax for specifying width, style, and color.",
+    "category": "UI"
   },
   {
     "question": "In the following syntax which is the correct one for applying border space between the cells?",
@@ -17053,7 +17723,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `border-spacing` property, applied to the `table` element, is used to control the space between table cells, while padding is for cell content.",
+    "category": "UI"
   },
   {
     "question": "In following style, which property specifies whether the background image will not scroll with the rest of the page? body { background-image: url(\"flowers.jpg\"); background- repeat: no-repeat; background- attachment: fixed; background- position: right top; }",
@@ -17079,7 +17750,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `background-attachment: fixed;` CSS property ensures that the background image remains in a fixed position relative to the viewport, preventing it from scrolling with the page content.",
+    "category": "Java"
   },
   {
     "question": "Which one is a valid 'margin' property value?",
@@ -17105,7 +17777,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `auto` value for margin properties allows the browser to automatically calculate the margins, commonly used to horizontally center a block element within its container.",
+    "category": "UI"
   },
   {
     "question": "Which one is not valid style definition?",
@@ -17131,7 +17804,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`hst` is not a valid CSS color function; valid functions for defining colors include `rgb()`, `rgba()`, `hsl()`, `hsla()`, as well as hexadecimal or named colors.",
+    "category": "UI"
   },
   {
     "question": "Which of the following object definition is incorrect?",
@@ -17157,7 +17831,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In JavaScript object literals, all string values, including 'M' for gender, must be enclosed in single or double quotes to be valid.",
+    "category": "UI"
   },
   {
     "question": "Which one is not a valid escape sequence in Javascript?",
@@ -17183,7 +17858,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Common JavaScript escape sequences include `\\b` (backspace), `\\f` (form feed), and `\\r` (carriage return), but `\\e` is not a standard escape sequence.",
+    "category": "UI"
   },
   {
     "question": "Which of the following SQL query can be considered as a join?",
@@ -17209,7 +17885,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A join operation combines rows from two or more tables based on a related column, which is explicitly shown when using a `WHERE` clause to link tables by a common `projectid`.",
+    "category": "Java"
   },
   {
     "question": "SELECT ea.* FROM employee e1,employee e2 WHERE eb.name='SRIDHAR' AND ea.did=eb.did; What type of join is this?.",
@@ -17235,7 +17912,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A self-join is a type of join where a table is joined with itself, which is achieved here by using aliases (`e1`, `e2`) for the same `employee` table.",
+    "category": "Java"
   },
   {
     "question": "With SQL, how do you select all the records from a table named \"Persons\" where the value of the column \"FirstName\" starts with \"a\"?",
@@ -17261,7 +17939,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `LIKE` operator combined with the `%` wildcard character after 'a' (`'a%'`) is the correct syntax in SQL to find values that begin with the letter 'a'.",
+    "category": "Java"
   },
   {
     "question": "ON UPDATE CASCADE ensures which of the following?",
@@ -17287,7 +17966,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`ON UPDATE CASCADE` in a foreign key constraint ensures referential integrity by automatically updating related records in the child table when the corresponding primary key in the parent table is updated.",
+    "category": "Java"
   },
   {
     "question": "What will be the output of below code?Assume table FACULTY_DEMO (ID,NAME,LOCATION,EXPE RIENCE,SALARY)exists in the DB. DECLARE c1 FACULTY_DEMO%ROWTYPE; CURSOR c is SELECT * FROM FACULTY_DEMO; BEGIN OP EN LO OP FETCH c into c1; EXIT WHEN c%notfound; dbms_output.put_line(ca.ID || ' ' || ca.NAME || ' ' || ca.LOCATION); END LOOP; CLOSE c; END;",
@@ -17313,7 +17993,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `dbms_output.put_line` statement explicitly requests to display only the `ID`, `NAME`, and `LOCATION` columns of the `c1` record, which corresponds to option B.",
+    "category": "Java"
   },
   {
     "question": "Which is not a system defined exception in PLSQL?",
@@ -17339,7 +18020,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`INVALID_INPUT` is not a predefined system exception in PL/SQL; `CURSOR_ALREADY_OPEN`, `NO_DATA_FOUND`, and `INVALID_CURSOR` are standard system exceptions.",
+    "category": "Java"
   },
   {
     "question": "What is the keyword used to force a FOR loop to decrement from the upper bound to lower bound?",
@@ -17365,7 +18047,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `REVERSE` keyword is specifically used in PL/SQL `FOR` loops to iterate through a range of values in decreasing order, from the upper bound to the lower bound.",
+    "category": "Java"
   },
   {
     "question": "Identify whether the following statements are correct or incorrect? NUM1:=NUM1+NUM2:=(NUM3*3); FLAG1:=TRUE OR FALSE;",
@@ -17391,7 +18074,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`NUM1:=NUM1+NUM2:=(NUM3*3);` is incorrect because `:=` is an assignment operator, and you cannot assign a value to an expression like `NUM2:=(NUM3*3)`. `FLAG1:=TRUE OR FALSE;` is a correct boolean assignment.",
+    "category": "Java"
   },
   {
     "question": "What will be the output for the following? public class Memo { public static void main(String[] args) { int price = 20; int tax = 10; int total = price + (price <=35 ? 0 :tax); System.out.println(\"Total:\"+total); } }",
@@ -17417,7 +18101,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The conditional expression `price <= 35 ? 0 : tax` evaluates to `true` (20 <= 35), so `0` is assigned as the `tax` value, making the `total` `20 + 0 = 20`.",
+    "category": "Java"
   },
   {
     "question": "What will be the output for the following? public class CompareNames { public static void main(String[] args) { String hello = new String(\"hello world\"); String hi = new String(hello); System.out.print((hello == hi) + \" \" + (hello.equals(hi))); } }",
@@ -17443,7 +18128,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`(hello == hi)` evaluates to `false` because `hello` and `hi` are two distinct `String` objects in memory. If `false false` is the correct output, it implies `hello.equals(hi)` also evaluates to `false`, suggesting the string content is not considered identical in this context, which is unusual for `String.equals()`.",
+    "category": "Java"
   },
   {
     "question": "What will be the output for the following? public class DisplaySum{ public static void main(String[] args) { System.out.println(\"Result is:\"+ \" \"+ 7+3+\"5\"+2); } }",
@@ -17469,7 +18155,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "String concatenation in Java occurs from left to right; once a string is encountered, subsequent `+` operations perform string concatenation. Thus, \"Result is: \" + \" \" + 7 + 3 + \"5\" + 2 becomes \"Result is: 7352\".",
+    "category": "Java"
   },
   {
     "question": "What will be the output for the following? public class CompareNames { public static void main(String[] args) { int x = 10, y = 5; boolean w = false, z = true; x = w ? y++ : y--; w = !z; System.out.print((x+y)+\" \"+(w ? 5 : 10)); } }",
@@ -17495,7 +18182,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Initially, `x` becomes 5 (from `y--`, `y` then becomes 4). `w` becomes `false` (from `!z`). Then, `x+y` is `5+4=9`, and `w ? 5 : 10` is `false ? 5 : 10` which evaluates to `10`, resulting in `9 10`.",
+    "category": "Java"
   },
   {
     "question": "Which among the following is/are invalid declaration(s) A. int a;int b=0; B. int a,b=5; C. int a=0,b=0; D. int a, double b=5;",
@@ -17521,7 +18209,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Java, you cannot declare multiple variables of different types (e.g., `int` and `double`) on a single line; `int a, double b=5;` is an invalid syntax.",
+    "category": "Java"
   },
   {
     "question": "Consider the following table Employee (EmployeeID,EmployeeName ,PhoneNumber,Address,City,Country) Command to add a constraint so that all entries made in table are for country 'India'",
@@ -17547,7 +18236,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `ALTER TABLE ... ADD CHECK` statement is used to add a constraint that limits the values in a column. If the `==` operator is acceptable for equality comparison in the specific SQL dialect, then `CHECK (Country=='India')` correctly enforces this condition.",
+    "category": "Java"
   },
   {
     "question": "Choose your observations in the given block. DECLARE emp_id emp.empno%TY PE; BEGIN UPDATE emp SET ... WHERE empno = emp_id; SAVEPOINT spt_delete; DELETE FROM emp WHERE … SAVEPOINT spt_insert; INSERT INTO emp VALUES (emp_id, ...); SAVEPOINT spt_update; UPDATE emp_new SET ... WHERE empno = emp_id; EXCEPTION WHEN DUP_VAL_ON_INDEX THEN ROLLBACK TO spt_insert; END;",
@@ -17573,7 +18263,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "When a `ROLLBACK TO SAVEPOINT` command is executed, all savepoints established *after* the specified savepoint are implicitly released and become invalid.",
+    "category": "Java"
   },
   {
     "question": "An object can contain:",
@@ -17599,7 +18290,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "An object in object-oriented programming encapsulates both data, represented by variables or attributes, and the functions or procedures that operate on that data, known as methods or behaviors.",
+    "category": "Python"
   },
   {
     "question": "How can you include a module in Python?",
@@ -17625,7 +18317,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Python, the `import` statement is the correct and standard way to bring modules into the current program's namespace, making their contents accessible.",
+    "category": "Python"
   },
   {
     "question": "How do you create a variable “a” that is equal to 5?",
@@ -17651,7 +18344,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Python, variables are created and assigned values using the assignment operator `=`, for example, `a = 5`.",
+    "category": "Python"
   },
   {
     "question": "What is the output of below Python Code? salary = 9000 def printSalary(): salary = 11000 print(\"Salary:\", salary) printSalary(); print(\"Salary:\", salary)",
@@ -17677,7 +18371,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `printSalary()` function defines a local `salary` variable, which is printed first. After the function call completes, the global `salary` variable, which remains unchanged, is printed.",
+    "category": "Java"
   },
   {
     "question": "Choose the correct options for database index",
@@ -17703,7 +18398,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Database indexes improve query performance, are typically not directly visible to users, and require additional storage space, making all the listed options correct.",
+    "category": "Python"
   },
   {
     "question": "A UNIQUE constraint can be either a column constraint or a table constraint.",
@@ -17719,7 +18415,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "A `UNIQUE` constraint can be applied either to a single column as a column-level constraint or to a group of columns as a table-level constraint.",
+    "category": "Python"
   },
   {
     "question": "What the following query will do? DELETE * FROM books WHERE bookid=4;",
@@ -17745,7 +18442,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `DELETE` statement in SQL does not use `*` to specify columns; it deletes entire rows from a table, and the correct syntax is `DELETE FROM books WHERE bookid=4;`.",
+    "category": "Java"
   },
   {
     "question": "Consider the folowing Employee table Name Null Type EMPID NOT NULL NUMBER(10) EMPNAME NOT NULL VARCHAR2(50) BRANCHID NOT NULL NUMBER(10) Choose the query which will increase the empname column size to VARCHAR2(200)",
@@ -17771,7 +18469,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `ALTER TABLE ... MODIFY` command (common in Oracle SQL) is used to change the definition of an existing column, such as increasing its data type size.",
+    "category": "Java"
   },
   {
     "question": "SELECT EmployeeName FROM Employee order by EmployeeId Desc LIMIT 1;",
@@ -17797,7 +18496,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `ORDER BY EmployeeId Desc` clause sorts the `Employee` table with the highest `EmployeeId` at the top, and `LIMIT 1` then selects the single record from the top of this sorted list, which is the employee with the highest `EmployeeId`. Option B describes this as the 'last' employee in a specific conceptual ordering, but it functionally returns the record with the maximum ID.",
+    "category": "Python"
   },
   {
     "question": "Consider the folowing table CourseIdCourseNameNoofParticipant s 12 C 100 14 C++ 500 24 Java 5000 Which subquery will be used to display records whose noofparticipants are more than the average",
@@ -17823,7 +18523,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This query correctly uses a subquery `(SELECT AVG(NoofParticipants) FROM COURSE)` to first calculate the average number of participants and then selects all records where `NoofParticipants` is greater than that average.",
+    "category": "Java"
   },
   {
     "question": "Which of the following keyword is NOT available in MySQL:",
@@ -17849,7 +18550,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `FETCH` keyword is typically associated with cursors to retrieve rows in some SQL dialects, but it is not a fundamental DML keyword like `REVOKE`, `LIKE`, or `JOIN` across all MySQL versions or contexts.",
+    "category": "Python"
   },
   {
     "question": "COALESCE() return the first non null argument",
@@ -17865,7 +18567,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `COALESCE()` function evaluates its arguments in order and returns the first non-NULL expression it encounters, making the statement true.",
+    "category": "Python"
   },
   {
     "question": "Consider the following table structure. SQL>desc employee; Name Null? Type EMPID NOT NULL NUMBER EMPNAME VARCHAR2(50) BRANCH VARCHAR2(20) You want to delete the employees whose branch is not CHN and HYD Which query will do that?",
@@ -17891,7 +18594,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `NOT IN` operator is the correct and most efficient way to specify that a column's value should not be present within a given list of values.",
+    "category": "Java"
   },
   {
     "question": "What are the 5 TCS Values",
@@ -17917,7 +18621,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Leading change, Integrity, Respect for the individual, Excellence, and Learning and sharing are the five core values that define Tata Consultancy Services (TCS).",
+    "category": "KYT"
   },
   {
     "question": "New area of Technology which deals with collecting data from all types of devices",
@@ -17943,7 +18648,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The Internet of Things (IoT) is a new area of technology that connects physical devices embedded with sensors and software, enabling them to collect and exchange data.",
+    "category": "KYT"
   },
   {
     "question": "Some challenges in Artificial Intelligence are",
@@ -17969,7 +18675,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Challenges in Artificial Intelligence encompass various aspects, including the significant costs involved, current technological limitations, and the inherent difficulty in replicating human common sense reasoning.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Science of Machine Learning where a user gets positive and negative feedbacks is called as",
@@ -17995,7 +18702,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Reinforcement learning is a machine learning paradigm where an agent learns to make optimal decisions by receiving positive or negative feedback (rewards or penalties) from its environment.",
+    "category": "KYT"
   },
   {
     "question": "Worlds biggest source of Big Data a.  Space Research",
@@ -18016,7 +18724,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Mobile phones generate vast amounts of user-generated data, location information, and app usage data, making them one of the largest global sources of Big Data.",
+    "category": "KYT"
   },
   {
     "question": "Which of the following statements are true? a.  Always listen to reply and not to understand.",
@@ -18037,7 +18746,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Effective communication involves empathetic listening, where the primary goal is to fully comprehend the speaker's message before formulating any response, rather than just waiting to reply or interrupt.",
+    "category": "BizSkill"
   },
   {
     "question": "The CIBI Bank requested TCS to upgrade their systems worldwide and to digitize 80% of their workflow. TCS not only completed the given work on time but also provided IT training sessions for the bank empl oyees to get accustomed to the upgrades. What is this service termed as ?",
@@ -18063,7 +18773,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A value-added service is an additional offering provided by a company that goes beyond the core service, enhancing customer experience and often leading to increased satisfaction and loyalty.",
+    "category": "BizSkill"
   },
   {
     "question": "Which of the following is NOT expected of a good listener?",
@@ -18089,7 +18800,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Interrupting the speaker is not a characteristic of a good listener; effective listening involves allowing the speaker to fully express their thoughts without interruption.",
+    "category": "BizSkill"
   },
   {
     "question": "Identify the correct statement a.  Accepting help is a sign of weakness.",
@@ -18110,7 +18822,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Accepting help when needed is a sign of strength and promotes trust, rather than weakness, and being assertive about needs fosters effective collaboration.",
+    "category": "BizSkill"
   },
   {
     "question": "What all details should be provided in the signature of an e-mail? Choose the best options. a) Name & role b) Phone & e-mail ID c) Personal address d) Organization Website",
@@ -18136,7 +18849,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A professional email signature typically includes essential contact information like name, role, phone number, email ID, and the organization's website, but usually excludes a personal physical address.",
+    "category": "Java"
   },
   {
     "question": "‘Being objective’ in your writing is the ability to: a.Present accurate facts and figures. b.Present facts and not personal views. c.Present stereotypical information.",
@@ -18162,7 +18876,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Being objective in writing means presenting information based on accurate facts and figures, and avoiding the inclusion of personal views or stereotypical information.",
+    "category": "Java"
   },
   {
     "question": "You are a team lead. During an initial meeting, you realise that you need 3 additional resources to work o n the project. How will you communicate the same effectively in a Project Status Report?",
@@ -18188,7 +18903,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Option C is direct, clearly identifies the problem (manpower shortage), and states the specific need (3 more resources) without being ambiguous, making it an effective way to communicate.",
+    "category": "Java"
   },
   {
     "question": "The Art of Assertion requires an equal balance of which of the following elements? A. Tone B. Confidence C. Posture D. Body language E. Appearance F. Expressions G. Language",
@@ -18214,7 +18930,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The art of assertion requires an equal balance of various elements, including one's tone, confidence, posture, body language, facial expressions, and choice of language.",
+    "category": "Java"
   },
   {
     "question": "General best practices for Telephone etiquette include: A. Assuming proper posture B. Speaking clearly & slowly C. Smiling when speaking D. Giving the call your full attention E. Avoiding confusing language F. Speaking loudly",
@@ -18240,7 +18957,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "General best practices for telephone etiquette include assuming proper posture, speaking clearly and slowly, smiling to convey a positive tone, giving full attention to the call, and avoiding confusing language.",
+    "category": "Java"
   },
   {
     "question": "What factors should you consider before preparing a help document on the newly introduced 'search' func tionality in ABC online application ?",
@@ -18266,7 +18984,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "When preparing a help document, considering the users' interest level helps tailor the content's depth and engagement, ensuring the information is presented in a way that aligns with their motivation to learn the new functionality.",
+    "category": "BizSkill"
   },
   {
     "question": "During a crisis, do not cascade incorrect updates to the customer and other associates. Always wait for co nfirmation from the",
@@ -18292,7 +19011,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "During a crisis, it is crucial to wait for confirmation and cascade accurate updates only from the designated Crisis Management Team to prevent the spread of misinformation and ensure a coordinated response.",
+    "category": "Java"
   },
   {
     "question": "Before accessing customer system what are the important steps to be completed by recruits",
@@ -18313,7 +19033,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Before accessing customer systems, recruits must typically complete necessary background checks and sign non-disclosure agreements to ensure data security, compliance, and confidentiality.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which of the following standard algorithms is not Dynamic Programming based",
@@ -18339,7 +19060,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Prim's Minimum Spanning Tree algorithm is a greedy algorithm, not based on the dynamic programming paradigm, unlike Bellman-Ford, Floyd-Warshall, and the 0-1 Knapsack problem.",
+    "category": "Algorithms"
   },
   {
     "question": "Which of the following sorting algorithms in its typical implementation gives best performance when app lied on an array which is sorted or almost sorted (maximum 1 or two elements are misplaced).",
@@ -18365,7 +19087,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Insertion Sort performs exceptionally well on nearly sorted or already sorted arrays because it only requires minimal element shifts, resulting in a time complexity close to O(n) in such best-case scenarios.",
+    "category": "Java"
   },
   {
     "question": "which is the fastest sorting algorithm",
@@ -18391,7 +19114,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Merge Sort consistently provides an O(n log n) time complexity in all cases (best, average, and worst), making it one of the most robustly fast and stable sorting algorithms.",
+    "category": "Algorithms"
   },
   {
     "question": "Given the command awk 'BEGIN{FS=\" \";s=0}{s=s+$2}END{print s}' file . What will be the expected o utput?",
@@ -18417,7 +19141,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `awk` command processes the input file by setting the field separator to a space, summing the values in the second column (`$2`), and then printing the final sum.",
+    "category": "Java"
   },
   {
     "question": "A file is having file permission of 754 in octal value(numeric mode). What will be the symbolic value of t he same permission for that file?",
@@ -18443,7 +19168,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In octal permissions, 7 (`rwx`) grants read, write, and execute for the owner, 5 (`r-x`) grants read and execute for the group, and 4 (`r--`) grants read-only access for others.",
+    "category": "Java"
   },
   {
     "question": "What will be the command to change the access time of a file to 12:10 PM on 28th February 1999?",
@@ -18469,7 +19195,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `touch -a` command changes the access time of a file, and the correct format for specifying the time is `MMDDhhmm[YY]`, which corresponds to `0228121099` for Feb 28, 12:10 PM, 1999.",
+    "category": "Unix"
   },
   {
     "question": "Select the correct command to search the pattern “Hello UNIX” in a file ignoring case.",
@@ -18495,7 +19222,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `grep` command with the `-i` option performs a case-insensitive search for the specified pattern, making it suitable for finding 'Hello UNIX' regardless of capitalization.",
+    "category": "Unix"
   },
   {
     "question": "grep \"Tata.*Services$\" * What would be the output of the above command?",
@@ -18521,7 +19249,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The command searches all files (`*`) for lines containing 'Tata', followed by any characters (`.*`), and ending with 'Services' (`Services$`), displaying the filename and the matching lines.",
+    "category": "Java"
   },
   {
     "question": "which statement selects the highest grade for each of the cities of the customers. customer_id cust_name city grade salesman_id 3002 Nick New York 100 5001 3007 Brad New York 200 5001",
@@ -18547,7 +19276,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "To find the highest `grade` for each `city`, you must group the results by `city` using `GROUP BY city` and then apply the `MAX(grade)` aggregate function to each group.",
+    "category": "Java"
   },
   {
     "question": "CUSTOMER ( Id FirstName LastName City Country Phone) List the number of customers in each country, except the India, sorted high to low Only include countries with 5 or more customers. which statement is true?",
@@ -18573,7 +19303,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This query correctly filters out 'India' using `WHERE Country <> 'India'`, groups the results by `Country`, filters groups with less than 5 customers using `HAVING COUNT(Id) >= 5`, and then sorts the remaining groups in descending order of customer count.",
+    "category": "Java"
   },
   {
     "question": "Which operator tests a column for no data.",
@@ -18599,7 +19330,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `IS NULL` operator is specifically used in SQL to test whether a column contains no data, which is represented by a `NULL` value.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "A relational schema for a train reservation database is given below. Passenger (pid, pname, age) Reservation (pid, class, tid) Table: Passenger pid pname age 0 Sachin 65 1 Rahul 66 2 Sourav 67 3 Anil 69 Table : Reservation pid class tid 0 AC 8200 1 AC 8201 2 SC 8201 5 AC 8203 1 SC 8204 3 AC 8202 What pids are returned by the following SQL query for the above instance of the tables? SLECT pid FROM Reservation , WHERE class ‘AC’ AND EXISTS (SELECT * FROM Passenger WHERE age > 65 AND Passenger. pid = Reservation.pid)",
@@ -18625,7 +19357,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The query selects `pid` from `Reservation` where `class` is 'AC' (0, 1, 5, 3) AND the `pid` also exists in `Passenger` with `age > 65` (1, 2, 3), resulting in the common `pid` values of 1 and 3.",
+    "category": "Java"
   },
   {
     "question": "Which Query is correct to display the commission of all the salesmen servicing customers in Paris. salesman salesman_id name city commission 5001 James New York 0.15 5002 Nail Paris 0.13 Customer customer_id cust_name city grade salesman_id 3002 Nick New York 100 5001 3007 Brad New York 200 5001",
@@ -18651,7 +19384,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This query correctly uses a subquery to first identify all `salesman_id` values associated with customers located in 'Paris', and then selects the `commission` for those specific salesmen.",
+    "category": "Java"
   },
   {
     "question": "Which of the following is a correct syntax for applying italic style?",
@@ -18677,7 +19411,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In CSS, `font-style: italic;` is the correct property and value pair to apply an italic style to text.",
+    "category": "UI"
   },
   {
     "question": "what is the output of the below code? <html> <head> <style> p{ color:red ; } #xp { color:green; } </style> </head> <body> <p id=\"xp\">Xplore Training</p> </body> </html>",
@@ -18703,7 +19438,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "When both a tag selector (`p`) and an ID selector (`#xp`) target the same element, the ID selector has higher specificity and its style rules (`color: green`) will override those of the tag selector.",
+    "category": "UI"
   },
   {
     "question": "Which of the following is a correct syntax for applying border for a entire table ?",
@@ -18729,7 +19465,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This CSS rule correctly applies a 1px solid black border to the `table` element itself, as well as to all `<th>` and `<td>` elements within it, creating a visible border for the entire table and its cells.",
+    "category": "UI"
   },
   {
     "question": "Can we modify the attribute's value of the HTML tag dynamically?",
@@ -18745,7 +19482,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Yes, HTML tag attributes can be dynamically modified using client-side scripting languages like JavaScript, by accessing elements through the Document Object Model (DOM).",
+    "category": "UI"
   },
   {
     "question": "Whether HTML5 will be supporting inline style for a label?",
@@ -18761,7 +19499,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "While a generic `style` attribute can be used on a `<label>` element, HTML5 itself doesn't introduce *new* specific inline styling mechanisms for labels, and modern web development best practices generally advocate for styling via external CSS for better separation of concerns, implying a 'No' in a broader context of best practice.",
+    "category": "UI"
   },
   {
     "question": "What is the output of the below code? <html> <head> <style > #st1 { text-align: center; color: red; } .st2 { text-align: center; color: green; } </style> </head> <body> <p class=\"st1\">Hello</p> <p id=\"st2\">World!</p> </body> </html>",
@@ -18787,7 +19526,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The CSS provided applies styling to an element with `id=\"st1\"` and elements with `class=\"st2\"`. The first paragraph has `class=\"st1\"` (no matching ID or class rule exists in CSS for this combination). The second paragraph has `id=\"st2\"`, which matches `#st2` and sets its color to green. Since none of the options correctly describe 'Hello' in default color and 'World!' in green, `None of options` is correct.",
+    "category": "UI"
   },
   {
     "question": "Which of the following is not a CSS background properties?",
@@ -18813,7 +19553,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The correct CSS property for setting the background color is `background-color` (with a hyphen and American spelling), not `Background-colour` or `background-colour` as listed in the options.",
+    "category": "UI"
   },
   {
     "question": "What is the output of the below code? <html> <head> <style > a { text-decoration: overline; text-transform: uppercase; text-shadow: 3px 2px red; } </style> </head> <body> <a href=\"#\">TCS Welcomes You!!!</a> </body> </html>",
@@ -18839,7 +19580,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The question asks for the \"output\" of the provided HTML and CSS code. If option C, which is the exact same code, is designated as the correct answer, it implies that the valid and functional code itself is considered the intended output in this context, rather than a visual rendering description.",
+    "category": "Java"
   },
   {
     "question": "Which of the following is a valid array declaration in Java Script?",
@@ -18865,7 +19607,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In JavaScript, an array can be correctly declared and initialized using the `new Array()` constructor with the elements passed as separate arguments, as shown in `var week = new Array(\"Sun\", ...);`.",
+    "category": "UI"
   },
   {
     "question": "What is the output of the below code? <html> <body> <p id=\"demo\"></p> <script> var fruits = [\"Red\", \"Green\", \"Blue\", \"Black\"]; document.getElementById(\"demo\").innerHTML = fruits.toString(); </script> </body> </html>",
@@ -18891,7 +19634,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `toString()` method for a JavaScript array converts its elements into a single string, with each element separated by a comma, resulting in \"Red,Green,Blue,Black\".",
+    "category": "Java"
   },
   {
     "question": "What is wrong in the following code? DECLARE c_id := 1; c_name customers.name%type; c_addr customers.address%type; BEGIN SELECT name, address INTO c_name, c_addr FROM customers WHERE id = c_id; END;",
@@ -18917,7 +19661,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In PL/SQL, variables should be declared using the `%TYPE` anchor to ensure type compatibility with a database column (e.g., `c_id customers.id%type := 1;`), preventing potential errors if the column's data type changes.",
+    "category": "Java"
   },
   {
     "question": "Which statement is NOT correct about a PL/SQL block?",
@@ -18943,7 +19688,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `DECLARE` section in a PL/SQL anonymous block is optional; only the executable section, defined between the `BEGIN` and `END` keywords, is mandatory.",
+    "category": "Java"
   },
   {
     "question": "Which statement below is a correct example of explicit cursor creation?",
@@ -18969,7 +19715,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "An explicit cursor in PL/SQL is correctly declared using the `CURSOR cursor_name IS SELECT_statement;` syntax, which specifies the name of the cursor and the query it will execute.",
+    "category": "Java"
   },
   {
     "question": "Variable declaration : customer_rec customer%rowtype; How are the columns – id, name present in the customer table can be used in the PL/SQL statement?",
@@ -18995,7 +19742,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "When a PL/SQL record variable is declared using %rowtype, its columns are accessed using dot notation with the record variable name.",
+    "category": "Java"
   },
   {
     "question": "Which of the below is a illegal modifier for class declaration?",
@@ -19021,7 +19769,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Java, a top-level class cannot be declared as private because classes are meant to be accessed, and private would restrict access only within the enclosing class, which is not applicable.",
+    "category": "Java"
   },
   {
     "question": "What is the output for the following code: public class Demo { public static void main(String args[]) { String x=\"HELLO\"; String y=\"HELLO\"; if(x.compareTo(y)) { System.out.println(\"STRINGS ARE EQUAL\"); } else { System.out.println(\"STRINGS NOT EQUAL\"); } } }",
@@ -19042,7 +19791,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The compareTo() method in Java returns an integer (0 if equal, non-zero otherwise), but an if statement expects a boolean expression, leading to a compilation error.",
+    "category": "Java"
   },
   {
     "question": "---------------------- is required for compiling,executing and debugging a java program",
@@ -19068,7 +19818,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The Java Development Kit (JDK) includes the Java Runtime Environment (JRE) and development tools like the compiler (javac) and debugger, making it essential for all stages of Java program development.",
+    "category": "Java"
   },
   {
     "question": "What is wrong in the following code? DECLARE c_id := 1; c_name customers.name%type; c_addr customers.address%type; BEGIN SELECT name, address INTO c_name, c_addr FROM customers WHERE id = c_id; END;",
@@ -19094,7 +19845,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In PL/SQL, variables must be declared with a specific data type or a type anchor like %type before being assigned a value, making c_id := 1; an incorrect declaration syntax.",
+    "category": "Java"
   },
   {
     "question": "Which statement is NOT correct about a PL/SQL block?",
@@ -19120,7 +19872,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The DECLARE section in a PL/SQL block is optional; only the executable section (BEGIN...END) is mandatory for an anonymous block.",
+    "category": "Java"
   },
   {
     "question": "Which statement below is a correct example of explicit cursor creation?",
@@ -19146,7 +19899,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "An explicit cursor in PL/SQL is declared using the CURSOR cursor_name IS SELECT_statement; syntax.",
+    "category": "Java"
   },
   {
     "question": "Variable declaration : customer_rec customer%rowtype; How are the columns – id, name present in the customer table can be used in the PL/SQL statement?",
@@ -19172,7 +19926,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "When a PL/SQL record variable is declared using %rowtype, its columns are accessed using dot notation with the record variable name.",
+    "category": "Java"
   },
   {
     "question": "Which of the below is a illegal modifier for class declaration?",
@@ -19198,7 +19953,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Java, a top-level class cannot be declared as private because classes are meant to be accessed, and private would restrict access only within the enclosing class, which is not applicable.",
+    "category": "Java"
   },
   {
     "question": "What is the output for the following code: public class Demo { public static void main(String args[]) { String x=\"HELLO\"; String y=\"HELLO\"; if(x.compareTo(y)) { System.out.println(\"STRINGS ARE EQUAL\"); } else { System.out.println(\"STRINGS NOT EQUAL\"); } } }",
@@ -19219,7 +19975,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The compareTo() method in Java returns an integer (0 if equal, non-zero otherwise), but an if statement expects a boolean expression, leading to a compilation error.",
+    "category": "Java"
   },
   {
     "question": "---------------------- is required for compiling,executing and debugging a java program",
@@ -19245,7 +20002,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The Java Development Kit (JDK) includes the Java Runtime Environment (JRE) and development tools like the compiler (javac) and debugger, making it essential for all stages of Java program development.",
+    "category": "Java"
   },
   {
     "question": "What will be the output of the following Python code? print('hello all, welcome to the Python course'.split())",
@@ -19271,7 +20029,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The split() method without arguments splits a string by whitespace and returns a list of substrings, preserving punctuation attached to words.",
+    "category": "Java"
   },
   {
     "question": "You want to use the sqrt() function from the math module in Python. Identify the statement that will impo rt the function from the module so that it can be used.",
@@ -19297,7 +20056,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The from module_name import function_name statement directly imports a specific function, allowing it to be used without prefixing the module name.",
+    "category": "Java"
   },
   {
     "question": "What will the following function do? def func(a,b):pass",
@@ -19323,7 +20083,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The pass statement in Python is a null operation; when executed, nothing happens, so it serves as a placeholder for code that will be added later.",
+    "category": "Java"
   },
   {
     "question": "What will be the output of the following Python code? print(max('Python Tutorial'))",
@@ -19349,7 +20110,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The max() function on a string returns the character with the highest ASCII/Unicode value, and 'y' has a higher value than any other character in 'Python Tutorial'.",
+    "category": "Java"
   },
   {
     "question": "Identify the output of the following expression: print(89//2)",
@@ -19370,7 +20132,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The // operator in Python performs floor division, which divides the first number by the second and rounds the result down to the nearest whole number.",
+    "category": "Java"
   },
   {
     "question": "Identify the invalid operator for Python",
@@ -19396,7 +20159,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "All listed symbols have valid uses in Python: >> and & are bitwise operators, and \\ is used for escape sequences or line continuation within strings.",
+    "category": "Python"
   },
   {
     "question": "If a = 10 and b = 4, which of the following statement will produce the output as 14",
@@ -19422,7 +20186,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The bitwise OR operator | on a=10 (binary 1010) and b=4 (binary 0100) results in 1110 (binary), which is decimal 14.",
+    "category": "Python"
   },
   {
     "question": "<=,>=,== are …. Operators in python",
@@ -19448,7 +20213,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "These symbols are used to compare two values, determining their relationship (e.g., less than or equal to, greater than or equal to, equal to), hence they are relational operators.",
+    "category": "Python"
   },
   {
     "question": "Identify the correct statement.",
@@ -19474,7 +20240,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Lists in Python can be modified after creation (mutable), while tuples cannot be changed once defined (immutable).",
+    "category": "BizSkill"
   },
   {
     "question": "An identifier list is initialized as below: list=(1,2,3) What will be the output of the following statement? type(list)",
@@ -19500,7 +20267,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Python, when a sequence of values is enclosed in parentheses (), it creates a tuple, so type(list) will correctly identify it as a tuple.",
+    "category": "Java"
   },
   {
     "question": "When Tata Consultancy Services established?",
@@ -19526,7 +20294,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Tata Consultancy Services (TCS) was established in 1968.",
+    "category": "KYT"
   },
   {
     "question": "Drawback of Distributed computing is a.  Man Power cost increased",
@@ -19547,7 +20316,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The provided correct answer is N/A, indicating that none of the given options are considered the correct answer for the drawback of distributed computing.",
+    "category": "KYT"
   },
   {
     "question": "How many hours of video are uploaded to Youtube every minute",
@@ -19573,7 +20343,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "As of various reports, around 100 hours of video are uploaded to YouTube every minute.",
+    "category": "KYT"
   },
   {
     "question": "Computer Algorithms which determines the category of observation based on previously seen examples i s called as",
@@ -19599,7 +20370,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Classification algorithms are a type of supervised learning that categorizes new observations into discrete classes based on patterns learned from labeled training data.",
+    "category": "KYT"
   },
   {
     "question": "Which application takes Highest Maintenance cost",
@@ -19625,7 +20397,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Native applications typically incur higher maintenance costs due to the need for separate codebases and updates across multiple platforms (iOS, Android, etc.).",
+    "category": "KYT"
   },
   {
     "question": "What are the stages in the IBC approach? a.  Introduction, Body, Cohesion",
@@ -19646,7 +20419,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The IBC approach (Introduction, Body, Conclusion) is a standard structure used in communication and writing to organize information logically and effectively.",
+    "category": "BizSkill"
   },
   {
     "question": "The purpose of writing is expressed by which type of question?",
@@ -19672,7 +20446,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The 'why' question directly addresses the purpose or objective behind a piece of writing.",
+    "category": "BizSkill"
   },
   {
     "question": "The CIBI Bank requested TCS to upgrade their systems worldwide and to digitize 80% of their workflow. TCS not only completed the given work on time but also provided IT training sessions for the bank empl oyees to get accustomed to the upgrades. What is this service termed as ?",
@@ -19698,7 +20473,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Providing IT training sessions beyond the initial scope of the project (system upgrade and digitization) is considered a value-added service because it enhances the client's overall benefit.",
+    "category": "BizSkill"
   },
   {
     "question": "Select the options that may apply while responding to an angry customer's e-mail.",
@@ -19724,7 +20500,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "When responding to an angry customer, it is crucial to acknowledge their frustration, align with their perspective, and assure them of a resolution, making all listed options appropriate.",
+    "category": "BizSkill"
   },
   {
     "question": "He had a Masters in Business Administration (MBA). Here MBA is :",
@@ -19750,7 +20527,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "An MBA is an abbreviation, specifically an acronym, but generally falls under the broader category of an abbreviation as a shortened form of a word or phrase.",
+    "category": "BizSkill"
   },
   {
     "question": "Stephen would be traveling home to attend his brother's wedding. What information should he exclude w hile drafting a mail prior to his leave ?",
@@ -19776,7 +20554,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Personal details like wedding specifics and travel arrangements are generally irrelevant for a professional leave email and should be excluded to maintain conciseness and professionalism.",
+    "category": "BizSkill"
   },
   {
     "question": "What are the elements of a Project Status Report?",
@@ -19802,7 +20581,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A comprehensive Project Status Report typically includes the current status, highlights areas of concern or risks, offers suggestions, and outlines the plan for the next period.",
+    "category": "BizSkill"
   },
   {
     "question": "Rose chooses not to consult her colleagues while fixing a problem, as she is sure that they are too busy. Identify the mind trap.",
@@ -19828,7 +20608,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Rose's decision not to consult colleagues based on her belief they are too busy, without verifying, is an example of falling into the trap of assumptions.",
+    "category": "BizSkill"
   },
   {
     "question": "Group decision is an important element in which of the following work cultures?",
@@ -19854,7 +20635,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In many Asian and Middle Eastern cultures, including India and Japan, group consensus and collective decision-making are highly valued and integral to the work environment.",
+    "category": "BizSkill"
   },
   {
     "question": "What factors should you consider before preparing a help document on the newly introduced 'search' func tionality in ABC online application ?",
@@ -19880,7 +20662,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Considering the interest level of users helps tailor the document's approach, making it more engaging and focused on what users most need to know to capture their attention and ensure they utilize the help.",
+    "category": "BizSkill"
   },
   {
     "question": "List 3 aspects that will be at stake, if a major impact on business has occurred due to an outage",
@@ -19906,7 +20689,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A major business outage directly impacts sales revenue, damages brand reputation, and can compromise the integrity and trust customers have in the business.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Amazon had suffered a major outage of its Simple Storage Service, also known as S3, crippling significant portions of the web for several hours. Amazon said the S3 team was working on an issue that was slowing down its billing system. Here’s what happened, according to Amazon, at 9:37 a.m. Pacific, starting the outage: “an authorized S3 team member using an established playbook executed a command which was intended to remove a small number of servers for one of the S3 subsystems that is used by the S3 billing process. Unfortunately, one of the inputs to the command was entered incorrectly and a larger set of servers was removed than intended.” This has occurred due to",
@@ -19932,7 +20716,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The incident highlights a failure in access management, as an authorized user made an error, demonstrating that even with proper authorization, lack of validation or safeguards can lead to significant outages.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Actions NOT to be taken during flood of alerts is",
@@ -19953,7 +20738,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Disabling alerts during a flood of alerts is a dangerous practice as it can lead to missing critical information, potentially worsening an incident or delaying resolution.",
+    "category": "Algorithms"
   },
   {
     "question": "Advantages of SOLID principles are 1. Helps design systems that are robust 2. Helps design systems that are flexible 3. Helps design systems that exhibit ease of maintenance 4. Helps design system that do not cost much to maintain",
@@ -19979,7 +20765,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "SOLID principles promote the creation of software systems that are robust, flexible, easier to maintain, and therefore can reduce long-term maintenance costs.",
+    "category": "Algorithms"
   },
   {
     "question": "Developers should follow the design principles to achieve which of the following qualities",
@@ -20005,7 +20792,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Design principles guide developers in creating software that is easier to extend with new features, simpler to maintain over time, and more readable for other developers.",
+    "category": "Algorithms"
   },
   {
     "question": "What is the usage of <span> in html?",
@@ -20026,7 +20814,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The <span> tag is an inline container used to group and apply styles or scripts to a small section of text or other inline elements.",
+    "category": "UI"
   },
   {
     "question": "What is the correct syntax to set border colors?",
@@ -20052,7 +20841,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The correct CSS syntax for setting a border includes specifying its width, style, and color, typically in the shorthand border: width style color; format.",
+    "category": "UI"
   },
   {
     "question": "What is the correct syntax to apply css for the below code? <h2 class=\"city\">London</h2> <p>London is the capital of England.</p>",
@@ -20073,7 +20863,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "To apply CSS to an HTML element with a specific class, you use a class selector, which starts with a dot (.) followed by the class name.",
+    "category": "UI"
   },
   {
     "question": "What is the usage of <svg> tag in html?",
@@ -20094,7 +20885,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The <svg> tag defines a container for Scalable Vector Graphics, which are used to draw vector-based two-dimensional graphics directly within HTML.",
+    "category": "UI"
   },
   {
     "question": "How do you add a background color for Xplore <h1> elements?",
@@ -20120,7 +20912,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "To apply a style to all <h1> elements, you use the element selector h1 directly in CSS, followed by the desired property and value.",
+    "category": "UI"
   },
   {
     "question": "Which of the following is not a valid style for the paragraph? p { color: red; font-family: courier; font-size: 160%; border-style: dotted dashed solid double; margin-right: 150px; float: bottom; }",
@@ -20146,7 +20939,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The float CSS property accepts values like left, right, none, or inherit, but bottom is not a valid value for floating elements.",
+    "category": "UI"
   },
   {
     "question": "Which one is a valid style;",
@@ -20172,7 +20966,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "CSS comments are denoted by /* comment */, making option C the only one with correct comment syntax for styling.",
+    "category": "UI"
   },
   {
     "question": "Which among the following is not CSS background properties;",
@@ -20198,7 +20993,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "background-render is not a standard CSS background property; common background properties include background-repeat, background-attachment, and background-position.",
+    "category": "UI"
   },
   {
     "question": "JavaScript programs are executed by the Script Engine.",
@@ -20214,7 +21010,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "JavaScript programs are executed by a JavaScript engine, which is often embedded within web browsers or runtime environments like Node.js.",
+    "category": "UI"
   },
   {
     "question": "What will be the output of the below code; <html> <body> <p id=\"result\"></p> <script> var x = myFunction(NaN, 3); document.getElementById(\"result\").innerHTML = x; function myFunction(a, b) { return a * b; } </script> </body> </html>",
@@ -20240,7 +21037,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Any arithmetic operation involving NaN (Not a Number) will always result in NaN.",
+    "category": "UI"
   },
   {
     "question": "Which keyword is used to accept input from the user?",
@@ -20266,7 +21064,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In C#, Console.ReadLine() is commonly used to read a line of text input from the user.",
+    "category": "C# / .NET"
   },
   {
     "question": "Correct output for code is? static void Main(string[] args) { float a = 10.553f; long b = 12L; int c; c = Convert.ToInt32(a + b); Console.WriteLine(c);Correct output for code is? static void Main(string[] args) { float a = 10.553f; long b = 12L; int c; c = Convert.ToInt32(a + b); Console.WriteLine(c);Correct output for code is? static void Main(string[] args) { float a = 10.553f; long b = 12L; int c; c = Convert.ToInt32(a + b); Console.WriteLine(c);Correct output for code is? static void Main(string[] args) { float a = 10.553f; long b = 12L; int c; c = Convert.ToInt32(a + b); Console.WriteLine(c);",
@@ -20292,7 +21091,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "a + b evaluates to 10.553 + 12 = 22.553. Convert.ToInt32() rounds this value to the nearest integer, which is 23.",
+    "category": "Java"
   },
   {
     "question": "What would be the output of the following code? class Program { static void Main(string[] args) { string name; Console.Write(\"Welcome \"); name = \"Prem\"; Console.WriteLine(\"name\"); Console.ReadLine(); } }What would be the output of the following code? class Program { static void Main(string[] args) { string name; Console.Write(\"Welcome \"); name = \"Prem\"; Console.WriteLine(\"name\"); Console.ReadLine(); } }What would be the output of the following code? class Program { static void Main(string[] args) { string name; Console.Write(\"Welcome \"); name = \"Prem\"; Console.WriteLine(\"name\") ; Console.ReadLine(); } }What would be the output of the following code? class Program { static void Main(string[] args) { string name; Console.Write(\"Welcome \"); name = \"Prem\"; Console.WriteLine(\"name\") ; Console.ReadLine(); } }",
@@ -20318,7 +21118,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Console.Write(\"Welcome \"); prints \"Welcome \" without a newline. Console.WriteLine(\"name\"); then prints the literal string \"name\" followed by a newline, resulting in \"Welcome name\".",
+    "category": "Java"
   },
   {
     "question": "What will be the value of i, j, k after execution of the following statements? int i, j, k; i = 4; j = 30; k = 0; k = j++ / i++; What will be the value of i, j, k after execution of the following statements? int i, j, k; i = 4; j = 30; k = 0; k = j++ / i++; What will be the value of i, j, k after execution of the following statements? int i, j, k; i = 4; j = 30; k = 0; k = j++ / i++; What will be the value of i, j, k after execution of the following statements? int i, j, k; i = 4; j = 30; k = 0; k = j++ / i++;",
@@ -20344,7 +21145,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "j++ uses 30 then increments j to 31. i++ uses 4 then increments i to 5. So k = 30 / 4 (integer division) results in 7. Finally, i=5, j=31, k=7.",
+    "category": "Java"
   },
   {
     "question": "ubyte is a 8 bit signed integer datatype.",
@@ -20360,7 +21162,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In C#, byte is an 8-bit unsigned integer, while sbyte is an 8-bit signed integer; there is no ubyte type, and byte itself is unsigned.",
+    "category": "C# / .NET"
   },
   {
     "question": "What would be the output of the following code? class Program { static void Main(string[] args) { int a = 10; if (a < 20) { a = 20; } Console.WriteLine(\"value of a is : {0}\", a); Console.ReadLine(); } }What would be the output of the follwoing code? class Program { static void Main(string[] args) { int a = 10; if (a < 20) { a = 20; } Console.WriteLine(\"value of a is : {0}\", a); Console.ReadLine(); } }What would be the output of the following code? class Program { static void Main(string[] args) { int a = 10; if (a < 20) { a = 20; } Console.WriteLine(\"value of a is : {0}\", a); Console.ReadLine(); } }What would be the output of the follwoing code? class Program { static void Main(string[] args) { int a = 10; if (a < 20) { a = 20; } Console.WriteLine(\"value of a is : {0}\", a); Console.ReadLine(); } }",
@@ -20386,7 +21189,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The condition a < 20 (10 < 20) is true, so a is reassigned to 20, and this new value is printed.",
+    "category": "Java"
   },
   {
     "question": "The -------- keyword is used to stop any conditional statement or loop.",
@@ -20412,7 +21216,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The break keyword is used to exit immediately from the innermost loop or switch statement.",
+    "category": "C# / .NET"
   },
   {
     "question": "What will be the output of the C#.NET code snippet given below? static void Main(string[] args) { int i, j = 1, k; for (i = 0; i < 5; i++) { k = j++ + ++j; Console.Write(k + \" \"); } Console.ReadLine(); }What will be the output of the C#.NET code snippet given below? static void Main(string[] args) { int i, j = 1, k; for (i = 0; i < 5; i++) { k = j++ + ++j; Console.Write(k + \" \"); } Console.ReadLine(); }What will be the output of the C#.NET code snippet given below? static void Main(string[] args) { int i, j = 1, k; for (i = 0; i < 5; i++) { k = j++ + ++j; Console.Write(k + \" \"); } Console.ReadLine(); }What will be the output of the C#.NET code snippet given below? static void Main(string[] args) { int i, j = 1, k; for (i = 0; i < 5; i++) { k = j++ + ++j; Console.Write(k + \" \"); } Console.ReadLine(); }",
@@ -20438,7 +21243,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In C#, the pre-increment (++j) and post-increment (j++) operators modify j and return its value based on their timing, leading to the sequence 4, 8, 12, 16, 20.",
+    "category": "Java"
   },
   {
     "question": "Choose the example/s for Value types",
@@ -20464,7 +21270,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In C#, struct and enum are value types, meaning they directly store their data, while class and string are reference types.",
+    "category": "C# / .NET"
   },
   {
     "question": "Which keyword is used to add an item to the list?",
@@ -20490,7 +21297,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The Add method is the standard way to append a single item to the end of a List collection in C#.",
+    "category": "C# / .NET"
   },
   {
     "question": "ADO .net and web API Which join combines all rows from both tables?",
@@ -20516,7 +21324,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "A CROSS JOIN produces a Cartesian product of the two tables, combining every row from the first table with every row from the second table.",
+    "category": "Java"
   },
   {
     "question": "Primary key should always be auto increment",
@@ -20532,7 +21341,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "A primary key uniquely identifies each record in a table and can be any unique column(s); it is not required to be auto-incrementing.",
+    "category": "C# / .NET"
   },
   {
     "question": "IN is used to check the list of matching values",
@@ -20548,7 +21358,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The IN operator in SQL is used in a WHERE clause to specify multiple possible values for a column, checking if a value matches any value in a list.",
+    "category": "C# / .NET"
   },
   {
     "question": "Which of the following statement(s) is/are correct? Which of the following statement(s) is/are correct?Which of the following statement(s) is/are correct? Which of the following statement(s) is/are correct?",
@@ -20569,7 +21380,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Both TRUNCATE TABLE and DELETE without a WHERE clause remove all rows from a table, but TRUNCATE is typically faster and resets identity columns, while DELETE can be rolled back.",
+    "category": "Java"
   },
   {
     "question": "TRUNCATE TABLE is identical to DELETE statement without WHERE clause and both remove all row s in a table TRUNCATE TABLE is identical to DELETE statement without WHERE clause and both remove all row s in a table",
@@ -20595,7 +21407,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The ORDER BY clause sorts query results in ascending order by default if ASC or DESC is not specified.",
+    "category": "Java"
   },
   {
     "question": "Disadvantages of View",
@@ -20621,7 +21434,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Views can sometimes lead to performance overhead due to complex underlying queries and often have restrictions on direct data modification (updates).",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Consider the following code snippet: DataSet myDataSet = new DataSet(); myDataAdapter.Fill(myDataSet); What is the functionality of the above code segment?Consider the following code snippet: DataSet myDataSet = new DataSet(); myDataAdapter.Fill(myDataSet); What is the functionality of the above code segment?",
@@ -20647,7 +21461,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The Fill method of a DataAdapter executes the SelectCommand associated with it and populates the DataSet with the retrieved data from the database.",
+    "category": "Java"
   },
   {
     "question": "Which ADO.NET object is very fast in getting data from database?",
@@ -20673,7 +21488,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "DataReader provides a fast, forward-only, read-only stream of data from a database, making it highly efficient for retrieving data.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "is Used to required add parameters to stored procedure in Sql Server",
@@ -20699,7 +21515,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In ADO.NET, the SqlParameter class is used to define and add parameters when executing stored procedures or parameterized SQL queries against SQL Server.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which of the following illustrates the benefit of ADO.NET?",
@@ -20725,7 +21542,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "ADO.NET's design allows it to work seamlessly with various data sources and technologies, promoting interoperability across different systems and platforms.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Computer Algorithms which determines the category of observation based on previously seen examples i s called as",
@@ -20751,7 +21569,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Classification algorithms are a type of supervised learning that categorizes new observations into discrete classes based on patterns learned from labeled training data.",
+    "category": "KYT"
   },
   {
     "question": "When Tata Consultancy Services established?",
@@ -20777,7 +21596,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Tata Consultancy Services (TCS) was established in 1968.",
+    "category": "KYT"
   },
   {
     "question": "Some challenges in Artificial Intelligence are",
@@ -20803,7 +21623,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Challenges in Artificial Intelligence include the high cost of development and deployment, the need for advanced technology, and replicating human common sense reasoning.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Advantages of Cloud Services are a.  No Hardware Procurement required",
@@ -20829,7 +21650,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Cloud services offer numerous advantages, including eliminating the need for hardware procurement and hosting space, reducing costs for hardware maintenance technicians, and often providing robust security features.",
+    "category": "KYT"
   },
   {
     "question": "What are the problems associated with Big Data",
@@ -20855,7 +21677,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Problems associated with Big Data include inexperience in collecting data from non-traditional sources, difficulties dealing with vast quantities of data, and the complexity of managing relatively slow systems.",
+    "category": "KYT"
   },
   {
     "question": "Judging another person's views solely based on our own values and culture is called :",
@@ -20881,7 +21704,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Ethnocentrism is the tendency to view one's own culture as the most important or correct and to use it as the standard by which to judge all other cultures.",
+    "category": "BizSkill"
   },
   {
     "question": "Paul is working with a client who is casual while communicating with him through chat application. The client sends him memes and other forwards in order to build better workplace relationships. Select the best option.",
@@ -20907,7 +21731,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Maintaining professionalism by staying task-oriented and polite, while avoiding unprofessional reciprocation, is the best approach to manage informal client communication without being offensive.",
+    "category": "Java"
   },
   {
     "question": "What is true about Agile principles? A. Leadership over management B. Management over leadership C. Adaptive over prescriptive D. Prescriptive over adaptive E. Customer collaboration over contract negotiation F. Contract negotiation over customer collaboration",
@@ -20933,7 +21758,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Agile principles prioritize leadership over management, being adaptive over prescriptive, and customer collaboration over strict contract negotiation to foster flexibility and value delivery.",
+    "category": "Java"
   },
   {
     "question": "You are a team lead. During an initial meeting, you realise that you need 3 additional resources to work o n the project. How will you communicate the same effectively in a Project Status Report?",
@@ -20959,7 +21785,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This option clearly states the problem (shortage of manpower) and directly presents the solution (need 3 more resources) in a concise and professional manner suitable for a status report.",
+    "category": "Java"
   },
   {
     "question": "What all details should be provided in the signature of an e-mail? Choose the best options. a) Name & role b) Phone & e-mail ID c) Personal address d) Organization Website",
@@ -20985,7 +21812,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A professional email signature typically includes your name, role, contact details (phone, email), and relevant organizational information like the website, excluding personal addresses.",
+    "category": "Java"
   },
   {
     "question": "‘Being objective’ in your writing is the ability to: a.Present accurate facts and figures. b.Present facts and not personal views. c.Present stereotypical information.",
@@ -21011,7 +21839,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Being objective in writing means focusing on verifiable facts and figures, and avoiding the inclusion of personal opinions or biases to ensure impartiality.",
+    "category": "Java"
   },
   {
     "question": "Katherine is about to write an important e-mail to one of her stakeholders and she is NOT SURE about th e use of certain phrases. Which among the following can she make use of? a) It is a blunder. b) I was wondering if you could... c) Sorry, I can't meet you. I'm busy that day. d) I am afraid I won't be available.",
@@ -21037,7 +21866,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Phrases like \"I was wondering if you could...\" are polite requests, and \"I am afraid I won't be available\" is a professional way to decline, unlike the direct or blunt options.",
+    "category": "Java"
   },
   {
     "question": "You open your mail and see various emails which needs to be replied. In what sequence will you reply ?",
@@ -21063,7 +21893,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Effective email management involves prioritizing messages by urgency and importance to ensure critical tasks are addressed first, rather than simply replying in order received or delaying.",
+    "category": "BizSkill"
   },
   {
     "question": "You have joined a project and you are in the training phase now. The project requires that you know the b asics of Ruby on Rails. You complete an e-learning course on the same and now you are taking the assess ment. During the assessment, a senior member of the team approaches you and asks if you can join a conf erence call instead of him. He requests you to just attend the call for 10 minutes. How will you respond?",
@@ -21089,7 +21920,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "It's important to prioritize your ongoing assessment for training completion while politely communicating your availability and willingness to assist later, showing both responsibility and helpfulness.",
+    "category": "Java"
   },
   {
     "question": "Choose the relevant answer/s that makes the following sentence complete and unambiguous - ' I like cant een but I do not like the food'",
@@ -21115,7 +21947,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This option clearly distinguishes between liking the canteen's atmosphere and disliking its food quality, providing a complete and unambiguous meaning to the original phrase.",
+    "category": "Java"
   },
   {
     "question": "Of the following which best suits the following phrase? The production logs can be shared with the conce rned team after appropriate .",
@@ -21141,7 +21974,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Data masking is crucial when sharing production logs to protect sensitive information by obscuring or replacing it with realistic but non-sensitive data, ensuring privacy and compliance.",
+    "category": "Java"
   },
   {
     "question": "RiO week is celebrated to",
@@ -21167,7 +22001,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "RiO (Refactor, Improve, Optimize) week is specifically an initiative focused on enhancing the efficiency and quality of production support operations within the organization.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Duplication of code is the root cause of most of the maintenance problems",
@@ -21183,7 +22018,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Code duplication leads to increased maintenance effort, higher chances of introducing bugs, and makes the codebase harder to understand and update, making it a major maintenance problem.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which of the following sorting algorithms in its typical implementation gives best performance when app lied on an array which is sorted or almost sorted (maximum 1 or two elements are misplaced).",
@@ -21209,7 +22045,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Insertion Sort performs very well on nearly sorted arrays because it only shifts elements by a small number of positions, resulting in O(n) complexity in the best-case scenario.",
+    "category": "Java"
   },
   {
     "question": "As per good programming practices it is better to in codes.",
@@ -21235,7 +22072,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Good programming practices advocate for minimizing coupling (interdependencies between modules) and maximizing cohesion (how related the elements within a module are) to improve maintainability and flexibility.",
+    "category": "Algorithms"
   },
   {
     "question": "Which of the following is not a formatting element in HTML?",
@@ -21261,7 +22099,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `<p>` tag defines a paragraph, which is a structural element for blocks of text, whereas `<b>`, `<strong>`, and `<del>` are primarily used for text formatting (bold, strong emphasis, deleted text).",
+    "category": "UI"
   },
   {
     "question": "What will be the out put of the below code; <!DOCTYPE html> <html> <body> <h1 style=\"font-group:verdana;\">Xplore HTML</h1> </body> </html>",
@@ -21287,7 +22126,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "\"font-group\" is not a valid CSS property for setting font family; therefore, the browser will ignore it and render the `<h1>` element with its default font while retaining the heading size.",
+    "category": "UI"
   },
   {
     "question": "<caption> is tag used to define the table caption.",
@@ -21303,7 +22143,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `<caption>` tag in HTML is indeed used to define a caption for a table, providing a title or description for the table's content.",
+    "category": "UI"
   },
   {
     "question": "<p>Top news:</p> <blockquote url=\"https://www.thehindu.com//\"> Top news from The Hindu; </blockquote> The above code will display today's news from The Hindu in blocks.",
@@ -21319,7 +22160,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `<blockquote>` tag is used to indicate that the enclosed text is an extended quotation and does not have a `url` attribute to fetch or display content from an external link; the `cite` attribute is used for the source URL.",
+    "category": "Java"
   },
   {
     "question": "Which html statement is used to emphasizing a text?",
@@ -21345,7 +22187,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The correct HTML tag for emphasizing text is `<em>` (for emphasis) or `<strong>` (for strong importance), neither of which is provided as an option.",
+    "category": "UI"
   },
   {
     "question": "<html> <head> <style> a:link, a:visited { background-color: green; color: white; padding: 14px 25px; } a:hover, a:active { background-color: red; } </style> </head> <body> <a href=\"register.html\" target=\"_blank\">Register</a> </body> </html> What will be the out put of the above code?",
@@ -21371,7 +22214,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The CSS styles define the `<a>` element to have a green background when in link or visited states, and a red background when hovered over or active, resulting in a colored link that changes color on hover.",
+    "category": "UI"
   },
   {
     "question": "ul.a { list-type: lower-alpha; } The above style will display",
@@ -21397,7 +22241,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The correct CSS property for list item markers is `list-style-type`, not `list-type`. Thus, the provided code will not work as intended, and none of the given options correctly describe its output.",
+    "category": "Java"
   },
   {
     "question": "<html> <head> <style> .center { text-align: justify; border: 3px solid green; } </style> </head> <body> <div class=\"center\"> <p>Hello World.</p> </div> </body> </html> what will be the output of the above code?",
@@ -21423,7 +22268,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "While `text-align: justify` attempts to spread text evenly, for a single short line like \"Hello World.\", it often defaults to left alignment, within the specified green border.",
+    "category": "Java"
   },
   {
     "question": "var x = 100 + 5 ** 3; what will be the output of x?",
@@ -21449,7 +22295,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The exponentiation operator `**` has higher precedence than addition, so `5 ** 3` (125) is calculated first, then added to 100, resulting in `100 + 125 = 225`.",
+    "category": "Java"
   },
   {
     "question": "<html> <body> <script> function saveValue(x) { alert(x**2); } </script> <div id=\"myDiv\" style=\"display:none\"> <input type=\"button\" value=\"Click\" onclick=\"saveValue('5');\"> </div> </body> </html> What will be the output of the code?",
@@ -21475,7 +22322,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `div` containing the button is set to `display:none`, meaning it will not be visible or interactive, so the `onclick` event will never be triggered.",
+    "category": "Java"
   },
   {
     "question": "Under which namespace StringBuilder class is present?",
@@ -21501,7 +22349,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `StringBuilder` class, used for mutable string operations, is part of the `System.Text` namespace in C#.",
+    "category": "C# / .NET"
   },
   {
     "question": "The F10 key is used to debug and run an application.",
@@ -21517,7 +22366,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The F10 key typically performs a \"Step Over\" action in debuggers, allowing execution to proceed line by line without entering function calls, not for debugging and running an application generally.",
+    "category": "C# / .NET"
   },
   {
     "question": "What is the output of the program. static void Main(string[] args) { int[] nn = new int[5]; nn[1] = 10; nn[2] = 20; nn[3] = 30; nn[4] = 40; nn[5] = 50; Console.WriteLine(nn[1]); Console.ReadLine(); }",
@@ -21538,7 +22388,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The program will print '10' from `nn[1]` before an `IndexOutOfRangeException` occurs at runtime when trying to assign a value to `nn[5]`, as the array has indices 0-4.",
+    "category": "Java"
   },
   {
     "question": "What is the output of the program below? static void Main(string[] args) { bool flag = false; if (!flag) { Console.Write(\"Hello,\"); } Console.Write(\"Hi\"); Console.ReadLine(); }",
@@ -21564,7 +22415,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `!flag` condition evaluates to `!false`, which is `true`. Therefore, \"Hello,\" is printed. After the `if` block, \"Hi\" is unconditionally printed, resulting in \"Hello,Hi\".",
+    "category": "Java"
   },
   {
     "question": "What is the output of code below? static void Main(string[] args) { int a = 5; int b = 10; int c; Console.WriteLine(c = a-- - ++b); Console.WriteLine(b); Console.ReadLine(); }",
@@ -21590,7 +22442,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`a--` uses `a`'s current value (5) then decrements `a` to 4. `++b` increments `b` to 11 then uses its new value. So, `c = 5 - 11 = -6`. Then, `b` is `11`.",
+    "category": "Java"
   },
   {
     "question": "If number 1 is greater than number 2, assign the value of number1 to result, else assign the value of number 2 to result. Which expression below you will use?",
@@ -21616,7 +22469,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This ternary operator correctly assigns `num1` to `comparisonResult` if `num1` is strictly greater than `num2`, otherwise it assigns `num2`, fulfilling the requirement.",
+    "category": "Java"
   },
   {
     "question": "What would be the output of the following code? static void main(String[ ] args) { int x=5 ; int y=6 ; int z=(x!=y)?(x*y):(x+y) ; Console.WriteLine(z) ; Console.ReadLine(); }",
@@ -21642,7 +22496,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The condition `x != y` (5 != 6) is true. Therefore, the expression evaluates to `x * y`, which is `5 * 6 = 30`.",
+    "category": "Java"
   },
   {
     "question": "--------- statement skips the current iteration of a for, while or do while loop. It causes the loop to immedi ately jump to the next iteration of the loop.",
@@ -21668,7 +22523,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `continue` statement skips the rest of the current iteration of a loop and proceeds to the next iteration, whereas `break` exits the entire loop.",
+    "category": "Java"
   },
   {
     "question": "What will be the output of the following code snippet? using System; class ContinueTest { public static void Main() { for (int i = 1; i <= 10; i++) { if (i > 5) brea k; Console.WriteLine(i); } } }",
@@ -21694,7 +22550,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The loop iterates from `i = 1`. When `i` becomes `6`, the condition `i > 5` becomes true, triggering the `break` statement and exiting the loop. Thus, values 1 through 5 are printed.",
+    "category": "Java"
   },
   {
     "question": "Members of enum are by default",
@@ -21720,7 +22577,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Members of an `enum` (enumeration) in C# are implicitly `public` and `static` by default, allowing them to be accessed directly through the enum type.",
+    "category": "C# / .NET"
   },
   {
     "question": "ADO .net and web API Which one of the following is TRUE about DataSet ?",
@@ -21746,7 +22604,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A `DataSet` acts as an in-memory cache of data, capable of holding multiple `DataTable` objects, and operates as a disconnected model, meaning it doesn't maintain a continuous connection to the data source.",
+    "category": "Java"
   },
   {
     "question": "For Insert,Update and Delete SQL Commands, method is used.",
@@ -21772,7 +22631,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`ExecuteNonQuery` is the appropriate method for executing SQL commands that do not return any data, such as `INSERT`, `UPDATE`, and `DELETE` statements, returning the number of affected rows.",
+    "category": "C# / .NET"
   },
   {
     "question": "Which of the following is not the method of DataAdapter?",
@@ -21798,7 +22658,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "`Fill`, `FillSchema`, and `Update` are standard methods of a `DataAdapter` used for populating a `DataSet` or `DataTable` and persisting changes back to the database. `ReadData` is not a standard method.",
+    "category": "C# / .NET"
   },
   {
     "question": "Filter used for grouping records",
@@ -21824,7 +22685,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `GROUP BY` clause in SQL is used to arrange identical data into groups, enabling aggregate functions (like COUNT, SUM, AVG) to operate on these groups.",
+    "category": "C# / .NET"
   },
   {
     "question": "Syntax for ordering a column in ascending order",
@@ -21850,7 +22712,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "By default, the `ORDER BY` clause sorts results in ascending order if `ASC` is omitted, making \"SELECT attribute1 FROM Table ORDER BY attribute1\" a correct syntax for ascending order.",
+    "category": "C# / .NET"
   },
   {
     "question": "Identify correct syntax for creating Index",
@@ -21876,7 +22739,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This syntax correctly specifies the `CREATE INDEX` command, followed by the index name, the table it applies to, and the column(s) on which the index is built.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "View is a Virtual Table",
@@ -21892,7 +22756,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A `VIEW` in SQL is indeed a virtual table, meaning it does not store data itself but rather represents the result set of a stored query, providing a logical representation of data from one or more tables.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "In which two cases would you use an outer join? a. The tables being joined have NOT NULL columns. b. The tables being joined have only matched data. c. The columns being joined have NULL values. d. The tables being joined have both matched and unmatched data.",
@@ -21918,7 +22783,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Outer joins are used when you need to retrieve all matching rows *and* include unmatched rows from one or both tables, particularly when join columns might contain `NULL` values or when you want to see data even if there isn't a corresponding match.",
+    "category": "Java"
   },
   {
     "question": "Key which needs to be set for a column so that only the data available in the Primary key column of one t able can only be entered",
@@ -21944,7 +22810,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A `Foreign Key` enforces referential integrity by linking a column (or columns) in one table to the primary key of another table, ensuring that only existing primary key values can be entered.",
+    "category": "Java"
   },
   {
     "question": "Which is true regarding indexing operation?",
@@ -21970,7 +22837,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Indexing primarily involves creating a data structure (an index) that allows for fast lookups and retrieval of records based on the values in one or more specific keys, often with an underlying sorted structure.",
+    "category": "C# / .NET"
   },
   {
     "question": "In which year Tata Consultancy Services (TCS) becomes the first Indian software company to cross one b illion dollars in revenues?",
@@ -21996,7 +22864,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Tata Consultancy Services (TCS) crossed the one billion dollar revenue mark in the financial year 2002-2003, making 2003 the year it achieved this milestone.",
+    "category": "Java"
   },
   {
     "question": "Which is a best Mobile App when we are dealing with a Resource Intensive Application",
@@ -22022,7 +22891,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Native applications are built specifically for a particular platform (iOS or Android), allowing them to leverage device-specific features and optimize performance, making them ideal for resource-intensive tasks.",
+    "category": "KYT"
   },
   {
     "question": "Consumers assert that cloud computing permits businesses to bypass upfront infrastructure charges",
@@ -22038,7 +22908,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Cloud computing models allow businesses to pay for computing resources on an as-needed basis, significantly reducing or eliminating the need for large upfront capital expenditures on hardware and infrastructure.",
+    "category": "KYT"
   },
   {
     "question": "Choose one option which is not a Cloud Platform",
@@ -22064,7 +22935,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "IBM's Blue Cloud, Amazon Elastic Compute Cloud (EC2), and Windows Azure Services Platform (now Azure) are well-known cloud computing platforms; Wipro Air Cloud is not recognized as a major independent cloud platform.",
+    "category": "KYT"
   },
   {
     "question": "Big Data Analytics on Genomic Medicine will help in prediction of Genetic Diseases",
@@ -22080,7 +22952,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Big Data Analytics plays a crucial role in genomic medicine by processing vast amounts of genetic data to identify patterns, mutations, and predispositions that can predict genetic diseases and inform personalized treatments.",
+    "category": "KYT"
   },
   {
     "question": "Which of the following can make or break a presentation ?",
@@ -22106,7 +22979,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The success of a presentation relies on a combination of factors including non-verbal cues and tone, an engaging presentation style, avoiding excessive jargon, and tailoring the content to the audience's understanding and interest.",
+    "category": "BizSkill"
   },
   {
     "question": "Which of the following statements is true? a.  Downward flow of communication is when the speaker uses a condescending tone.",
@@ -22127,7 +23001,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Downward communication refers to the flow of information from higher levels of management or authority to lower levels within an organizational hierarchy.",
+    "category": "Java"
   },
   {
     "question": "You have a great idea for your team which will make the application 40% faster. How will you persuade your team ?",
@@ -22153,7 +23028,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Effective persuasion involves engaging the team in discussion, allowing them to explore the idea, address concerns, and feel part of the decision-making process, fostering buy-in and collaboration.",
+    "category": "Java"
   },
   {
     "question": "What is Minutes of the Meeting (MoM) ? a.  MoM is a document that contains all the points discussed during a meeting which can be referred w henever needed.",
@@ -22174,7 +23050,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Minutes of the Meeting (MoM) is a formal record that summarizes the key discussions, decisions, and action items from a meeting, serving as a reference for participants and stakeholders.",
+    "category": "Java"
   },
   {
     "question": "Which corporate culture is better, a task-oriented or relationship-oriented ?",
@@ -22200,7 +23077,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The effectiveness of a corporate culture (task-oriented vs. relationship-oriented) is context-dependent and stems from the unique traditions, values, and history of an organization, rather than one being universally superior.",
+    "category": "BizSkill"
   },
   {
     "question": "What are the main features offered in the mail application apart from e-mail? a) Schedule meetings and appointments. b) Invite stakeholders for a meeting. c) Accept/ decline an invitation. d) Set reminders to attend meetings.",
@@ -22226,7 +23104,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Modern mail applications are integrated suites that offer comprehensive calendar functionalities, including scheduling, inviting attendees, managing responses, and setting reminders, alongside email communication.",
+    "category": "Java"
   },
   {
     "question": "How should you gather and share requirements for a project ?",
@@ -22252,7 +23131,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Project requirements should be formally documented and communicated via email, with all relevant stakeholders CC'd, as verbal specifications alone are prone to misinterpretation and lack traceability.",
+    "category": "BizSkill"
   },
   {
     "question": "What should you do when you interact with people from other cultures which are different than yours.",
@@ -22278,7 +23158,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Respecting and learning about other cultures is crucial for effective intercultural communication, helping to build rapport, avoid misunderstandings, and foster productive working relationships.",
+    "category": "BizSkill"
   },
   {
     "question": "It is the final client demo of Payroll Management System. Aman, who is responsible to make the presenta tion is on an emergency leave. What can be done to handle the situation ?",
@@ -22304,7 +23185,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In a critical situation, the next in charge should step up after quickly coordinating with the absent colleague to ensure continuity, with client delays being a last resort only if absolutely necessary.",
+    "category": "Java"
   },
   {
     "question": "What is technical writing?",
@@ -22330,7 +23212,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Technical writing focuses on conveying complex information clearly, directly, and concisely to a specific audience, primarily for instructional, directional, or explanatory purposes.",
+    "category": "BizSkill"
   },
   {
     "question": "RiO week is celebrated to",
@@ -22356,7 +23239,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "RiO (Refactor, Improve, Optimize) week is specifically an initiative focused on enhancing the efficiency and quality of production support operations within the organization.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Name the activity that is conducted frequently to ensure project has a strong backup plan that will help pr oject thrive during a disaster",
@@ -22382,7 +23266,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Mock Business Continuity Plan (BCP) drills are frequently conducted to test and validate a project's disaster recovery strategies, ensuring the team is prepared to maintain operations during disruptions.",
+    "category": "Java"
   },
   {
     "question": "One should avoid GOTO in Structured Programming - State true/false.",
@@ -22398,7 +23283,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In structured programming, the use of `GOTO` statements is generally discouraged as it can lead to unstructured, spaghetti code that is difficult to read, debug, and maintain.",
+    "category": "Algorithms"
   },
   {
     "question": "According to KISS Design Principle, we should use features like frameworks, APIs only when there are p erceptible benefits to the problem we are solving.",
@@ -22414,7 +23300,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The KISS (Keep It Simple, Stupid) principle advocates for simplicity, suggesting that complex features, frameworks, or APIs should only be adopted if they provide clear, tangible benefits to the problem being solved.",
+    "category": "Java"
   },
   {
     "question": "What is Single Responsibility Principle",
@@ -22440,7 +23327,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The Single Responsibility Principle (SRP) states that a module, class, or function should have only one reason to change, meaning it should focus on doing one thing and doing it well.",
+    "category": "Algorithms"
   },
   {
     "question": "Which symbol will be used with grep command to match the pattern pat at the beginning of a line?",
@@ -22466,7 +23354,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In `grep`, the caret `^` is a regular expression anchor that matches the beginning of a line, so `^pat` will find lines where 'pat' appears at the very start.",
+    "category": "Miscellaneous"
   },
   {
     "question": "The user u123456 logged in and performed the following sequence of command. User's home directory i s /home/u123456. What will be the output of the last command? $ cd project/module1 $ pwd",
@@ -22492,7 +23381,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `cd project/module1` command changes the current directory relative to the user's home directory (`/home/u123456`), and `pwd` then prints the absolute path of the new working directory.",
+    "category": "Java"
   },
   {
     "question": "Which code will correctly calculate the newsal based on the years mentioned Input file is as below NameOfEmployee-age-YearOfJoining. The shell takes 2 inputs-file name and Name of Employee. Delim iter used in the input file is -.",
@@ -22518,7 +23408,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Option B correctly uses `expr` for arithmetic operations with spaces around the `+` operator, and the `case` statement has the correct syntax with `;;` to terminate each pattern.",
+    "category": "Java"
   },
   {
     "question": "Which command will delete the lines containing the pattern 'this' from the file?",
@@ -22544,7 +23435,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `sed` command with `/pattern/d` deletes lines containing the specified pattern, making `sed /this/d file` the correct syntax to delete lines with 'this'.",
+    "category": "Unix"
   },
   {
     "question": "Assuming the files fileA, fileB, fileAB, fileBC and fileABC, exist in a directory testDir, which files will b e listed if we use the following command $ls testDir|grep file[AB]?",
@@ -22570,7 +23462,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `grep` command with `file[AB]` matches lines that contain \"file\" followed by either an 'A' or a 'B'. From the given files, 'fileA' directly matches this pattern.",
+    "category": "Java"
   },
   {
     "question": "A table containing employee have some faulty records .ie the year of joining(YOJ) was incorrectly entere d for employee ids between 20 and 100. Choose from below the right sql query to correct the column yea r of joining (YOJ)as 201e.",
@@ -22596,7 +23489,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `UPDATE` statement is used to modify existing records, and the `WHERE id>=20 and id<=100` clause correctly identifies the range of employee IDs to be updated.",
+    "category": "Java"
   },
   {
     "question": "Look at the below SQL join and select the type of join select e.ename as employee m.ename as manager from employees m JOIN employees e ON e.mgr = m.e mpno where e.bdate > date '1965-01-01' order by employee;",
@@ -22622,7 +23516,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The query uses the `JOIN` keyword without explicitly specifying `LEFT`, `RIGHT`, or `FULL`, which defaults to an `INNER JOIN`, retrieving only rows where there is a match in both `employees` tables.",
+    "category": "Java"
   },
   {
     "question": "Which of the following way or ways before is/are correct to insert DATE in a table?",
@@ -22648,7 +23543,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "SQL databases typically recognize date formats like 'DD-MON-YYYY' (e.g., '05-FEB-2005') when inserting string literals into date columns, though specific formats can vary by database system.",
+    "category": "Java"
   },
   {
     "question": "Consider the following set of relations EMP ( emp_no,emp_name,dept_no,salary) DEPT (dept_no,dept_name,location) Write SQL query for the following Find all the employees whose departments are located in 'Mumbai' and salary is greater than Rs. 20,000.",
@@ -22674,7 +23570,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This query correctly uses a subquery to first find department numbers located in 'Mumbai' and then filters employees from the `emp` table based on these `dept_no`s and a salary greater than 20,000.",
+    "category": "Java"
   },
   {
     "question": "Identify the SQL queries which shows correct group by and having usage",
@@ -22700,7 +23597,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This query correctly groups results by `LastName` and then filters those groups using the `HAVING` clause based on an aggregate function, `COUNT(OrderID) > 10`.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "What will happen when the code is executed? DECLARE -- Global variables employeeId number := 95; BEGIN dbms_output.put_line('number: ' || employeeId); DECLARE -- Local variables employeeId number := 195; BEGIN dbms_output.put_line('num: ' || employeeId); END; END;",
@@ -22726,7 +23624,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In PL/SQL, variables declared in an inner block can shadow variables with the same name in an outer block, so the outer block refers to its global variable and the inner block to its local one.",
+    "category": "Java"
   },
   {
     "question": "Which of the following is not true about PL/SQL cursors?",
@@ -22752,7 +23651,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A cursor is a pointer to the context area that holds the result set of a SQL statement; it is not a view, which is a virtual table defined by a stored query.",
+    "category": "Java"
   },
   {
     "question": "What will be the output of the following code snippet? DECLARE a number(3) := 100; b number(3) := 200; BEGIN IF( a = 100 ) THEN IF( b < 200 ) THEN dbms_output.put_lin e(b); END IF; END IF; dbms_output.put_lin e(a); END;",
@@ -22773,7 +23673,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The outer `IF` condition `a = 100` is true, but the inner `IF` condition `b < 200` (200 < 200) is false, so its `dbms_output` is skipped, and only `a` (100) is printed.",
+    "category": "Java"
   },
   {
     "question": "The following code tries to fetch some information from all the rows in a table named customers for use in a PL/SQL block. What is wrong in the following code? DECLARE cid customers.id%type; cname customers.name%type; caddr customers.address%type; CURSOR c1 is SELECT id, name, address FROM customers; BEGIN LOOP FETCH c1 into c_id, c_name, c_addr; EXIT WHEN c1%notfound; dbms_output.put_line(cid || ' ' || cname || ' ' || caddr); END LOOP; CLOSE c1; END;",
@@ -22799,7 +23700,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Before fetching rows from a cursor in PL/SQL, the cursor must first be explicitly `OPEN`ed, which is missing in the provided code snippet.",
+    "category": "Java"
   },
   {
     "question": "A cursor for loop performs the following operations implicitly. Select the appropriate options",
@@ -22825,7 +23727,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "A cursor `FOR` loop in PL/SQL implicitly performs the `OPEN`, `FETCH`, and `CLOSE` operations for the cursor, simplifying iteration over result sets.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "Which of the following is a correct syntax for grouping selectors in CSS?",
@@ -22846,7 +23749,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In CSS, multiple selectors can be grouped by separating them with commas, applying the same set of declarations to all selected elements.",
+    "category": "UI"
   },
   {
     "question": "Whether a single text link point to two different web pages at a same time?",
@@ -22862,7 +23766,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "A standard HTML text link (`<a>` tag) can only point to a single URL at a time using its `href` attribute.",
+    "category": "UI"
   },
   {
     "question": "What is the default value for checkbox control",
@@ -22878,7 +23783,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "By default, an HTML checkbox control is unchecked, meaning its value is 'off' or not submitted unless explicitly checked or given a `checked` attribute.",
+    "category": "UI"
   },
   {
     "question": ".Which of the following is creating multi line input control?",
@@ -22904,7 +23810,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `<textarea>` HTML element is specifically designed to create a multi-line plain-text editing control, allowing users to input longer blocks of text.",
+    "category": "UI"
   },
   {
     "question": "Which of the following syntax is correct?",
@@ -22930,7 +23837,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "CSS syntax requires a colon (:) between the property and its value, and a semicolon (;) to separate each declaration, making option C the correct format.",
+    "category": "UI"
   },
   {
     "question": "Which of the following is not valid style?",
@@ -22956,7 +23864,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `margin` property does not accept `collapse` as a valid value; `collapse` is related to table borders or margin collapsing behavior, not a direct margin dimension.",
+    "category": "UI"
   },
   {
     "question": "<html> <head> <st yle > div p { background-color: green; } </style> </head> <body> <div> <p>Para1</p> <p>Para2</p> <section><p>Para3</p></section> </div> <p>Para4</p> <p>Para5</p> </body> </html> What will be the output of the above code?",
@@ -22977,7 +23886,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `div p` selector targets all `<p>` elements that are descendants of a `<div>`, which includes 'Para1', 'Para2', and 'Para3' in the provided HTML structure.",
+    "category": "UI"
   },
   {
     "question": "Which of the following is not a value for height and width properties;",
@@ -23003,7 +23913,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`absolute` is a value for the `position` CSS property and not a valid unit or keyword that can be directly assigned to `height` or `width` properties.",
+    "category": "UI"
   },
   {
     "question": "We can write into an HTML element using the following;",
@@ -23029,7 +23940,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`innerHTML` is a JavaScript property used to get or set the HTML content of an element, providing a way to write content directly into an HTML element.",
+    "category": "UI"
   },
   {
     "question": "What will be the output of the below code; <!DOCTYPE html> <html> <body> <p id=\"demo\"></p> <script> var employee = {empNo:\"1001\", name:\"Rajeev\", designation:\"SSE\"}; document.getElementById(\"demo\").innerHTML = employee; </script> </body> </html>",
@@ -23055,7 +23967,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "When a JavaScript object is directly assigned to `innerHTML`, it is implicitly converted to its default string representation, which is `[object Object]`.",
+    "category": "UI"
   },
   {
     "question": "What will be the output of the following? public class Test { private static int start = 1; int stop = 30; public static void main(String[] args) { Test tolls = new Test(); int pause = 20, stop = 40; System.out.print(pause + tolls.stop + tolls.start); } }",
@@ -23076,7 +23989,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The local variable `stop` (40) shadows the instance variable `stop` (30), so `tolls.stop` accesses the instance variable, `pause` is 20, and `tolls.start` is 1, resulting in 20 + 30 + 1 = 51.",
+    "category": "Java"
   },
   {
     "question": "What will be the output of the following? public class Sprint { static int start = 5; final int end; public void run(int distance) { System.out.print(end+start+ \" \"); System.out.print(distance); } public static void main(String... start) { Sprint athlete=new Sprint(); athlete.run(5); } }",
@@ -23107,7 +24021,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `final` instance variable `end` must be initialized either at declaration or within a constructor, but it is not, causing a compilation error.",
+    "category": "Java"
   },
   {
     "question": "From the following variable types , which variable is in always in scope for the entire program?",
@@ -23133,7 +24048,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A class variable (static variable) is associated with the class itself and exists for the entire duration the class is loaded, making it always in scope for the program.",
+    "category": "Java"
   },
   {
     "question": "Which of the following is invalid as the first line of a Java file?",
@@ -23159,7 +24075,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A field declaration like `static int start=1` cannot appear directly at the top level of a Java file; it must be inside a class.",
+    "category": "Java"
   },
   {
     "question": "What will be the output of the following? public class Sprint { static int start = 5; final int end; public Sprint(int x) { x = 7.0; end = x; } public void run(int distance) { System.out.print(start+end+ \" \"); System.out.print(distance); } public static void main(String[] start) { Sprint athlete=new Sprint(6); athlete.run(5); } }",
@@ -23185,7 +24102,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Assigning a `double` literal `7.0` to an `int` variable `x` without an explicit cast causes a compilation error due to potential loss of precision.",
+    "category": "Java"
   },
   {
     "question": "What are the 5 TCS Values",
@@ -23211,7 +24129,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Leading change, Integrity, Respect for the individual, Excellence, and Learning and sharing are the five core values that define TCS's approach and culture.",
+    "category": "KYT"
   },
   {
     "question": "New area of Technology which deals with collecting data from all types of devices",
@@ -23237,7 +24156,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The Internet of Things (IoT) specifically refers to the network of physical devices embedded with sensors and software, enabling them to connect and exchange data.",
+    "category": "KYT"
   },
   {
     "question": "Some challenges in Artificial Intelligence are",
@@ -23263,7 +24183,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Artificial Intelligence development presents challenges related to its inherent costs, the technological hurdles in its implementation, and the difficulty of encoding common sense.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Science of Machine Learning where a user gets positive and negative feedbacks is called as",
@@ -23289,7 +24210,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Reinforcement Learning is a machine learning paradigm where an agent learns through trial and error by interacting with an environment and receiving positive or negative feedback.",
+    "category": "KYT"
   },
   {
     "question": "Worlds biggest source of Big Data",
@@ -23315,7 +24237,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Mobile phones generate vast amounts of data from usage, location, applications, and more, making them the largest single source of Big Data globally.",
+    "category": "KYT"
   },
   {
     "question": "Which of the following statements are true?",
@@ -23341,7 +24264,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Effective communication involves listening actively to fully grasp the speaker's message before formulating a thoughtful response, fostering better understanding.",
+    "category": "BizSkill"
   },
   {
     "question": "The CIBI Bank requested TCS to upgrade their systems worldwide and to digitize 80% of their workflow. TCS not only completed the given work on time but also provided IT training sessions for the bank empl oyees to get accustomed to the upgrades. What is this service termed as ?",
@@ -23367,7 +24291,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "TCS provided additional IT training beyond the initial contract, which constitutes a value-added service, enhancing the client's experience and capabilities.",
+    "category": "BizSkill"
   },
   {
     "question": "Which of the following is NOT expected of a good listener?",
@@ -23393,7 +24318,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Interrupting the speaker is disrespectful and hinders effective communication, as it prevents the speaker from fully conveying their message.",
+    "category": "BizSkill"
   },
   {
     "question": "Identify the correct statement",
@@ -23419,7 +24345,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Acknowledging weaknesses and seeking help when necessary demonstrates honesty and builds trust within a team, rather than being perceived as a sign of weakness.",
+    "category": "BizSkill"
   },
   {
     "question": "What all details should be provided in the signature of an e-mail? Choose the best options. a) Name & role b) Phone & e-mail ID c) Personal address d) Organization Website",
@@ -23445,7 +24372,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A professional email signature typically includes your name, role, contact details like phone and email ID, and the organization's website, but not usually a personal address.",
+    "category": "Java"
   },
   {
     "question": "‘Being objective’ in your writing is the ability to: 1. Present accurate facts and figures. b.Present facts and not personal views. c.Present stereotypical information.",
@@ -23471,7 +24399,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Being objective in writing requires presenting verifiable facts and figures accurately and refraining from including personal opinions or biases.",
+    "category": "Java"
   },
   {
     "question": "You are a team lead. During an initial meeting, you realise that you need 3 additional resources to work on the project. How will you communicate the same effectively in a Project Status Report?",
@@ -23497,7 +24426,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Option C directly and clearly states the problem (shortage of manpower) and the required solution (3 more resources), making it an effective and concise way to communicate in a report.",
+    "category": "Java"
   },
   {
     "question": "The Art of Assertion requires an equal balance of which of the following elements? A. Tone B. Confidence C. Posture D. Body language E. Appearance F. Expressions G. Language",
@@ -23523,7 +24453,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The Art of Assertion effectively balances elements such as tone, confidence, posture, body language, facial expressions, and language to convey a message firmly and respectfully.",
+    "category": "Java"
   },
   {
     "question": "General best practices for Telephone etiquette include: A. Assuming proper posture B. Speaking clearly & slowly C. Smiling when speaking D. Giving the call your full attention E. Avoiding confusing language F. Speaking loudly",
@@ -23549,7 +24480,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Good telephone etiquette encompasses maintaining proper posture, speaking clearly and slowly, smiling (which affects tone), giving full attention, and using unambiguous language.",
+    "category": "Java"
   },
   {
     "question": "What factors should you consider before preparing a help document on the newly introduced 'search' func tionality in ABC online application ?",
@@ -23575,7 +24507,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Understanding the users' interest level helps in structuring and presenting information in a help document to ensure it is engaging and relevant, encouraging adoption and comprehension.",
+    "category": "BizSkill"
   },
   {
     "question": "During a crisis, do not cascade incorrect updates to the customer and other associates. Always wait for confirmation from the",
@@ -23601,7 +24534,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "During a crisis, all official communications and updates must be validated and released by the designated Crisis Management Team to ensure accuracy and prevent misinformation.",
+    "category": "Java"
   },
   {
     "question": "Before accessing customer system what are the important steps to be completed by recruits",
@@ -23622,7 +24556,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Reading and signing a Non-Disclosure Agreement (NDA) and completing necessary Background Checks (BGC) are crucial for security and compliance before accessing sensitive customer systems.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which of the following standard algorithms is not Dynamic Programming based",
@@ -23648,7 +24583,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Prim's algorithm for finding the Minimum Spanning Tree is a greedy algorithm, unlike Bellman-Ford, Floyd-Warshall, and the 0-1 Knapsack problem which are typically solved with dynamic programming.",
+    "category": "Algorithms"
   },
   {
     "question": "Which of the following sorting algorithms in its typical implementation gives best performance when app lied on an array which is sorted or almost sorted (maximum 1 or two elements are misplaced).",
@@ -23674,7 +24610,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Insertion Sort offers optimal performance (O(n)) for arrays that are already sorted or nearly sorted, as it performs minimal comparisons and shifts in such cases.",
+    "category": "Java"
   },
   {
     "question": "which is the fastest sorting algorithm among",
@@ -23700,7 +24637,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Merge Sort has a consistent O(n log n) time complexity in the best, average, and worst cases, making it generally faster than Bubble Sort, Selection Sort, and often Heap Sort in practical scenarios.",
+    "category": "Algorithms"
   },
   {
     "question": "Given the command awk 'BEGIN{FS=\" \";s=0}{s=s+$2}END{print s}' file . What will be the expected o utput?",
@@ -23726,7 +24664,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `awk` command uses a space as a field separator (`FS=\" \"`) and sums the values of the second column (`$2`) into variable `s`, printing the total at the end.",
+    "category": "Java"
   },
   {
     "question": "A file is having file permission of 754 in octal value(numeric mode). What will be the symbolic value of t he same permission for that file?",
@@ -23752,7 +24691,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "File permissions 754 translate to `rwx` (read, write, execute) for the owner (7), `r-x` (read, execute) for the group (5), and `r--` (read only) for others (4).",
+    "category": "Java"
   },
   {
     "question": "What will be the command to change the access time of a file to 12:10 PM on 28th February 1999?",
@@ -23778,7 +24718,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `touch -a` command with the format `MMDDhhmm[YY]` is used to change the access time of a file; `0228121099` correctly specifies February 28, 12:10 PM, 1999.",
+    "category": "Unix"
   },
   {
     "question": "Select the correct command to search the pattern “Hello UNIX” in a file ignoring case.",
@@ -23804,7 +24745,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `grep -i` command performs a case-insensitive search for the specified pattern within a file, ensuring that 'Hello UNIX' matches regardless of letter casing.",
+    "category": "Unix"
   },
   {
     "question": "grep \"Tata.*Services$\" * What would be the output of the above command?",
@@ -23830,7 +24772,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `grep` command with `.*` matches any characters, and `$` matches the end of the line, so it will display lines that start with 'Tata', contain 'Services', and end with 'Services', along with their filenames.",
+    "category": "Java"
   },
   {
     "question": "which statement selects the highest grade for each of the cities of the customers. customer_id cust_name city grade salesman_id 3002 Nick New York 100 5001 3007 Brad New York 200 5001",
@@ -23856,7 +24799,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "To find the highest grade for each city, the `MAX(grade)` aggregate function should be used in conjunction with a `GROUP BY city` clause.",
+    "category": "Java"
   },
   {
     "question": "CUSTOMER ( Id FirstN ame LastN ame City Count ry Phone ) List the number of customers in each country, except the India, sorted high to low Only include countries with 5 or more customers. which statement is true?",
@@ -23882,7 +24826,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This query correctly filters countries not equal to 'India' (`WHERE`), groups by country (`GROUP BY`), filters groups with counts greater than or equal to 5 (`HAVING`), and sorts in descending order of count (`ORDER BY DESC`).",
+    "category": "Java"
   },
   {
     "question": "Which operator tests a column for no data.",
@@ -23908,7 +24853,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "`IS NULL` is the operator in SQL used to check for the absence of data (null values) in a column, as `NULL` cannot be tested with equality operators.",
+    "category": "SQL / PLSQL"
   },
   {
     "question": "A relational schema for a train reservation database is given below. Passenger (pid, pname, age) Reservation (pid, class, tid) Table: Passenger pid pname age 0 Sachin 65 1 Rahul 66 2 Sourav 67 3 Anil 69 Table : Reservation pid class tid 0 AC 8200 1 AC 8201 2 SC 8201 5 AC 8203 1 SC 8204 3 AC 8202 What pids are returned by the following SQL query for the above instance of the tables? SLECT pid FROM Reservation , WHERE class ‘AC’ AND EXISTS (SELECT * FROM Passenger WHERE age > 65 AND Passenger. pid = Reservation.pid)",
@@ -23934,7 +24880,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The query returns `pid`s 1 and 3 because these are the only passengers with an `age > 65` who also have an 'AC' class reservation.",
+    "category": "Java"
   },
   {
     "question": "Which Query is correct to display the commission of all the salesmen servicing customers in Paris. salesman salesman_id name city commission 5001 James New York 0.15 5002 Nail Paris 0.13 Customer customer_id cust_name city grade salesman_id - 3002 Nick New York 100 5001 3007 Brad New York 200 5001",
@@ -23965,7 +24912,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "This query correctly uses a subquery to first identify `salesman_id`s associated with customers in 'Paris', then selects the commission for those specific salesmen.",
+    "category": "Java"
   },
   {
     "question": "What is wrong in the following code? DECLARE c_id := 1; c_name customers.name%type; c_addr customers.address%type; BEGIN SELECT name, address INTO c_name, c_addr FROM customers WHERE id = c_id; END;",
@@ -23991,7 +24939,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In PL/SQL, it is best practice to declare variables using `%type` to ensure type compatibility with database columns, like `c_id customers.id%type := 1;`.",
+    "category": "Java"
   },
   {
     "question": "Which statement is NOT correct about a PL/SQL block?",
@@ -24017,7 +24966,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `DECLARE` section in a PL/SQL block is optional; only the `BEGIN` and `END` keywords, encompassing the executable statements, are mandatory.",
+    "category": "Java"
   },
   {
     "question": "Which statement below is a correct example of explicit cursor creation?",
@@ -24043,7 +24993,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The correct syntax for declaring an explicit cursor in PL/SQL involves the `CURSOR` keyword followed by the cursor name, `IS`, and the `SELECT` statement.",
+    "category": "Java"
   },
   {
     "question": "Variable declaration : customer_rec customer%rowtype; How are the columns – id, name present in the customer table can be used in the PL/SQL statement?",
@@ -24069,7 +25020,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "When a record variable is declared using `%rowtype`, its individual fields (corresponding to table columns) are accessed using dot notation (e.g., `customer_rec.id`).",
+    "category": "Java"
   },
   {
     "question": "Pick the correct variable declarations from the given list",
@@ -24095,7 +25047,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Option B provides a syntactically correct and complete PL/SQL variable declaration, specifying data type, precision, a `NOT NULL` constraint, and an initial value.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which of the following is a correct syntax for applying italic style?",
@@ -24121,7 +25074,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `font-style` CSS property is correctly used to apply an italic style to text, with `italic` being one of its valid values.",
+    "category": "UI"
   },
   {
     "question": "what is the output of the below code? <html> <head> <styl e> p{ color: red; } #xp { color:green; } </style> </head> <body> <p id=\"xp\">Xplore Training</p> </body> </html>",
@@ -24147,7 +25101,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `st yle` tag is misspelled (contains a space), making the entire CSS block invalid and preventing any styles from being applied, so none of the given options accurately describe the visual output.",
+    "category": "UI"
   },
   {
     "question": "Which of the following is a correct syntax for applying border for a entire table ?",
@@ -24173,7 +25128,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "To apply a border to an entire table including its headers and data cells, you must explicitly select `table`, `th`, and `td` elements and apply the `border` property.",
+    "category": "UI"
   },
   {
     "question": "Can we modify the attribute's value of the HTML tag dynamically?",
@@ -24189,7 +25145,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Yes, attributes of HTML tags can be modified dynamically at runtime using scripting languages like JavaScript to change their values based on user interaction or other conditions.",
+    "category": "UI"
   },
   {
     "question": "Whether HTML5 will be supporting inline style for a label?",
@@ -24205,7 +25162,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "While the `style` attribute is a global attribute, direct inline styling for `label` elements is often considered against best practices and is not typically relied upon for comprehensive styling.",
+    "category": "UI"
   },
   {
     "question": "What is the output of the below code? <html> <head> <st yle > #st 1 { text-align: center; color: red; } .st2 { text-align: center; color: green; } </style> </head> <body> <p class=\"st1\">Hello</p> <p id=\"st2\">World!</p> </body> </html>",
@@ -24231,7 +25189,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The CSS ID selector `#st1` does not match an element with `class=\"st1\"`, and the class selector `.st2` does not match an element with `id=\"st2\"`, meaning neither specific color rule applies.",
+    "category": "UI"
   },
   {
     "question": "Which of the following is not a CSS background properties?",
@@ -24257,7 +25216,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The correct CSS property for setting the background color is `background-color` (with a hyphen), not `Background-colour` (British spelling and capitalization are irrelevant to CSS property name).",
+    "category": "UI"
   },
   {
     "question": "What is the output of the below code? <html> <head> <st yle > a { text-decoration: overline; text- transform: uppercase; text-shadow: 3px 2px red; } </style> </head> <body> <a href=\"#\">TCS Welcomes You!!!</a> </body> </html>",
@@ -24283,7 +25243,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The question asks for the 'output of the below code,' and option C is the exact provided code, suggesting it refers to the code snippet itself rather than its visual rendering.",
+    "category": "Java"
   },
   {
     "question": "Which of the following is a valid array declaration in Java Script?",
@@ -24309,7 +25270,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In JavaScript, an array constructor with initial elements uses parentheses to enclose the comma-separated values, as shown in `new Array(\"item1\", \"item2\")`.",
+    "category": "UI"
   },
   {
     "question": "What is the output of the below code? <html> <body> <p id=\"demo\"></p> <script> var fruits = [\"Red\", \"Green\", \"Blue\", \"Black\"]; document.getElementById(\"demo\").innerHTML = fruits.toString(); </script> </body> </html>",
@@ -24335,7 +25297,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `toString()` method on a JavaScript array concatenates all array elements into a single string, with each element separated by a comma by default.",
+    "category": "Java"
   },
   {
     "question": "Which of the below is a illegal modifier for class declaration?",
@@ -24361,7 +25324,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "A top-level class in Java cannot be declared as `private` because it would restrict its visibility to only the enclosing class, rendering it inaccessible and impractical.",
+    "category": "Java"
   },
   {
     "question": "What is the output for the following code: public class Demo { public static void main(String args[]) { String x=\"HELLO\"; String y=\"HELLO\"; if(x.compareTo(y)) { System.out.println(\"STRINGS ARE EQUAL\"); } else { System.out.println(\"STRINGS NOT EQUAL\"); } } }",
@@ -24382,7 +25346,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `String.compareTo()` method returns an integer, not a boolean, and Java's `if` statement requires a boolean expression, leading to a compilation error.",
+    "category": "Java"
   },
   {
     "question": "---------------------- is required for compiling,executing and debugging a java program",
@@ -24408,7 +25373,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The Java Development Kit (JDK) provides the complete set of tools necessary for compiling, executing, and debugging Java programs, including the JRE and development tools.",
+    "category": "Java"
   },
   {
     "question": "Computer Algorithms which determines the category of observation based on previously seen examples is called as",
@@ -24434,7 +25400,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Classification algorithms are designed to determine the category or class of a given observation based on patterns learned from previously labeled examples.",
+    "category": "KYT"
   },
   {
     "question": "When Tata Consultancy Services established?",
@@ -24460,7 +25427,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Tata Consultancy Services (TCS) was established in 1968, making it one of the oldest and largest IT services companies.",
+    "category": "KYT"
   },
   {
     "question": "Some challenges in Artificial Intelligence are",
@@ -24486,7 +25454,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Artificial Intelligence development presents challenges related to its inherent costs, the technological hurdles in its implementation, and the difficulty of encoding common sense.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Advantages of Cloud Services are a.  No Hardware Procurement required",
@@ -24512,7 +25481,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Cloud services offer benefits such as eliminating hardware procurement, reducing the need for physical space, lowering technician costs, and providing inherent security features.",
+    "category": "KYT"
   },
   {
     "question": "What are the problems associated with Big Data",
@@ -24538,7 +25508,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "Challenges associated with Big Data include the lack of experience in collecting data from diverse sources, difficulty managing massive data quantities, and the inefficiency of traditional systems.",
+    "category": "KYT"
   },
   {
     "question": "Judging another person's views solely based on our own values and culture is called :",
@@ -24564,7 +25535,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Ethnocentrism is the act of judging and evaluating other cultures, values, or views exclusively through the lens of one's own cultural beliefs, often leading to bias.",
+    "category": "BizSkill"
   },
   {
     "question": "Paul is working with a client who is casual while communicating with him through chat application. The client sends him memes and other forwards in order to build better workplace relationships. Select the best option.",
@@ -24590,7 +25562,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Maintaining a task-oriented and polite professional demeanor is crucial, even when clients communicate informally, to uphold professional boundaries and focus on business objectives.",
+    "category": "Java"
   },
   {
     "question": "What is true about Agile principles? A. Leadership over management B. Management over leadership C. Adaptive over prescriptive D. Prescriptive over adaptive E. Customer collaboration over contract negotiation F. Contract negotiation over customer collaboration",
@@ -24616,7 +25589,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Agile principles emphasize leadership over strict management, adaptability over rigid prescriptive plans, and direct collaboration with customers over formal contract negotiations.",
+    "category": "Java"
   },
   {
     "question": "You are a team lead. During an initial meeting, you realise that you need 3 additional resources to work on the project. How will you comm unicate the same effectively in a Project Status Report?",
@@ -24642,7 +25616,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Option C directly and clearly states the problem (shortage of manpower) and the required solution (3 more resources), making it an effective and concise way to communicate in a report.",
+    "category": "Java"
   },
   {
     "question": "What all details should be provided in the signature of an e-mail? Choose the best options. a) Name & role b) Phone & e-mail ID c) Personal address d) Organization Website",
@@ -24668,7 +25643,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "A professional email signature typically includes your name, role, contact details like phone and email ID, and the organization's website, but not usually a personal address.",
+    "category": "Java"
   },
   {
     "question": "‘Being objective’ in your writing is the ability to: a.Present accurate facts and figures. b.Present facts and not personal views. c.Present stereotypical information.",
@@ -24694,7 +25670,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Being objective in writing requires presenting verifiable facts and figures accurately and refraining from including personal opinions or biases.",
+    "category": "Java"
   },
   {
     "question": "Katherine is about to write an important e-mail to one of her stakeholders and she is NOT SURE about the use of certain phrases. Which am ong the following can she make use of? a) It is a blunder. b) I was wondering if you could... c) Sorry, I can't meet you. I'm busy that day. d) I am afraid I won't be available.",
@@ -24720,7 +25697,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Phrases like \"I was wondering if you could...\" and \"I am afraid I won't be available\" are polite and professional ways to phrase requests and express unavailability in an email.",
+    "category": "Java"
   },
   {
     "question": "You open your mail and see various emails which needs to be replied. In what sequence will you reply ?",
@@ -24746,7 +25724,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Prioritizing emails based on their importance ensures that critical communications are addressed first, promoting efficient workflow and responsiveness.",
+    "category": "BizSkill"
   },
   {
     "question": "You have joined a project and you are in the training phase now. The project requires that you know the basics of Ruby on Rails. You compl ete an e-learning course on the same and now you are taking the assessment. During the assessment, a senior member of the team approache   s you and asks if you can join a conference call instead of him. He requests you to just attend the call for 10 minutes. How will you respond?",
@@ -24772,7 +25751,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "It is professional to politely explain your current commitment (assessment) and offer to join later, demonstrating both respect for the request and responsibility for your own tasks.",
+    "category": "Java"
   },
   {
     "question": "Choose the relevant answer/s that makes the following sentence complete and unambiguous - ' I like canteen but I do not like the food'",
@@ -24798,7 +25778,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Option B provides a complete and unambiguous explanation for liking the canteen's ambience while disliking the food quality, clarifying the contrasting preferences.",
+    "category": "Java"
   },
   {
     "question": "Of the following which best suits the following phrase? The production logs can be shared with the concerned team after appropriate .",
@@ -24824,7 +25805,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Data masking is the essential process of obscuring sensitive information within production logs before sharing them, ensuring data privacy and security.",
+    "category": "Java"
   },
   {
     "question": "RiO week is celebrated to",
@@ -24850,7 +25832,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "RiO Week is an initiative specifically aimed at enhancing and optimizing production support operations within TCS, focusing on efficiency and quality.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Duplication of code is the root cause of most of the maintenance problems",
@@ -24866,7 +25849,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Code duplication creates redundant logic that must be updated in multiple places, significantly increasing the effort and risk of errors during software maintenance.",
+    "category": "Miscellaneous"
   },
   {
     "question": "Which of the following sorting algorithms in its typical implementation gives best performance when applied on an array which is sorted or almost sorted (maximum 1 or two elements are misplaced).",
@@ -24892,7 +25876,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Insertion Sort is highly efficient for nearly sorted arrays, performing in O(n) time as it only needs to shift a few elements into their correct positions.",
+    "category": "Java"
   },
   {
     "question": "As per good programming practices it is better to in codes.",
@@ -24918,7 +25903,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Good programming practices recommend minimizing coupling (interdependencies between modules) and maximizing cohesion (elements within a module belonging together) for better maintainability and flexibility.",
+    "category": "Algorithms"
   },
   {
     "question": "Which command will delete the lines containing the pattern 'this' from the file?",
@@ -24944,7 +25930,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The `sed` command with the `/pattern/d` syntax is a standard and effective way to delete lines containing a specified pattern from a file.",
+    "category": "Unix"
   },
   {
     "question": "Given the command awk 'BEGIN{FS=\" \";s=0}{s=s+$2}END{print s}' file . What will be the expected output?",
@@ -24970,7 +25957,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The awk command iterates through file, sums the values in the second column ($2) to variable s for each line, and then prints the total sum s in the END block.",
+    "category": "Java"
   },
   {
     "question": "Which command is used to change permission levels of a file or directory?",
@@ -24996,7 +25984,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The chmod command (change mode) is used in Unix-like operating systems to change the file system permissions of files and directories.",
+    "category": "Unix"
   },
   {
     "question": "Which option will find string “Ilp” in a file case insensitively.",
@@ -25022,7 +26011,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The -i option with grep makes the search case-insensitive, so it will find \"Ilp\" regardless of capitalization.",
+    "category": "Unix"
   },
   {
     "question": "Which of the following is not a formatting element in HTML?",
@@ -25048,7 +26038,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The <p> tag is a semantic element used to define a paragraph of text, whereas <b>, <strong>, and <del> are typically considered formatting or text-level semantic elements that describe how text should appear or be interpreted.",
+    "category": "UI"
   },
   {
     "question": "What will be the out put of the below code; <!DOCTYPE html> <html> <body> <h1 style=\"font-group:verdana;\">Xplore HTML</h1> </body> </html>",
@@ -25074,7 +26065,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The CSS property font-group is invalid and will be ignored by the browser, causing the <h1> element to display its text \"Xplore HTML\" using the default H1 styling and font.",
+    "category": "UI"
   },
   {
     "question": "<caption> is tag used to define the table caption.",
@@ -25090,7 +26082,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The <caption> tag is an HTML element specifically designed to define a caption or title for a <table> element.",
+    "category": "UI"
   },
   {
     "question": "<p>Top news:</p> <blockquote url=\"https://www.thehindu.com//\" > Top news from The Hindu; </blockquote> The above code will display today's news from The Hindu in blocks.",
@@ -25106,7 +26099,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The <blockquote> tag is used to indicate that the enclosed text is an extended quotation and does not have a url attribute to fetch content from a web link.",
+    "category": "Java"
   },
   {
     "question": "Which html statement is used to emphasizing a text?",
@@ -25132,7 +26126,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The standard HTML tag for emphasizing text is <em>. Since <mark>, <emph> (non-standard), and <del> are not for general emphasis, \"None of the options\" is the correct choice.",
+    "category": "UI"
   },
   {
     "question": "<html> <head> <style> a:link, a:visited { background- color: green; color: white; padding: 14px 25px; } a:hover, a:active { background- color: red; } </style> </head> <body> <a href=\"register.html\" target=\"_blank\">Register</a> </body> </html> What will be the out put of the above code?",
@@ -25158,7 +26153,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The CSS defines styles for <a> tags: a:link and a:visited set a green background, while a:hover and a:active change the background to red when the mouse is over the link or it is being activated.",
+    "category": "UI"
   },
   {
     "question": "ul.a { list-type: lower-alpha; } The above style will display",
@@ -25184,7 +26180,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The CSS property list-type is incorrect; the correct property for list item markers is list-style-type. Due to this syntax error, no specific list style will be applied.",
+    "category": "Java"
   },
   {
     "question": "<html> <head> <style> .center { text-align: justify; border: 3px solid green; } </style> </head> <body> <div class=\"center\"> <p>Hello World.</p> </div> </body> </html> what will be the output of the above code?",
@@ -25210,7 +26207,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The text-align: justify; property aligns the text to both the left and right margins, but for a single short line like \"Hello World\", it often results in a left-aligned appearance, all within a green border.",
+    "category": "Java"
   },
   {
     "question": "var x = 100 + 5 ** 3; what will be the output of x?",
@@ -25236,7 +26234,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The ** operator denotes exponentiation; 5 ** 3 calculates 5 raised to the power of 3 (125), which then adds to 100, resulting in 225.",
+    "category": "Java"
   },
   {
     "question": "<html> <body> <script> function saveValue(x) { alert(x**2); } </script> <div id=\"myDiv\" style=\"display:none\"> <input type=\"button\" value=\"Click\" onclick=\"saveValue('5');\"> </div> </body> </html> What will be the output of the code?",
@@ -25262,7 +26261,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The div containing the button has display:none applied, making it invisible and inaccessible on the web page, so the button cannot be clicked and no output will be generated.",
+    "category": "Java"
   },
   {
     "question": "Given below table with columns specified as below EMPLOYEE(EmployeeID,Employeename,yrsofexperience,gender,DOB,location). What is the query for displaying the location and count of employees according to location?",
@@ -25288,7 +26288,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "To count employees per location, the COUNT(employeeID) aggregate function is used in conjunction with the GROUP BY location clause to group results by each unique location.",
+    "category": "Java"
   },
   {
     "question": "Which SQL clause can be used to match a condition on the grouped result of the query?",
@@ -25314,7 +26315,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The HAVING clause is specifically used in SQL to filter the results of a GROUP BY clause, applying conditions to groups rather than individual rows.",
+    "category": "Java"
   },
   {
     "question": "Given a relation as below. Exam(ExamID,Name,Examdate,Cent er,Location) How can we remove the column location from above table?",
@@ -25340,7 +26342,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The ALTER TABLE statement, combined with the DROP COLUMN clause, is the correct SQL syntax for removing an existing column from a specified table.",
+    "category": "Java"
   },
   {
     "question": "Consider the following table; Customer AccNo Name Address 1001 Arun Trivandrum 1002 Kishore 1003 Resmi Chennai 1004 Sanjay Which is the right query for retrieving all the customer whose address is empty.",
@@ -25366,7 +26369,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In SQL, IS NULL is the correct operator to check for rows where a column's value is explicitly missing or undefined, as opposed to an empty string.",
+    "category": "Java"
   },
   {
     "question": "What is wrong with below code? DECLARE faculty_record FACULTY_DEMO%ROWTYPE; CURSOR c_faculty is SELECT * FROM FACULTY_demo; BEGIN OPEN c_faculty; LOOP END; FETCH c_faculty into faculty_record; EXIT WHEN c_faculty%notfound; dbms_output.put_line(faculty_record.ID || ' ' || faculty_record.NAME || ' ' || faculty_record.LOCATION); CLOSE c_faculty;",
@@ -25392,7 +26396,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The FETCH statement and EXIT WHEN condition are located outside the LOOP...END LOOP block, which is a syntax error in PL/SQL as these actions must occur within the loop.",
+    "category": "Java"
   },
   {
     "question": "PL/SQL support the data definition commands like CREATE. True or False?",
@@ -25408,7 +26413,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "PL/SQL is primarily a procedural extension for SQL and does not directly support Data Definition Language (DDL) commands like CREATE within its procedural blocks without using dynamic SQL.",
+    "category": "Java"
   },
   {
     "question": "Find the output of the following code sgment assuming the gross_sale entry by user is 2500? VARIABLE amount_payable NUMBER ACCEPT gross_sale PROMPT 'Please Eneter Sale Amount' DECLARE v_actual_sale NUMBER(9,2):=&gross_sale; BEGIN IF v_actual_sale >2000 THEN v_actual_sale := v_actual_sale -500; ELSE v_actual_sale := v_actual_sale -100; END IF; :amount_payable := v_actual_sale; END; / PRINT amount_payable",
@@ -25434,7 +26440,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Since gross_sale is 2500, v_actual_sale (2500) is greater than 2000, so 500 is subtracted, making v_actual_sale 2000, which is then assigned to amount_payable.",
+    "category": "Java"
   },
   {
     "question": "What is the keyword used to force a FOR loop to decrement from the upper bound to lower bound?",
@@ -25460,7 +26467,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In PL/SQL FOR loops, the REVERSE keyword is used to make the loop iterator count downwards from the upper bound to the lower bound.",
+    "category": "Java"
   },
   {
     "question": "Which of the following are the Characteristics of an object?",
@@ -25486,7 +26494,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The five fundamental characteristics that define an object in object-oriented programming are State (data), Behaviour (methods), Responsibility (purpose), Communication (interaction), and Identity (unique instance).",
+    "category": "Java"
   },
   {
     "question": "Which of the below is incorrect?",
@@ -25512,7 +26521,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The syntax new int{1,2,3,4,5,6}; is incorrect for array initialization in Java; it should either specify the size new int[size] or use new int[]{...} with values.",
+    "category": "Java"
   },
   {
     "question": "A table containing employee have some faulty records .ie the year of joining(YOJ) was incorrectly entered for employee ids between 20 and 100. Choose from below the right sql query to correct the column year of joining (YOJ)as 201e.",
@@ -25538,7 +26548,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The UPDATE statement is used to modify existing records in a table, SET YOJ=2015 changes the column value, and WHERE id BETWEEN 20 AND 100 correctly targets the specific range of employee IDs.",
+    "category": "Java"
   },
   {
     "question": "Choose the options that is/are not true a.  %ROWTYPE is used when an entire row of the table is returned.",
@@ -25559,7 +26570,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "%TYPE is used to declare a variable with the same data type as a specific column, not to return an entire row; that functionality belongs to %ROWTYPE.",
+    "category": "Java"
   },
   {
     "question": "What is the output of below python code? def myfunc(x, y, z, a): print(x + y) nums = [1, 3, 5, 4] myfunc(*nums)",
@@ -25585,7 +26597,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The *nums syntax unpacks the list nums into positional arguments, so myfunc(1, 3, 5, 4) is called, and x + y calculates 1 + 3, resulting in 4.",
+    "category": "Java"
   },
   {
     "question": "What is the output of below code? x = \"TCS \" y = 8 print(x + y)",
@@ -25611,7 +26624,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "Python's + operator cannot directly concatenate a string (x) with an integer (y); this operation will raise a TypeError.",
+    "category": "Java"
   },
   {
     "question": "Which of the following print statements will print all the cities in the list on a separate line? tcs = ['HYD', 'CHN', 'GHT']",
@@ -25637,7 +26651,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The \"\\n\".join(tcs) method correctly concatenates the elements of the list tcs with a newline character between each, effectively printing them on separate lines.",
+    "category": "Java"
   },
   {
     "question": "What is the output of below code? tcs = {} print(type(tcs))",
@@ -25663,7 +26678,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Python, empty curly braces {} are used to create an empty dictionary, and type(tcs) will therefore return <class 'dict'>.",
+    "category": "Java"
   },
   {
     "question": "A UNIQUE constraint can be either a column constraint or a table constraint.",
@@ -25679,7 +26695,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "A UNIQUE constraint can indeed be applied to a single column as a column constraint or across multiple columns as a table constraint to ensure uniqueness within those columns.",
+    "category": "Python"
   },
   {
     "question": "What the following query will do? DELETE * FROM books WHERE bookid=4;",
@@ -25705,7 +26722,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The DELETE statement in SQL does not use * to specify rows to be deleted; DELETE FROM books WHERE bookid=4; is the correct syntax.",
+    "category": "Java"
   },
   {
     "question": "Consider the following Employee table Name Null Type EMPID NOT NULL NUMBER(10) EMPNAME NOT NULL VARCHAR2(50) BRANCHID NOT NULL NUMBER(10) Choose the query which will increase the empname column size to VARCHAR2(200)",
@@ -25731,7 +26749,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The ALTER TABLE statement followed by MODIFY and the column definition (empname varchar2(200)) is the correct SQL command to change the data type or size of an existing column.",
+    "category": "Java"
   },
   {
     "question": "What the following SQL query will do? SELECT employeename as 'EmpName' FROM Employee ORDER BY Empid;",
@@ -25757,7 +26776,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The query selects employeename (aliased as 'EmpName') from the Employee table and sorts the results in ascending order based on the Empid column.",
+    "category": "Java"
   },
   {
     "question": "CURDATE()-This function returns the current date. a.  True What the following query will do? SELECT * FROM Employee WHERE DOJ IS NOT NULL;",
@@ -25788,7 +26808,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The WHERE DOJ IS NOT NULL clause correctly filters the Employee table to return only those records where the 'DOJ' (Date of Joining) column has a value assigned.",
+    "category": "Java"
   },
   {
     "question": "Consider the following Dept table DeptId DeptName NoofEmployee Units 123 T&D 100 2 124 ISM 500 6 234 ITI S 5000 14 Which query is used to get the maximum no of employees from the above table",
@@ -25814,7 +26835,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The MAX() aggregate function is the standard SQL function used to retrieve the highest value from a specified column, in this case, NoofEmployee.",
+    "category": "Java"
   },
   {
     "question": "What is the output of the below query SELECT REPLACE('ILP XPLORE','ILP','TCS')",
@@ -25840,7 +26862,8 @@ const questionsData = [
         "isCorrect": true
       }
     ],
-    "hint": "No hint available."
+    "hint": "The REPLACE() SQL function substitutes all occurrences of a specified substring ('ILP') within a given string ('ILP XPLORE') with a new substring ('TCS'), resulting in 'TCS XPLORE'.",
+    "category": "Java"
   },
   {
     "question": "Choose the numeric data types in MySQL a.  CHAR(size)",
@@ -25861,7 +26884,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "TINYINT in option C is a standard numeric data type in MySQL used for storing small integer values, even though BINARY(size) is a string type.",
+    "category": "Python"
   },
   {
     "question": "Identify the unordered collections in python",
@@ -25887,7 +26911,8 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "In Python, Set and Dictionary are inherently unordered collections; elements in sets have no defined order, and dictionary keys (before Python 3.7) did not guarantee insertion order.",
+    "category": "Python"
   },
   {
     "question": "Which of the following function is used to remove unwanted characters from a string",
@@ -25913,6 +26938,7 @@ const questionsData = [
         "isCorrect": false
       }
     ],
-    "hint": "No hint available."
+    "hint": "The TRIM function is commonly used in SQL and other programming contexts to remove specified leading, trailing, or both from a string, often used for whitespace.",
+    "category": "Python"
   }
 ];
