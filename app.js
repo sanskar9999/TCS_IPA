@@ -15,18 +15,74 @@ document.addEventListener('DOMContentLoaded', () => {
     const categoryFilter = document.getElementById('category-filter');
     const questionCategory = document.getElementById('question-category');
 
+    // Settings Elements
+    const btnSettings = document.getElementById('btn-settings');
+    const settingsModal = document.getElementById('settings-modal');
+    const btnCloseSettings = document.getElementById('btn-close-settings');
+    const themeOptions = document.querySelectorAll('.theme-option');
+    const toggleAutoAdvance = document.getElementById('toggle-auto-advance');
+    const toggleSoundEffects = document.getElementById('toggle-sound-effects');
+    const autoAdvanceDelay = document.getElementById('auto-advance-delay');
+    const autoAdvanceDelayRow = document.getElementById('auto-advance-delay-row');
+    const keybindingButtons = document.querySelectorAll('.keybinding-btn');
+    const btnResetKeybindings = document.getElementById('btn-reset-keybindings');
+
     // App State
     let currentIndex = 0;
     let filteredQuestions = [];
+    let autoAdvanceEnabled = true;
+    let autoAdvanceDelayValue = 1.5;
+    let autoAdvanceTimeoutId = null;
+    let soundEffectsEnabled = true;
+
+    // Keybindings configuration
+    const defaultKeybindings = {
+        'A': '1',
+        'B': '2',
+        'C': '3',
+        'D': '4'
+    };
+    let keybindings = { ...defaultKeybindings };
+    let recordingOptionId = null;
+    let recordingButton = null;
+
+    const savedKeybindings = localStorage.getItem('tcs-ipa-quiz-keybindings');
+    if (savedKeybindings) {
+        try {
+            keybindings = JSON.parse(savedKeybindings);
+        } catch (e) {
+            console.error('Error parsing keybindings from localStorage', e);
+        }
+    }
+
+    function getFriendlyKeyName(key) {
+        if (!key) return 'None';
+        if (key === ' ') return 'Space';
+        if (key === 'ArrowUp') return '↑';
+        if (key === 'ArrowDown') return '↓';
+        if (key === 'ArrowLeft') return '←';
+        if (key === 'ArrowRight') return '→';
+        if (key.length === 1) return key.toUpperCase();
+        return key.charAt(0).toUpperCase() + key.slice(1);
+    }
+
+    function initKeybindingsUI() {
+        if (keybindingButtons) {
+            keybindingButtons.forEach(btn => {
+                const optId = btn.dataset.option;
+                if (optId && keybindings[optId]) {
+                    btn.textContent = getFriendlyKeyName(keybindings[optId]);
+                }
+            });
+        }
+    }
+    initKeybindingsUI();
     
     // Safety check if no questions loaded
     if (!questionsData || questionsData.length === 0) {
         questionText.textContent = "No questions found. Please check your questions.js data.";
         return;
     }
-
-    // Initialize filtered questions with all questions
-    filteredQuestions = [...questionsData];
 
     // Populate category filter dropdown dynamically
     if (categoryFilter) {
@@ -68,6 +124,30 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Initialize filtered questions with all questions
+    filteredQuestions = [...questionsData];
+
+    // Restore category and question index from localStorage if available
+    const savedCategory = localStorage.getItem('tcs-ipa-quiz-category');
+    const savedIndex = localStorage.getItem('tcs-ipa-quiz-index');
+
+    if (savedCategory && savedCategory !== 'all') {
+        const categoryExists = questionsData.some(q => q.category === savedCategory);
+        if (categoryExists) {
+            if (categoryFilter) {
+                categoryFilter.value = savedCategory;
+            }
+            filteredQuestions = questionsData.filter(q => q.category === savedCategory);
+        }
+    }
+
+    if (savedIndex !== null) {
+        const parsedIndex = parseInt(savedIndex, 10);
+        if (!isNaN(parsedIndex) && parsedIndex >= 0 && parsedIndex < filteredQuestions.length) {
+            currentIndex = parsedIndex;
+        }
+    }
+
     // Dynamic setup for jump input attributes
     function updateJumpBounds() {
         if (jumpInput) {
@@ -76,6 +156,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     updateJumpBounds();
+
+    function saveProgress(index) {
+        if (categoryFilter) {
+            localStorage.setItem('tcs-ipa-quiz-category', categoryFilter.value);
+        }
+        localStorage.setItem('tcs-ipa-quiz-index', index);
+    }
 
     // Initialize App
     loadQuestion(currentIndex);
@@ -369,6 +456,19 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function loadQuestion(index) {
+        // Clear any active auto-advance timer
+        if (autoAdvanceTimeoutId) {
+            clearTimeout(autoAdvanceTimeoutId);
+            autoAdvanceTimeoutId = null;
+        }
+
+        if (!filteredQuestions || filteredQuestions.length === 0 || index < 0 || index >= filteredQuestions.length) {
+            return;
+        }
+
+        currentIndex = index;
+        saveProgress(index);
+
         const q = filteredQuestions[index];
         
         // Update Header and Progress
@@ -419,6 +519,14 @@ document.addEventListener('DOMContentLoaded', () => {
             btn.appendChild(letterSpan);
             btn.appendChild(textNode);
             
+            // Keybinding badge
+            if (keybindings[opt.id]) {
+                const keyBadge = document.createElement('span');
+                keyBadge.className = 'option-key-badge';
+                keyBadge.textContent = getFriendlyKeyName(keybindings[opt.id]);
+                btn.appendChild(keyBadge);
+            }
+            
             // On Click
             btn.addEventListener('click', () => handleOptionClick(btn, opt, q.options, q.hint));
             
@@ -443,6 +551,15 @@ document.addEventListener('DOMContentLoaded', () => {
             // Correct guess
             clickedBtn.classList.add('correct');
             showFeedback(true, hint);
+            playChime(true);
+
+            // Auto advance
+            if (autoAdvanceEnabled && currentIndex < filteredQuestions.length - 1) {
+                autoAdvanceTimeoutId = setTimeout(() => {
+                    currentIndex++;
+                    loadQuestion(currentIndex);
+                }, autoAdvanceDelayValue * 1000);
+            }
         } else {
             // Incorrect guess
             clickedBtn.classList.add('incorrect');
@@ -452,6 +569,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 allButtons[correctIndex].classList.add('correct');
             }
             showFeedback(false, hint);
+            playChime(false);
         }
     }
 
@@ -463,7 +581,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (isCorrect) {
             feedbackStatus.className = 'feedback-status status-correct';
-            feedbackStatus.innerHTML = `${iconSvgCorrect} Correct!`;
+            let countdownText = "";
+            if (autoAdvanceEnabled && currentIndex < filteredQuestions.length - 1) {
+                countdownText = ` <span class="auto-advance-countdown">(Advancing in ${autoAdvanceDelayValue}s)</span>`;
+            }
+            feedbackStatus.innerHTML = `${iconSvgCorrect} Correct!${countdownText}`;
         } else {
             feedbackStatus.className = 'feedback-status status-incorrect';
             feedbackStatus.innerHTML = `${iconSvgIncorrect} Incorrect`;
@@ -471,4 +593,341 @@ document.addEventListener('DOMContentLoaded', () => {
         
         hintText.innerHTML = escapeAndFormat(hint);
     }
+
+    // Settings Modal Toggle Logic
+    if (btnSettings && settingsModal) {
+        btnSettings.addEventListener('click', () => {
+            settingsModal.classList.remove('hidden');
+        });
+    }
+
+    if (btnCloseSettings && settingsModal) {
+        btnCloseSettings.addEventListener('click', () => {
+            settingsModal.classList.add('hidden');
+            if (recordingOptionId) cancelRecording();
+        });
+    }
+
+    // Close modal when clicking outside (on overlay)
+    if (settingsModal) {
+        const modalOverlay = settingsModal.querySelector('.modal-overlay');
+        if (modalOverlay) {
+            modalOverlay.addEventListener('click', () => {
+                settingsModal.classList.add('hidden');
+                if (recordingOptionId) cancelRecording();
+            });
+        }
+    }
+
+    // Escape key listener to close modal or cancel keybinding capture
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            if (settingsModal && !settingsModal.classList.contains('hidden')) {
+                if (recordingOptionId) {
+                    cancelRecording();
+                } else {
+                    settingsModal.classList.add('hidden');
+                }
+            }
+        }
+    });
+
+    // Theme Management Logic
+    function setTheme(theme) {
+        // Remove previous theme classes from body
+        document.body.classList.remove('theme-light', 'theme-amoled');
+        
+        if (theme === 'light') {
+            document.body.classList.add('theme-light');
+        } else if (theme === 'amoled') {
+            document.body.classList.add('theme-amoled');
+        }
+        
+        // Update active class on theme option buttons
+        if (themeOptions) {
+            themeOptions.forEach(opt => {
+                if (opt.dataset.theme === theme) {
+                    opt.classList.add('active');
+                } else {
+                    opt.classList.remove('active');
+                }
+            });
+        }
+        
+        // Persist setting in localStorage
+        localStorage.setItem('tcs-ipa-quiz-theme', theme);
+    }
+
+    // Load persisted theme
+    const savedTheme = localStorage.getItem('tcs-ipa-quiz-theme') || 'classic';
+    setTheme(savedTheme);
+
+    // Bind click events to theme selector buttons
+    if (themeOptions) {
+        themeOptions.forEach(opt => {
+            opt.addEventListener('click', () => {
+                const selectedTheme = opt.dataset.theme;
+                setTheme(selectedTheme);
+            });
+        });
+    }
+
+    // Load persisted Auto-Advance settings
+    const savedAutoAdvance = localStorage.getItem('tcs-ipa-quiz-auto-advance');
+    if (savedAutoAdvance !== null) {
+        autoAdvanceEnabled = savedAutoAdvance === 'true';
+    } else {
+        autoAdvanceEnabled = true; // default enabled
+    }
+
+    const savedAutoAdvanceDelay = localStorage.getItem('tcs-ipa-quiz-auto-advance-delay');
+    if (savedAutoAdvanceDelay !== null) {
+        autoAdvanceDelayValue = parseFloat(savedAutoAdvanceDelay) || 1.5;
+    } else {
+        autoAdvanceDelayValue = 1.5; // default 1.5 seconds
+    }
+
+    // Initialize Auto-Advance DOM states
+    if (toggleAutoAdvance) {
+        toggleAutoAdvance.checked = autoAdvanceEnabled;
+        toggleAutoAdvance.addEventListener('change', (e) => {
+            autoAdvanceEnabled = e.target.checked;
+            localStorage.setItem('tcs-ipa-quiz-auto-advance', autoAdvanceEnabled);
+            updateAutoAdvanceUI();
+        });
+    }
+
+    if (autoAdvanceDelay) {
+        autoAdvanceDelay.value = autoAdvanceDelayValue;
+        autoAdvanceDelay.addEventListener('change', (e) => {
+            let val = parseFloat(e.target.value);
+            if (isNaN(val) || val < 0.5) val = 0.5;
+            if (val > 10) val = 10;
+            val = Math.round(val * 10) / 10; // round to 1 decimal place
+            autoAdvanceDelayValue = val;
+            autoAdvanceDelay.value = val;
+            localStorage.setItem('tcs-ipa-quiz-auto-advance-delay', autoAdvanceDelayValue);
+        });
+        
+        autoAdvanceDelay.addEventListener('blur', (e) => {
+            let val = parseFloat(e.target.value);
+            if (isNaN(val) || val < 0.5) val = 0.5;
+            if (val > 10) val = 10;
+            val = Math.round(val * 10) / 10;
+            autoAdvanceDelay.value = val;
+        });
+    }
+
+    function updateAutoAdvanceUI() {
+        if (autoAdvanceDelayRow) {
+            if (autoAdvanceEnabled) {
+                autoAdvanceDelayRow.classList.remove('disabled');
+            } else {
+                autoAdvanceDelayRow.classList.add('disabled');
+            }
+        }
+    }
+    updateAutoAdvanceUI();
+
+    // Load persisted Sound Effects settings
+    const savedSoundEffects = localStorage.getItem('tcs-ipa-quiz-sound-effects');
+    if (savedSoundEffects !== null) {
+        soundEffectsEnabled = savedSoundEffects === 'true';
+    } else {
+        soundEffectsEnabled = true; // default enabled
+    }
+
+    // Initialize Sound Effects DOM states
+    if (toggleSoundEffects) {
+        toggleSoundEffects.checked = soundEffectsEnabled;
+        toggleSoundEffects.addEventListener('change', (e) => {
+            soundEffectsEnabled = e.target.checked;
+            localStorage.setItem('tcs-ipa-quiz-sound-effects', soundEffectsEnabled);
+            if (soundEffectsEnabled) {
+                playChime(true);
+            }
+        });
+    }
+
+    // Web Audio API Synthesis for Sound Effects
+    let audioCtx = null;
+
+    function getAudioContext() {
+        if (!audioCtx) {
+            const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+            if (AudioContextClass) {
+                audioCtx = new AudioContextClass();
+            }
+        }
+        return audioCtx;
+    }
+
+    function playTone(freq, type, startTime, duration, volume) {
+        const ctx = getAudioContext();
+        if (!ctx) return;
+        
+        const osc = ctx.createOscillator();
+        const gainNode = ctx.createGain();
+        
+        osc.type = type;
+        osc.frequency.setValueAtTime(freq, startTime);
+        
+        // Smooth volume envelope: start, sustain, decay to zero to avoid pop/clicks
+        gainNode.gain.setValueAtTime(0, startTime);
+        gainNode.gain.linearRampToValueAtTime(volume, startTime + 0.01);
+        gainNode.gain.exponentialRampToValueAtTime(0.0001, startTime + duration);
+        
+        osc.connect(gainNode);
+        gainNode.connect(ctx.destination);
+        
+        osc.start(startTime);
+        osc.stop(startTime + duration);
+    }
+
+    function playChime(isCorrect) {
+        if (!soundEffectsEnabled) return;
+        
+        const ctx = getAudioContext();
+        if (!ctx) return;
+        
+        if (ctx.state === 'suspended') {
+            ctx.resume();
+        }
+        
+        const now = ctx.currentTime;
+        
+        if (isCorrect) {
+            // Correct chime: Two short, rising tones (E5, A5)
+            playTone(659.25, 'sine', now, 0.12, 0.05);
+            playTone(880.00, 'sine', now + 0.08, 0.25, 0.05);
+        } else {
+            // Incorrect chime: Two short, descending/dull tones (C4, F#3)
+            playTone(261.63, 'triangle', now, 0.15, 0.04);
+            playTone(185.00, 'triangle', now + 0.08, 0.25, 0.04);
+        }
+    }
+
+    // Keybindings recording and management
+    function startRecording(button, optionId) {
+        if (recordingOptionId) {
+            cancelRecording();
+        }
+
+        recordingOptionId = optionId;
+        recordingButton = button;
+        button.classList.add('recording');
+        button.textContent = 'Press a key...';
+
+        document.addEventListener('keydown', handleRecordKeydown, true);
+    }
+
+    function cancelRecording() {
+        if (recordingOptionId && recordingButton) {
+            recordingButton.classList.remove('recording');
+            recordingButton.textContent = getFriendlyKeyName(keybindings[recordingOptionId]);
+        }
+        document.removeEventListener('keydown', handleRecordKeydown, true);
+        recordingOptionId = null;
+        recordingButton = null;
+    }
+
+    function handleRecordKeydown(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        const pressedKey = e.key;
+
+        // Escape cancels
+        if (pressedKey === 'Escape') {
+            cancelRecording();
+            return;
+        }
+
+        // Swap keybindings if the key is already used
+        for (const [optId, key] of Object.entries(keybindings)) {
+            if (optId !== recordingOptionId && key.toLowerCase() === pressedKey.toLowerCase()) {
+                keybindings[optId] = keybindings[recordingOptionId];
+                const otherBtn = Array.from(keybindingButtons).find(btn => btn.dataset.option === optId);
+                if (otherBtn) {
+                    otherBtn.textContent = getFriendlyKeyName(keybindings[optId]);
+                }
+            }
+        }
+
+        // Save new keybinding
+        keybindings[recordingOptionId] = pressedKey;
+        localStorage.setItem('tcs-ipa-quiz-keybindings', JSON.stringify(keybindings));
+
+        // Update current button text
+        recordingButton.textContent = getFriendlyKeyName(pressedKey);
+        recordingButton.classList.remove('recording');
+
+        // Cleanup
+        document.removeEventListener('keydown', handleRecordKeydown, true);
+        recordingOptionId = null;
+        recordingButton = null;
+
+        // Refresh key badges on current question immediately
+        loadQuestion(currentIndex);
+    }
+
+    // Attach click listeners to keybinding buttons in Settings
+    if (keybindingButtons) {
+        keybindingButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const optId = btn.dataset.option;
+                if (optId) {
+                    startRecording(btn, optId);
+                }
+            });
+        });
+    }
+
+    // Reset button click listener
+    if (btnResetKeybindings) {
+        btnResetKeybindings.addEventListener('click', () => {
+            if (recordingOptionId) cancelRecording();
+            keybindings = { ...defaultKeybindings };
+            localStorage.setItem('tcs-ipa-quiz-keybindings', JSON.stringify(keybindings));
+            initKeybindingsUI();
+            loadQuestion(currentIndex);
+        });
+    }
+
+    // Global keyboard listener to answer questions
+    document.addEventListener('keydown', (e) => {
+        // Ignore key presses if user is inside input, textarea, or select elements
+        if (['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) {
+            return;
+        }
+
+        // Ignore if Settings modal is open
+        if (settingsModal && !settingsModal.classList.contains('hidden')) {
+            return;
+        }
+
+        const pressedKey = e.key.toLowerCase();
+
+        // Find which option ID matches this pressed key
+        let matchedOptionId = null;
+        for (const [optionId, key] of Object.entries(keybindings)) {
+            if (key.toLowerCase() === pressedKey) {
+                matchedOptionId = optionId;
+                break;
+            }
+        }
+
+        if (matchedOptionId) {
+            const optionButtons = Array.from(optionsContainer.querySelectorAll('.option-btn'));
+            const matchedBtn = optionButtons.find(btn => {
+                const letterSpan = btn.querySelector('.option-letter');
+                return letterSpan && letterSpan.textContent.trim() === matchedOptionId;
+            });
+
+            if (matchedBtn && !matchedBtn.disabled) {
+                e.preventDefault();
+                matchedBtn.click();
+            }
+        }
+    });
 });

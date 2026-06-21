@@ -29,6 +29,9 @@
                         <option value="all">All Categories</option>
                     </select>
                 </div>
+                <button id="btn-settings" class="btn-settings" aria-label="Open Settings">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.1a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+                </button>
             </div>
             <div class="progress-container">
                 <div class="progress-header">
@@ -75,6 +78,107 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
             </button>
         </footer>
+    </div>
+
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Settings</h2>
+                <button id="btn-close-settings" class="btn-close" aria-label="Close Settings">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="settings-group">
+                    <label class="settings-label">App Theme</label>
+                    <div class="theme-options-container">
+                        <button class="theme-option active" data-theme="classic">
+                            <span class="theme-preview classic-preview"></span>
+                            Classic Blue
+                        </button>
+                        <button class="theme-option" data-theme="light">
+                            <span class="theme-preview light-preview"></span>
+                            Light Mode
+                        </button>
+                        <button class="theme-option" data-theme="amoled">
+                            <span class="theme-preview amoled-preview"></span>
+                            AMOLED Dark
+                        </button>
+                    </div>
+                </div>
+
+                <div class="settings-group" style="margin-top: 24px;">
+                    <label class="settings-label">Quiz Behavior</label>
+                    <div class="settings-control-row">
+                        <div class="settings-control-label">
+                            <span class="settings-control-title">Auto-Advance</span>
+                            <span class="settings-control-desc">Go to next question when correct</span>
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox" id="toggle-auto-advance">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="settings-control-row">
+                        <div class="settings-control-label">
+                            <span class="settings-control-title">Sound Effects</span>
+                            <span class="settings-control-desc">Play sounds for correct/incorrect answers</span>
+                        </div>
+                        <label class="switch">
+                            <input type="checkbox" id="toggle-sound-effects">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div class="settings-control-row dependent-control" id="auto-advance-delay-row">
+                        <div class="settings-control-label">
+                            <span class="settings-control-title">Delay Time</span>
+                            <span class="settings-control-desc">Time in seconds before advancing</span>
+                        </div>
+                        <div class="delay-input-container">
+                            <input type="number" id="auto-advance-delay" min="0.5" max="10" step="0.1" value="1.5" class="delay-input" aria-label="Delay in seconds">
+                            <span class="delay-unit">s</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="settings-group" style="margin-top: 24px;">
+                    <label class="settings-label">Keyboard Shortcuts</label>
+                    <div class="settings-control-row">
+                        <div class="settings-control-label">
+                            <span class="settings-control-title">Option A Key</span>
+                            <span class="settings-control-desc">Key to select Option A</span>
+                        </div>
+                        <button class="keybinding-btn" data-option="A">1</button>
+                    </div>
+                    <div class="settings-control-row">
+                        <div class="settings-control-label">
+                            <span class="settings-control-title">Option B Key</span>
+                            <span class="settings-control-desc">Key to select Option B</span>
+                        </div>
+                        <button class="keybinding-btn" data-option="B">2</button>
+                    </div>
+                    <div class="settings-control-row">
+                        <div class="settings-control-label">
+                            <span class="settings-control-title">Option C Key</span>
+                            <span class="settings-control-desc">Key to select Option C</span>
+                        </div>
+                        <button class="keybinding-btn" data-option="C">3</button>
+                    </div>
+                    <div class="settings-control-row">
+                        <div class="settings-control-label">
+                            <span class="settings-control-title">Option D Key</span>
+                            <span class="settings-control-desc">Key to select Option D</span>
+                        </div>
+                        <button class="keybinding-btn" data-option="D">4</button>
+                    </div>
+                    <div class="settings-control-row" style="border: none; background: transparent; padding: 4px 0; justify-content: flex-end; margin-top: 8px;">
+                        <button id="btn-reset-keybindings" class="btn btn-secondary" style="font-size: 0.85rem; padding: 6px 12px; border-radius: var(--border-radius-sm);">Reset Keybindings</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Load the questions data -->
