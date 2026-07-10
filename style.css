@@ -1149,3 +1149,23 @@ body.theme-light .option-btn:hover:not(:disabled) .option-key-badge {
 }
 
 
+
+/* Coding Practice link (header) */
+.btn-coding-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    background: var(--btn-secondary-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--border-radius-sm);
+    text-decoration: none;
+    transition: background var(--transition-fast), border-color var(--transition-fast);
+}
+.btn-coding-link:hover {
+    background: var(--btn-secondary-bg-hover);
+    border-color: var(--accent-primary);
+}
