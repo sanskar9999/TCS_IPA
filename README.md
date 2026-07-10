@@ -2,6 +2,8 @@
 
 Practice site for the TCS IPA assessment — MCQ quiz plus Java/Python coding practice with a real compiler, and a full exam simulation.
 
+Have a practice test at: [sanskar9999.github.io/TCS_IPA/](https://sanskar9999.github.io/TCS_IPA/coding.html)
+
 ## What's here
 
 - **MCQ Quiz** (`index.html`) — 1000+ practice questions across KYT, BizSkill, UI, Unix, Java/Python, and SQL, with hints and instant feedback.
