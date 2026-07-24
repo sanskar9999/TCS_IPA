@@ -122,7 +122,20 @@ body.coding-page {
     color: #fff;
 }
 .marks-chip.marks-15 { background: #8b5cf6; }
+.marks-chip.marks-25 { background: #0284c7; }
 .marks-chip.marks-35 { background: var(--accent-primary); }
+.marks-chip.marks-50 { background: #e11d48; }
+
+.company-chip {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 3px 10px;
+    border-radius: 999px;
+    background: #0076ce;
+    color: #fff;
+}
 
 .year-chip {
     display: inline-block;

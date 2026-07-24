@@ -1,0 +1,5 @@
+# Local tooling config
+.claude/
+
+# Source PDFs / raw extraction material (not needed by the website)
+Coding/

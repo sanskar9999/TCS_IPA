@@ -476,5 +476,212 @@ const CODING_QUESTIONS = [
                 hidden: true
             }
         ]
+    },
+
+    // ============================================================
+    // PART 3 — Infosys Practice Problems
+    // ============================================================
+    {
+        id: 'q11-infosys-food-stamps',
+        num: 11,
+        title: 'Food Stamps',
+        marks: 15,
+        year: 'Infosys',
+        type: 'infosys',
+        statement: [
+            {
+                h: 'Problem Description',
+                t: 'You want to buy food from a store. You have a scoring system that uses a unit called taste points.\n\n' +
+                   'Each time you buy a type of food, you can measure its tastiness by the number of taste points you get from that food.\n\n' +
+                   'You have N types of food. You can buy any type any number of times, as long as the total number of meals does not exceed M.\n\n' +
+                   'However, you don\'t want to grow tired of a food if you buy it too often. Therefore, you will get v[i] - d[i] * (t[i] - 1) taste points when you buy the i-th type of food for the t[i]-th time.\n\n' +
+                   'Find the maximum number of taste points you can achieve.'
+            },
+            {
+                h: 'Input Format',
+                t: 'The first line contains an integer, n, denoting the number of types of food you can buy.\n' +
+                   'The next line contains an integer, m, denoting the maximum number of meals you can buy.\n' +
+                   'Each line i of the n subsequent lines (where 0 <= i < n) contains an integer describing v[i].\n' +
+                   'Each line i of the n subsequent lines (where 0 <= i < n) contains an integer describing d[i].'
+            },
+            {
+                h: 'Constraints',
+                t: '1 <= n <= 10^5\n1 <= m <= 10^9\n1 <= v[i] <= 10^9\n1 <= d[i] <= 10^9'
+            },
+            {
+                h: 'Output Format',
+                t: 'Print a single integer — the maximum number of taste points you can achieve.'
+            }
+        ],
+        testCases: [
+            {
+                input: '1\n1\n5\n2',
+                expected: '5',
+                hidden: false
+            },
+            {
+                input: '2\n2\n5\n7\n2\n4',
+                expected: '12',
+                hidden: true
+            },
+            {
+                input: '3\n5\n5\n7\n9\n2\n4\n6',
+                expected: '27',
+                hidden: true
+            }
+        ]
+    },
+    {
+        id: 'q12-infosys-mss-swaps',
+        num: 12,
+        title: 'MSS With Swaps',
+        marks: 25,
+        year: 'Infosys',
+        type: 'infosys',
+        statement: [
+            {
+                h: 'Problem Description',
+                t: 'Given an array a of length n and an integer k. You must perform the following operation exactly k times:\n\n' +
+                   'choose two indices i, j and swap(a[i], a[j]).\n\n' +
+                   'Find the maximum possible MSS (maximum subarray sum) after performing the above operation exactly k times.\n\n' +
+                   'Note:\n' +
+                   'Swapping the same pair again is allowed but useless (a double-swap cancels out). Therefore, performing exactly k swaps is equivalent to at most k useful swaps.'
+            },
+            {
+                h: 'Input Format',
+                t: 'The first line contains an integer, n, denoting the size of array.\n' +
+                   'The next line contains an integer, k, denoting the number of swaps.\n' +
+                   'Each line i of the n subsequent lines (where 0 <= i < n) contains an integer describing a[i].'
+            },
+            {
+                h: 'Constraints',
+                t: '2 <= n <= 500\n0 <= k <= n\n-1000 <= a[i] <= 1000'
+            },
+            {
+                h: 'Output Format',
+                t: 'Print a single integer — the maximum possible maximum subarray sum (MSS) after performing k swaps.'
+            }
+        ],
+        testCases: [
+            {
+                input: '3\n1\n1\n-5\n2',
+                expected: '3',
+                hidden: false
+            },
+            {
+                input: '3\n0\n5\n-1\n5',
+                expected: '9',
+                hidden: true
+            },
+            {
+                input: '3\n0\n1\n-5\n2',
+                expected: '2',
+                hidden: true
+            }
+        ]
+    },
+    {
+        id: 'q13-infosys-lock-parity',
+        num: 13,
+        title: 'Lock & Parity',
+        marks: 35,
+        year: 'Infosys',
+        type: 'infosys',
+        statement: [
+            {
+                h: 'Problem Description',
+                t: 'You are given N locks in a row (1-indexed). Each lock i has a value L[i]. There is also one key under each lock, and key j has value L[j].\n\n' +
+                   'You may assign some keys to some locks under the following rules:\n' +
+                   '1. You may assign key j to lock i only if: j < i. (Each key can only be used on a lock to its right.)\n' +
+                   '2. Assignments where the key and lock have the same value are forbidden: L[j] != L[i] (So the effective value is never zero.)\n' +
+                   '3. Assigning key j to lock i gives: E = |L[j] - L[i]|\n' +
+                   '4. Each lock can be assigned at most once, and each key can be used at most once.\n' +
+                   '5. Let even be the number of assignments with even effective value, and odd be the number of assignments with odd effective value. A set of assignments is valid only if: even >= odd. This condition applies to the final chosen set.\n' +
+                   '6. You must perform at least one assignment.\n\n' +
+                   'Find the minimum possible sum of effective values over all valid assignment sets. If no valid set exists, output -1.'
+            },
+            {
+                h: 'Input Format',
+                t: 'The first line contains an integer, N, denoting the number of locks.\n' +
+                   'Each line i of the N subsequent lines (where 1 <= i <= N) contains an integer describing L[i].'
+            },
+            {
+                h: 'Constraints',
+                t: '1 <= N <= 200\n1 <= L[i] <= 10^5'
+            },
+            {
+                h: 'Output Format',
+                t: 'Print a single integer — the minimum possible sum of effective values over all valid assignment sets, or -1 if no valid set exists.'
+            }
+        ],
+        testCases: [
+            {
+                input: '6\n41\n54\n15\n4\n54\n4',
+                expected: '26',
+                hidden: false
+            },
+            {
+                input: '6\n45\n6\n38\n6\n15\n38',
+                expected: '30',
+                hidden: true
+            },
+            {
+                input: '6\n6\n59\n1\n25\n59\n50',
+                expected: '24',
+                hidden: true
+            }
+        ]
+    },
+    {
+        id: 'q14-infosys-layer-split-path',
+        num: 14,
+        title: 'Layer-Split Path Maximization with Penalties',
+        marks: 50,
+        year: 'Infosys',
+        type: 'infosys',
+        statement: [
+            {
+                h: 'Problem Description',
+                t: 'You are given an undirected graph with N nodes and M edges.\n' +
+                   'Each node u has a layer L[u] (integer from 1 to K) and a value V[u].\n\n' +
+                   'You must choose a simple path (no repeated nodes) such that:\n' +
+                   '1. Layer Constraint: Along the chosen path, the sequence of layers must be non-decreasing: L[u1] <= L[u2] <= ... <= L[ut]\n' +
+                   '2. Penalty for Layer Jumps: Whenever the path moves from a node with layer x to layer y where y > x, you pay a cost: penalty = (y - x)^2\n\n' +
+                   'Find the maximum value of (sum of V[u] over the path) - (sum of penalties).'
+            },
+            {
+                h: 'Input Format',
+                t: 'The first line contains an integer, N, denoting the number of nodes.\n' +
+                   'The next line contains an integer, M, denoting the number of edges.\n' +
+                   'The next line contains an integer, K, denoting the max layer.\n' +
+                   'Each line i of the N subsequent lines (where 0 <= i < N) contains 2 space-separated integers describing layers[i] (layer L[i] and value V[i]).\n' +
+                   'Each line i of the M subsequent lines (where 0 <= i < M) contains 2 space-separated integers u and v denoting an edge between node u and node v.'
+            },
+            {
+                h: 'Constraints',
+                t: '1 <= N <= 10^5\n1 <= M <= 10^5\n1 <= K <= 10^5\n-10^9 <= layers[i][j] <= 10^9\n0 <= edges[i][j] <= N-1'
+            },
+            {
+                h: 'Output Format',
+                t: 'Print a single integer — the maximum value of (sum of V[u] over the path) - (sum of penalties).'
+            }
+        ],
+        testCases: [
+            {
+                input: '2\n1\n10\n1 10\n3 100\n0 1',
+                expected: '106',
+                hidden: false
+            },
+            {
+                input: '3\n2\n3\n1 10\n2 20\n3 30\n0 1\n1 2',
+                expected: '58',
+                hidden: true
+            },
+            {
+                input: '3\n2\n3\n1 -5\n2 100\n3 -10\n0 1\n1 2',
+                expected: '100',
+                hidden: true
+            }
+        ]
     }
 ];

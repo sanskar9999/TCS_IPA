@@ -104,8 +104,10 @@
         const best = getBest();
         const oopList = $('oop-list');
         const logicList = $('logic-list');
-        oopList.innerHTML = '';
-        logicList.innerHTML = '';
+        const infosysList = $('infosys-list');
+        if (oopList) oopList.innerHTML = '';
+        if (logicList) logicList.innerHTML = '';
+        if (infosysList) infosysList.innerHTML = '';
 
         CODING_QUESTIONS.forEach((q) => {
             const card = document.createElement('button');
@@ -123,7 +125,14 @@
                 '<div class="qc-title">' + escapeHtml(q.title) + '</div>' +
                 '<div class="qc-bottom"><span class="marks-chip marks-' + q.marks + '">' + q.marks + ' Marks</span>' + badge + '</div>';
             card.addEventListener('click', () => openPractice(q));
-            (q.type === 'oop' ? oopList : logicList).appendChild(card);
+            
+            if (q.type === 'oop' && oopList) {
+                oopList.appendChild(card);
+            } else if (q.type === 'logic' && logicList) {
+                logicList.appendChild(card);
+            } else if (q.type === 'infosys' && infosysList) {
+                infosysList.appendChild(card);
+            }
         });
     }
 
